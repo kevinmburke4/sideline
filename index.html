@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Sideline</title>
+  <meta name="description" content="Your own college football notebook: schedule, results, and dictated notes per team.">
+  <meta name="theme-color" content="#0f1216">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Sideline">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <h1 id="title">Sideline</h1>
+      <div id="topbar-actions"></div>
+    </div>
+  </header>
+
+  <main id="view" class="view" aria-live="polite"></main>
+
+  <nav class="tabbar" aria-label="Sections">
+    <a href="#games" data-tab="games"><span class="tab-icon">🏈</span><span>Games</span></a>
+    <a href="#teams" data-tab="teams"><span class="tab-icon">⭐</span><span>Teams</span></a>
+    <a href="#notes" data-tab="notes"><span class="tab-icon">📝</span><span>Notes</span></a>
+    <a href="#settings" data-tab="settings"><span class="tab-icon">⚙️</span><span>More</span></a>
+  </nav>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
