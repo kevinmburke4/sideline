@@ -30,7 +30,7 @@ def main() -> int:
     done = skipped = failed = 0
 
     for p in posts:
-        if p.get("type") != "audio" or not p.get("script"):
+        if p.get("type") not in ("audio", "video") or not p.get("script"):
             continue
         voice = acc.get(p.get("account"), {}).get("voice")
         if not voice:

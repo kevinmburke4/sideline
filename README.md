@@ -37,6 +37,30 @@ On the iPhone, open that URL in Safari, tap Share, then Add to Home Screen.
 - "Load full season so far" in the More tab pulls every week from 1 to now, which fills in team pages with full season results.
 - Notes are stored under `sideline.v1` in localStorage. Export from the Notes or More tab produces a JSON file that Import can read back on another device.
 
+## The Feed
+
+The Feed tab shows "drops" of short posts: text with a graphic, swipeable carousels, audio clips with a shared player and Play all, narrated videos, X-style posts, and conference slate cards. Drops live in `feed/<drop-id>/` with a `posts.json`, and `feed/index.json` lists them newest first. The app only reads drops; it never generates content. See `FEED_PLAN.md` for the full design and `WEEKLY_PROMPT.md` for the writing brief.
+
+Feed state (which posts were seen or played, one resume position) is stored under `sideline.feed.v1`, separate from your notes.
+
+## Making a drop
+
+Everything mechanical is a script in `tools/`. One-time setup on this PC:
+
+```bash
+python -m pip install --user -r tools/requirements.txt
+```
+
+ffmpeg is only needed for video posts (`winget install Gyan.FFmpeg`).
+
+Weekly flow for drop `2026-wNN-mon` (or `-fri`):
+
+1. `python tools/fetch_espn.py 2026-wNN-mon` pulls schedule, results, rankings, team stats, injuries and news from ESPN into `feed/2026-wNN-mon/data/`, with a readable `digest.md`.
+2. Write `feed/2026-wNN-mon/draft.json` from that data, following `WEEKLY_PROMPT.md`. Graphics are specs, audio posts carry a `script`.
+3. `python tools/run_drop.py 2026-wNN-mon --no-push` builds graphics (matplotlib), renders speech (edge-tts), stitches videos (ffmpeg), validates, and writes `posts.json`. Fix anything validate flags, then run it again without `--no-push` to commit, prune to the last four drops, and push. GitHub Pages redeploys in a couple of minutes.
+
+`python tools/voice_samples.py` renders the same script in every house voice into the sample drop so they can be auditioned on the phone; voices are set in `accounts.json`.
+
 ## Dictation
 
 The Dictate button uses the browser's built-in speech recognition (Safari on iOS 14.5 or later, Chrome on desktop). Safari sometimes stops listening after a pause; the app restarts it automatically until you tap Stop. If the button is missing, the microphone key on the iOS keyboard does the same job inside the text box.

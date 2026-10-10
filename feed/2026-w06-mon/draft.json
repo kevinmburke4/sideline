@@ -2015,6 +2015,45 @@
     "transcript": "Weather Watch. Saturday's forecasts from ESPN's scoreboard. Georgia at Alabama in Tuscaloosa, cloudy and sixty five. Texas and Oklahoma in Dallas, sunny and ninety two. Indiana at Nebraska in Lincoln, sunny and seventy five. U C L A at Oregon in Eugene, intermittent clouds and fifty four. U S C at Penn State, hazy and sixty one at night. L S U at Kentucky, rain and sixty two. Wake Forest at N C State, rain and sixty six. Duke at Georgia Tech, rain and sixty eight. Tennessee at Arkansas, mostly sunny and eighty nine. Houston at Kansas State, sunny and eighty six. Kansas at Utah, cloudy and seventy. That is the weather."
   },
   {
+    "id": "w06m-0040",
+    "type": "video",
+    "account": "matchup",
+    "tier": 2,
+    "teams": [
+      "Georgia",
+      "Alabama"
+    ],
+    "gameId": "401856712",
+    "title": "Georgia at Alabama, narrated",
+    "body": "The matchup slides with narration, as a short video. Tap to play; sound is on.",
+    "slides": [
+      {
+        "image": "img/w06m-0015-1.png"
+      },
+      {
+        "image": "img/w06m-0015-2.png"
+      },
+      {
+        "image": "img/w06m-0015-3.png"
+      },
+      {
+        "image": "img/w06m-0015-4.png"
+      }
+    ],
+    "script": "Matchup Room. Georgia at Alabama. On offense, Georgia scores fifty one point four a game and Alabama forty nine point six. Georgia averages seven point eight yards a play, Alabama seven. Alabama gets ten point six yards per pass attempt to Georgia's nine point six. On defense, Georgia allows thirteen point four points a game, Alabama twenty point eight. Alabama has sixteen sacks, Georgia thirteen. Georgia is plus three in turnovers, Alabama plus one. Georgia's average margin of victory is thirty eight points. Alabama's is twenty eight point eight. Kickoff is four thirty Pacific on A B C at Bryant Denny Stadium. The line as displayed by ESPN is Alabama minus one and a half, total fifty one and a half. All numbers from ESPN through week five.",
+    "sources": [
+      {
+        "label": "ESPN team stats",
+        "url": "https://www.espn.com/college-football/stats/team"
+      }
+    ],
+    "audio": "audio/w06m-0040.mp3",
+    "duration": 57,
+    "transcript": "Matchup Room. Georgia at Alabama. On offense, Georgia scores fifty one point four a game and Alabama forty nine point six. Georgia averages seven point eight yards a play, Alabama seven. Alabama gets ten point six yards per pass attempt to Georgia's nine point six. On defense, Georgia allows thirteen point four points a game, Alabama twenty point eight. Alabama has sixteen sacks, Georgia thirteen. Georgia is plus three in turnovers, Alabama plus one. Georgia's average margin of victory is thirty eight points. Alabama's is twenty eight point eight. Kickoff is four thirty Pacific on A B C at Bryant Denny Stadium. The line as displayed by ESPN is Alabama minus one and a half, total fifty one and a half. All numbers from ESPN through week five.",
+    "video": "video/w06m-0040.mp4",
+    "poster": "img/w06m-0015-1.png"
+  },
+  {
     "id": "w06m-0039",
     "type": "text",
     "account": "around",

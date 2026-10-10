@@ -37,6 +37,7 @@ def main() -> int:
         run("fetch_espn.py", args.drop)
     run("build_graphics.py", args.drop, *force)
     run("tts.py", args.drop, *force)
+    run("make_video.py", args.drop, *force)
     run("validate.py", args.drop, *(["--allow-flagged"] if args.allow_flagged else []))
     run("publish.py", args.drop, *(["--no-push"] if args.no_push else []))
     print("\ndrop published")

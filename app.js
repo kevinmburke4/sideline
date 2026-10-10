@@ -482,9 +482,11 @@ function renderTeam(id) {
     <div class="card"><h3 class="mb">General thought on ${esc(t.school)}</h3>${composerHTML({ id: 't', placeholder: 'Not tied to a game…', kind: 'general' })}</div>
     <h3 class="mb">Your notes <span class="muted">(${notes.length})</span></h3>
     <div id="tnotes">${notes.length ? notes.map((n) => noteCard(n)).join('') : '<p class="small muted">Nothing yet this season.</p>'}</div>
+    <div id="team-feed"></div>
     <h3 class="mt mb">Season <span class="muted">(${games.length} loaded)</span></h3>
     ${games.length ? games.map(gameRow).join('') : '<p class="small muted">Load more weeks from the Games tab or “Load full season” in More.</p>'}`;
   $('#star').addEventListener('click', () => { toggleStar(id); renderTeam(id); });
+  if (window.sidelineFeed) window.sidelineFeed.renderTeamSection(t.school, $('#team-feed'));
   wireComposer('t', (text) => { addNote({ teamIds: [id], kind: 'general', text, week: db.meta && db.meta.currentWeek }); toast('Saved'); renderTeam(id); });
   wireNoteActions(view, () => renderTeam(id));
 }
@@ -584,7 +586,7 @@ function route() {
   const [name, id] = h.split('/');
   window.scrollTo(0, 0);
   switch (name) {
-    case 'feed': return window.renderFeed ? window.renderFeed() : renderGames();
+    case 'feed': return window.renderFeed ? window.renderFeed(id) : renderGames();
     case 'game': return renderGame(id);
     case 'teams': return renderTeams();
     case 'team': return renderTeam(id);

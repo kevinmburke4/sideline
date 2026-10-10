@@ -133,6 +133,7 @@
         audio.addEventListener('loadedmetadata', () => { audio.currentTime = r.time; }, { once: true });
       }
     }
+    document.querySelectorAll('video.post-video').forEach((v) => v.pause());
     const pr = audio.play();
     if (pr && pr.catch) pr.catch(() => toast('Tap play again to start audio.'));
     setMediaSession(p);
@@ -353,8 +354,17 @@
       ${p.transcript ? `<details class="transcript"><summary>Read along</summary><div class="post-body small">${esc(p.transcript)}</div></details>` : ''}
       ${teamChips(p)}${sources(p)}`;
   }
+  function renderVideo(p, dropId) {
+    return `${postHead(p)}
+      ${p.title ? `<div class="post-title">${esc(p.title)}</div>` : ''}
+      <video class="post-video" controls playsinline preload="none" poster="${esc(assetURL(dropId, p.poster))}" src="${esc(assetURL(dropId, p.video))}"></video>
+      <div class="tiny muted audio-meta"><span>${fmtClock(p.duration)} · tap to play</span><span class="audio-played">Played</span></div>
+      ${p.body ? `<div class="post-body">${esc(p.body)}</div>` : ''}
+      ${p.transcript ? `<details class="transcript"><summary>Read along</summary><div class="post-body small">${esc(p.transcript)}</div></details>` : ''}
+      ${teamChips(p)}${sources(p)}`;
+  }
   function renderStub(p) {
-    return `${postHead(p)}<div class="post-title">${esc(p.title || '')}</div><div class="post-body muted">${esc(p.type)} posts arrive in a later phase.</div>${teamChips(p)}`;
+    return `${postHead(p)}<div class="post-title">${esc(p.title || '')}</div><div class="post-body muted">This ${esc(p.type)} post is missing its file.</div>${teamChips(p)}`;
   }
   function postCard(p, dropId, seen) {
     let inner;
@@ -364,9 +374,10 @@
       case 'xpost': inner = renderXPost(p); break;
       case 'slate': inner = renderSlate(p); break;
       case 'audio': inner = p.audio ? renderAudio(p, dropId) : renderStub(p); break;
+      case 'video': inner = p.video ? renderVideo(p, dropId) : renderStub(p); break;
       default: inner = renderStub(p);
     }
-    const played = p.type === 'audio' && playedSet(dropId).has(p.id);
+    const played = LISTEN_TYPES.has(p.type) && playedSet(dropId).has(p.id);
     return `<article class="post ${esc(p.type)} ${seen ? 'seen' : ''} ${played ? 'played' : ''}" data-post="${esc(p.id)}" data-drop="${esc(dropId)}" data-duration="${esc(p.duration || 0)}">${inner}</article>`;
   }
 
@@ -386,10 +397,11 @@
     const pa = $('#playall'); if (pa) pa.innerHTML = playAllLabel();
   }
 
-  async function renderFeed() {
+  async function renderFeed(focusId) {
     setChrome('Feed', '<button class="btn sm icon" id="feed-refresh" title="Refresh" type="button">↻</button>', 'feed');
     if (observer) { observer.disconnect(); observer = null; }
     confByName = null;
+    if (focusId) { scrollMemo = 0; filter = 'all'; }
     const hadDrops = drops.size > 0;
     if (!hadDrops) view.innerHTML = '<div class="empty"><span class="spinner"></span> Loading the feed…</div>';
     let wanted;
@@ -449,9 +461,38 @@
       });
     });
     wireCarousels();
+    wireVideos();
     wireSeen();
     syncCards(); renderMini();
-    if (scrollMemo) { const y = scrollMemo; scrollMemo = 0; requestAnimationFrame(() => window.scrollTo(0, y)); }
+    if (focusId) {
+      const card = view.querySelector(`.post[data-post="${CSS.escape(focusId)}"]`);
+      if (card) { card.classList.add('focus'); requestAnimationFrame(() => card.scrollIntoView({ block: 'center' })); setTimeout(() => card.classList.remove('focus'), 2500); }
+      else toast('That post is no longer in the feed');
+    } else if (scrollMemo) { const y = scrollMemo; scrollMemo = 0; requestAnimationFrame(() => window.scrollTo(0, y)); }
+  }
+
+  function wireVideos() {
+    view.querySelectorAll('video.post-video').forEach((v) => {
+      const card = v.closest('.post');
+      v.addEventListener('play', () => { if (!audio.paused) audio.pause(); document.querySelectorAll('video.post-video').forEach((o) => { if (o !== v) o.pause(); }); });
+      v.addEventListener('timeupdate', () => {
+        if (v.duration && v.currentTime / v.duration >= 0.9 && markPlayed(card.dataset.drop, card.dataset.post)) { card.classList.add('played'); updateHeader(); }
+      });
+    });
+  }
+
+  // "In the feed" section on team pages: posts in the loaded drops that mention this school
+  async function renderTeamSection(school, el) {
+    if (!el) return;
+    try { await loadFeed(); } catch { el.innerHTML = ''; return; }
+    const hits = [];
+    for (const d of loadedDrops()) for (const p of orderPosts(d.id, drops.get(d.id))) if ((p.teams || []).includes(school)) hits.push({ p, d });
+    if (!hits.length) { el.innerHTML = '<h3 class="mt mb">In the feed</h3><p class="small muted">No feed posts mention this team yet.</p>'; return; }
+    const icon = { text: '📝', carousel: '🖼', audio: '🎧', video: '🎬', xpost: '𝕏', slate: '📅' };
+    el.innerHTML = `<h3 class="mt mb">In the feed <span class="muted">(${hits.length})</span></h3>` + hits.slice(0, 15).map(({ p, d }) => {
+      const a = acct(p);
+      return `<a class="list-row" href="#feed/${esc(p.id)}"><span class="avatar sm" style="background:${esc(a.color || '#3a4553')}">${esc(a.initials || initials(a.name))}</span><div class="grow"><div class="title">${esc(p.title || p.text || p.conference || '')}</div><div class="sub">${icon[p.type] || ''} ${esc(a.name)} · ${esc(dropLabel(d))}</div></div></a>`;
+    }).join('');
   }
 
   function wireCarousels() {
@@ -499,9 +540,11 @@
 
   // public hooks for other modules (team pages use these in a later phase)
   window.renderFeed = renderFeed;
-  window.sidelineFeed = { loadFeed, loadedDrops, orderPosts, drops, accounts: () => accounts, assetURL, playPost };
+  window.sidelineFeed = { loadFeed, loadedDrops, orderPosts, drops, accounts: () => accounts, assetURL, playPost, renderTeamSection };
   // app.js routed before this file loaded; if the page opened on the feed, render it now
-  if ((location.hash || '#games').slice(1).split('/')[0] === 'feed') renderFeed();
+  const [startRoute, startId] = (location.hash || '#games').slice(1).split('/');
+  if (startRoute === 'feed') renderFeed(startId);
+  else if (startRoute === 'team' && $('#team-feed')) { const t = db.teams[startId]; if (t) renderTeamSection(t.school, $('#team-feed')); }
   // show a resume prompt in the mini bar if a clip was left unfinished
   if (feedState.resume) {
     loadFeed().then(() => {
