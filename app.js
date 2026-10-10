@@ -294,6 +294,7 @@ async function renderGames() {
       fetchWeek(season, week).then((p) => { if (p.fetchedAt !== pack.fetchedAt && location.hash.replace('#', '') === 'games') renderGames(); }).catch(() => {});
     }
   }
+  if (routeName() !== 'games') return; // user moved to another tab while the week was loading
   $('#refresh').addEventListener('click', async () => {
     $('#refresh').innerHTML = '<span class="spinner"></span>';
     try { await fetchWeek(season, week, { force: true }); toast('Updated'); } catch { toast('Refresh failed'); }
@@ -531,6 +532,7 @@ function renderSettings() {
     </div>
     <div class="card stack">
       <h3>Notes backup</h3>
+      <p class="small">Your notes exist only on this phone. Export a copy before any app update, and every few weeks regardless.</p>
       <button class="btn" id="export2" type="button">Export notes (JSON)</button>
       <label class="btn ghost" for="importf">Import notes (JSON)</label><input id="importf" type="file" accept="application/json,.json" hidden>
       <button class="btn ghost danger" id="wipe" type="button">Delete all notes</button>
@@ -575,12 +577,14 @@ function renderSettings() {
 }
 
 /* ---------- router ---------- */
+function routeName() { return (location.hash || '#games').slice(1).split('/')[0]; }
 function route() {
   if (activeDictation) activeDictation.stop();
   const h = (location.hash || '#games').slice(1);
   const [name, id] = h.split('/');
   window.scrollTo(0, 0);
   switch (name) {
+    case 'feed': return window.renderFeed ? window.renderFeed() : renderGames();
     case 'game': return renderGame(id);
     case 'teams': return renderTeams();
     case 'team': return renderTeam(id);

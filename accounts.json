@@ -1,0 +1,12 @@
+{
+  "slate":      { "name": "The Slate",        "beat": "The week's schedule by conference",            "voice": "en-US-AndrewMultilingualNeural", "color": "#1f6feb", "initials": "SL" },
+  "rankings":   { "name": "Rankings Desk",    "beat": "Poll movement, who rose and fell",             "voice": "en-US-AvaNeural",                "color": "#8957e5", "initials": "RD" },
+  "stat-sheet": { "name": "Stat Sheet",       "beat": "ESPN team stats and side-by-side comparisons", "voice": "en-US-BrianNeural",              "color": "#1a7f3c", "initials": "SS" },
+  "matchup":    { "name": "Matchup Room",     "beat": "Game-by-game breakdowns",                      "voice": "en-US-GuyNeural",                "color": "#d29922", "initials": "MR" },
+  "spotlight":  { "name": "Spotlight",        "beat": "Player features",                              "voice": "en-US-EmmaNeural",               "color": "#db6d28", "initials": "SP" },
+  "injury":     { "name": "Injury Wire",      "beat": "Availability and injury news",                 "voice": "en-US-ChristopherNeural",        "color": "#da3633", "initials": "IW" },
+  "weather":    { "name": "Weather Watch",    "beat": "Forecasts for outdoor games",                  "voice": "en-US-JennyNeural",              "color": "#39c5cf", "initials": "WW" },
+  "number":     { "name": "The Number",       "beat": "Spread and total trends, raw numbers only",    "voice": "en-US-EricNeural",               "color": "#6e7681", "initials": "TN" },
+  "recap":      { "name": "Recap",            "beat": "What happened last Saturday",                  "voice": "en-US-SteffanNeural",            "color": "#bf4b8a", "initials": "RC" },
+  "around":     { "name": "Around the Sport", "beat": "Coaching news and storylines",                 "voice": "en-US-AriaNeural",               "color": "#2ea043", "initials": "AS" }
+}
