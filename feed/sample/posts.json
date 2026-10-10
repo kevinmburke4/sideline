@@ -1,148 +1,689 @@
 [
   {
-    "id": "smp-0001", "type": "text", "account": "rankings", "tier": 1,
-    "teams": ["Texas", "Georgia", "Indiana", "BYU"],
+    "id": "smp-0001",
+    "type": "text",
+    "account": "rankings",
+    "tier": 1,
+    "teams": [
+      "Texas",
+      "Georgia",
+      "Indiana",
+      "BYU"
+    ],
     "title": "Sample: how the top of the poll shook out",
     "body": "Sample post. Texas holds No. 1 and Georgia stays at No. 2 heading into Week 6. Indiana is No. 7 and BYU No. 8 in ESPN's displayed ranks this week. The movement graphic below uses placeholder figures to test the layout.",
-    "image": "img/rank_movers.svg", "alt": "Sample poll movers graphic",
-    "sources": [{ "label": "ESPN rankings", "url": "https://www.espn.com/college-football/rankings" }]
+    "image": "img/rank_movers.svg",
+    "alt": "Sample poll movers graphic",
+    "sources": [
+      {
+        "label": "ESPN rankings",
+        "url": "https://www.espn.com/college-football/rankings"
+      }
+    ]
   },
   {
-    "id": "smp-0002", "type": "text", "account": "recap", "tier": 1,
-    "teams": ["Ohio State", "Oregon"],
+    "id": "smp-0002",
+    "type": "text",
+    "account": "recap",
+    "tier": 1,
+    "teams": [
+      "Ohio State",
+      "Oregon"
+    ],
     "title": "Sample: one number from last Saturday",
     "body": "Sample post with a single stat card. The figure on the card is a placeholder so you can judge the size and contrast of a stat_card graphic on your phone.",
-    "image": "img/stat_card.svg", "alt": "Sample stat card graphic"
+    "image": "img/stat_card.svg",
+    "alt": "Sample stat card graphic"
   },
   {
-    "id": "smp-0003", "type": "slate", "account": "slate", "tier": 1, "conference": "SEC",
+    "id": "smp-0003",
+    "type": "slate",
+    "account": "slate",
+    "tier": 1,
+    "conference": "SEC",
     "title": "SEC · Week 6",
     "body": "Sample slate card built from this week's real ESPN schedule. Lines are the raw numbers ESPN displayed when this sample was made.",
     "games": [
-      { "gameId": "401856717", "away": "Texas", "home": "Oklahoma", "kickoff": "2026-10-10T19:30Z", "tv": "ABC", "spread": "TEX -7.5", "total": 39.5 },
-      { "gameId": "401856712", "away": "Georgia", "home": "Alabama", "kickoff": "2026-10-10T23:30Z", "tv": "ABC", "spread": "ALA -1.5", "total": 51.5 },
-      { "gameId": "401856718", "away": "Ole Miss", "home": "Vanderbilt", "kickoff": "2026-10-10T19:30Z", "tv": "ESPN", "spread": "MISS -9.5", "total": 54.5 },
-      { "gameId": "401856715", "away": "LSU", "home": "Kentucky", "kickoff": "2026-10-10T23:00Z", "tv": "ESPN", "spread": "LSU -8.5", "total": 50.5 },
-      { "gameId": "401856716", "away": "Texas A&M", "home": "Missouri", "kickoff": "2026-10-10T16:00Z", "tv": "ABC", "spread": "MIZ -3.5", "total": 49.5 },
-      { "gameId": "401856713", "away": "Tennessee", "home": "Arkansas", "kickoff": "2026-10-10T20:15Z", "tv": "SEC Network", "spread": "TENN -13.5", "total": 51.5 }
+      {
+        "gameId": "401856717",
+        "away": "Texas",
+        "home": "Oklahoma",
+        "kickoff": "2026-10-10T19:30Z",
+        "tv": "ABC",
+        "spread": "TEX -7.5",
+        "total": 39.5
+      },
+      {
+        "gameId": "401856712",
+        "away": "Georgia",
+        "home": "Alabama",
+        "kickoff": "2026-10-10T23:30Z",
+        "tv": "ABC",
+        "spread": "ALA -1.5",
+        "total": 51.5
+      },
+      {
+        "gameId": "401856718",
+        "away": "Ole Miss",
+        "home": "Vanderbilt",
+        "kickoff": "2026-10-10T19:30Z",
+        "tv": "ESPN",
+        "spread": "MISS -9.5",
+        "total": 54.5
+      },
+      {
+        "gameId": "401856715",
+        "away": "LSU",
+        "home": "Kentucky",
+        "kickoff": "2026-10-10T23:00Z",
+        "tv": "ESPN",
+        "spread": "LSU -8.5",
+        "total": 50.5
+      },
+      {
+        "gameId": "401856716",
+        "away": "Texas A&M",
+        "home": "Missouri",
+        "kickoff": "2026-10-10T16:00Z",
+        "tv": "ABC",
+        "spread": "MIZ -3.5",
+        "total": 49.5
+      },
+      {
+        "gameId": "401856713",
+        "away": "Tennessee",
+        "home": "Arkansas",
+        "kickoff": "2026-10-10T20:15Z",
+        "tv": "SEC Network",
+        "spread": "TENN -13.5",
+        "total": 51.5
+      }
     ],
-    "sources": [{ "label": "ESPN scoreboard", "url": "https://www.espn.com/college-football/scoreboard" }]
+    "sources": [
+      {
+        "label": "ESPN scoreboard",
+        "url": "https://www.espn.com/college-football/scoreboard"
+      }
+    ]
   },
   {
-    "id": "smp-0004", "type": "slate", "account": "slate", "tier": 1, "conference": "Big Ten",
+    "id": "smp-0004",
+    "type": "slate",
+    "account": "slate",
+    "tier": 1,
+    "conference": "Big Ten",
     "title": "Big Ten · Week 6",
     "games": [
-      { "gameId": "401858483", "away": "Maryland", "home": "Ohio State", "kickoff": "2026-10-10T20:15Z", "tv": "BTN", "spread": "OSU -33.5", "total": 56.5 },
-      { "gameId": "401858481", "away": "Indiana", "home": "Nebraska", "kickoff": "2026-10-10T16:00Z", "tv": "Fox", "spread": "IU -7.5", "total": 47.5 },
-      { "gameId": "401858484", "away": "UCLA", "home": "Oregon", "kickoff": "2026-10-10T19:30Z", "tv": "CBS", "spread": "ORE -10.5", "total": 58.5 },
-      { "gameId": "401858485", "away": "USC", "home": "Penn State", "kickoff": "2026-10-10T23:30Z", "tv": "NBC", "spread": "PSU -1.5", "total": 54.5 },
-      { "gameId": "401858487", "away": "Iowa", "home": "Washington", "kickoff": "2026-10-10T01:00Z", "tv": "Fox", "spread": "WASH -3", "total": 40.5 },
-      { "gameId": "401858480", "away": "Illinois", "home": "Michigan State", "kickoff": "2026-10-10T19:30Z", "tv": "FS1", "spread": "ILL -2.5", "total": 47.5 }
+      {
+        "gameId": "401858483",
+        "away": "Maryland",
+        "home": "Ohio State",
+        "kickoff": "2026-10-10T20:15Z",
+        "tv": "BTN",
+        "spread": "OSU -33.5",
+        "total": 56.5
+      },
+      {
+        "gameId": "401858481",
+        "away": "Indiana",
+        "home": "Nebraska",
+        "kickoff": "2026-10-10T16:00Z",
+        "tv": "Fox",
+        "spread": "IU -7.5",
+        "total": 47.5
+      },
+      {
+        "gameId": "401858484",
+        "away": "UCLA",
+        "home": "Oregon",
+        "kickoff": "2026-10-10T19:30Z",
+        "tv": "CBS",
+        "spread": "ORE -10.5",
+        "total": 58.5
+      },
+      {
+        "gameId": "401858485",
+        "away": "USC",
+        "home": "Penn State",
+        "kickoff": "2026-10-10T23:30Z",
+        "tv": "NBC",
+        "spread": "PSU -1.5",
+        "total": 54.5
+      },
+      {
+        "gameId": "401858487",
+        "away": "Iowa",
+        "home": "Washington",
+        "kickoff": "2026-10-10T01:00Z",
+        "tv": "Fox",
+        "spread": "WASH -3",
+        "total": 40.5
+      },
+      {
+        "gameId": "401858480",
+        "away": "Illinois",
+        "home": "Michigan State",
+        "kickoff": "2026-10-10T19:30Z",
+        "tv": "FS1",
+        "spread": "ILL -2.5",
+        "total": 47.5
+      }
     ],
-    "sources": [{ "label": "ESPN scoreboard", "url": "https://www.espn.com/college-football/scoreboard" }]
+    "sources": [
+      {
+        "label": "ESPN scoreboard",
+        "url": "https://www.espn.com/college-football/scoreboard"
+      }
+    ]
   },
   {
-    "id": "smp-0005", "type": "slate", "account": "slate", "tier": 1, "conference": "ACC",
+    "id": "smp-0005",
+    "type": "slate",
+    "account": "slate",
+    "tier": 1,
+    "conference": "ACC",
     "title": "ACC · Week 6",
     "games": [
-      { "gameId": "401858256", "away": "North Carolina", "home": "Pittsburgh", "kickoff": "2026-10-10T16:00Z", "tv": "ESPN", "spread": "PITT -3.5", "total": 47.5 },
-      { "gameId": "401858254", "away": "Florida State", "home": "Louisville", "kickoff": "2026-10-09T23:00Z", "tv": "ESPN", "spread": "", "total": "" },
-      { "gameId": "401858260", "away": "Wake Forest", "home": "NC State", "kickoff": "2026-10-10T16:00Z", "tv": "CW", "spread": "WAKE -3.5", "total": 58.5 },
-      { "gameId": "401858255", "away": "Duke", "home": "Georgia Tech", "kickoff": "2026-10-10T19:30Z", "tv": "ESPN2", "spread": "DUKE -6.5", "total": 43.5 },
-      { "gameId": "401858259", "away": "Virginia Tech", "home": "California", "kickoff": "2026-10-10T19:30Z", "tv": "ACC Network", "spread": "VT -10", "total": 53.5 },
-      { "gameId": "401858258", "away": "Syracuse", "home": "Virginia", "kickoff": "2026-10-10T23:30Z", "tv": "ACC Network", "spread": "UVA -10", "total": 50.5 }
+      {
+        "gameId": "401858256",
+        "away": "North Carolina",
+        "home": "Pittsburgh",
+        "kickoff": "2026-10-10T16:00Z",
+        "tv": "ESPN",
+        "spread": "PITT -3.5",
+        "total": 47.5
+      },
+      {
+        "gameId": "401858254",
+        "away": "Florida State",
+        "home": "Louisville",
+        "kickoff": "2026-10-09T23:00Z",
+        "tv": "ESPN",
+        "spread": "",
+        "total": ""
+      },
+      {
+        "gameId": "401858260",
+        "away": "Wake Forest",
+        "home": "NC State",
+        "kickoff": "2026-10-10T16:00Z",
+        "tv": "CW",
+        "spread": "WAKE -3.5",
+        "total": 58.5
+      },
+      {
+        "gameId": "401858255",
+        "away": "Duke",
+        "home": "Georgia Tech",
+        "kickoff": "2026-10-10T19:30Z",
+        "tv": "ESPN2",
+        "spread": "DUKE -6.5",
+        "total": 43.5
+      },
+      {
+        "gameId": "401858259",
+        "away": "Virginia Tech",
+        "home": "California",
+        "kickoff": "2026-10-10T19:30Z",
+        "tv": "ACC Network",
+        "spread": "VT -10",
+        "total": 53.5
+      },
+      {
+        "gameId": "401858258",
+        "away": "Syracuse",
+        "home": "Virginia",
+        "kickoff": "2026-10-10T23:30Z",
+        "tv": "ACC Network",
+        "spread": "UVA -10",
+        "total": 50.5
+      }
     ],
-    "sources": [{ "label": "ESPN scoreboard", "url": "https://www.espn.com/college-football/scoreboard" }]
+    "sources": [
+      {
+        "label": "ESPN scoreboard",
+        "url": "https://www.espn.com/college-football/scoreboard"
+      }
+    ]
   },
   {
-    "id": "smp-0006", "type": "slate", "account": "slate", "tier": 1, "conference": "Big 12",
+    "id": "smp-0006",
+    "type": "slate",
+    "account": "slate",
+    "tier": 1,
+    "conference": "Big 12",
     "title": "Big 12 · Week 6",
     "games": [
-      { "gameId": "401856826", "away": "Iowa State", "home": "BYU", "kickoff": "2026-10-10T02:15Z", "tv": "ESPN", "spread": "BYU -11.5", "total": 46.5 },
-      { "gameId": "401856827", "away": "Kansas", "home": "Utah", "kickoff": "2026-10-11T02:15Z", "tv": "ESPN", "spread": "UTAH -15.5", "total": 51.5 },
-      { "gameId": "401856824", "away": "UCF", "home": "Oklahoma State", "kickoff": "2026-10-10T16:00Z", "tv": "ESPN2", "spread": "OKST -10.5", "total": 53.5 },
-      { "gameId": "401856825", "away": "Houston", "home": "Kansas State", "kickoff": "2026-10-10T19:30Z", "tv": "Fox", "spread": "KSU -2.5", "total": 55.5 },
-      { "gameId": "401856823", "away": "Arizona", "home": "West Virginia", "kickoff": "2026-10-10T16:00Z", "tv": "TNT", "spread": "ARIZ -3.5", "total": 60.5 }
+      {
+        "gameId": "401856826",
+        "away": "Iowa State",
+        "home": "BYU",
+        "kickoff": "2026-10-10T02:15Z",
+        "tv": "ESPN",
+        "spread": "BYU -11.5",
+        "total": 46.5
+      },
+      {
+        "gameId": "401856827",
+        "away": "Kansas",
+        "home": "Utah",
+        "kickoff": "2026-10-11T02:15Z",
+        "tv": "ESPN",
+        "spread": "UTAH -15.5",
+        "total": 51.5
+      },
+      {
+        "gameId": "401856824",
+        "away": "UCF",
+        "home": "Oklahoma State",
+        "kickoff": "2026-10-10T16:00Z",
+        "tv": "ESPN2",
+        "spread": "OKST -10.5",
+        "total": 53.5
+      },
+      {
+        "gameId": "401856825",
+        "away": "Houston",
+        "home": "Kansas State",
+        "kickoff": "2026-10-10T19:30Z",
+        "tv": "Fox",
+        "spread": "KSU -2.5",
+        "total": 55.5
+      },
+      {
+        "gameId": "401856823",
+        "away": "Arizona",
+        "home": "West Virginia",
+        "kickoff": "2026-10-10T16:00Z",
+        "tv": "TNT",
+        "spread": "ARIZ -3.5",
+        "total": 60.5
+      }
     ],
-    "sources": [{ "label": "ESPN scoreboard", "url": "https://www.espn.com/college-football/scoreboard" }]
+    "sources": [
+      {
+        "label": "ESPN scoreboard",
+        "url": "https://www.espn.com/college-football/scoreboard"
+      }
+    ]
   },
   {
-    "id": "smp-0007", "type": "text", "account": "around", "tier": 1,
-    "teams": ["Penn State", "USC"],
+    "id": "smp-0007",
+    "type": "text",
+    "account": "around",
+    "tier": 1,
+    "teams": [
+      "Penn State",
+      "USC"
+    ],
     "title": "Sample: a storyline post with no graphic",
     "body": "Sample post. This is what a plain text post looks like with no image attached: a title, two or three sentences, and team chips underneath that jump to your notes on each team. Penn State hosts USC at night in Week 6."
   },
   {
-    "id": "smp-0008", "type": "carousel", "account": "matchup", "tier": 2,
-    "teams": ["Georgia", "Alabama"], "gameId": "401856712",
+    "id": "smp-0008",
+    "type": "carousel",
+    "account": "matchup",
+    "tier": 2,
+    "teams": [
+      "Georgia",
+      "Alabama"
+    ],
+    "gameId": "401856712",
     "title": "Sample: Georgia at Alabama, four slides",
     "body": "Sample carousel. Swipe sideways through the slides; the page should not move. The bars use placeholder numbers.",
     "slides": [
-      { "image": "img/ga_ala_1.svg", "alt": "Sample slide 1", "caption": "Slide 1 of 4 · offense comparison (sample figures)" },
-      { "image": "img/ga_ala_2.svg", "alt": "Sample slide 2", "caption": "Slide 2 of 4 · defense comparison (sample figures)" },
-      { "image": "img/ga_ala_3.svg", "alt": "Sample slide 3", "caption": "Slide 3 of 4 · a single number" },
-      { "image": "img/ga_ala_4.svg", "alt": "Sample slide 4", "caption": "Slide 4 of 4 · kickoff and TV" }
+      {
+        "image": "img/ga_ala_1.svg",
+        "alt": "Sample slide 1",
+        "caption": "Slide 1 of 4 · offense comparison (sample figures)"
+      },
+      {
+        "image": "img/ga_ala_2.svg",
+        "alt": "Sample slide 2",
+        "caption": "Slide 2 of 4 · defense comparison (sample figures)"
+      },
+      {
+        "image": "img/ga_ala_3.svg",
+        "alt": "Sample slide 3",
+        "caption": "Slide 3 of 4 · a single number"
+      },
+      {
+        "image": "img/ga_ala_4.svg",
+        "alt": "Sample slide 4",
+        "caption": "Slide 4 of 4 · kickoff and TV"
+      }
     ],
-    "sources": [{ "label": "ESPN team stats", "url": "https://www.espn.com/college-football/stats/team" }]
-  },
-  {
-    "id": "smp-0009", "type": "carousel", "account": "matchup", "tier": 2,
-    "teams": ["Texas", "Oklahoma"], "gameId": "401856717",
-    "title": "Sample: Texas vs Oklahoma, three slides",
-    "body": "Sample carousel with three slides and a neutral-site game.",
-    "slides": [
-      { "image": "img/tex_ou_1.svg", "alt": "Sample slide 1", "caption": "Slide 1 of 3 (sample figures)" },
-      { "image": "img/tex_ou_2.svg", "alt": "Sample slide 2", "caption": "Slide 2 of 3 (sample figures)" },
-      { "image": "img/tex_ou_3.svg", "alt": "Sample slide 3", "caption": "Slide 3 of 3" }
+    "sources": [
+      {
+        "label": "ESPN team stats",
+        "url": "https://www.espn.com/college-football/stats/team"
+      }
     ]
   },
   {
-    "id": "smp-0010", "type": "text", "account": "stat-sheet", "tier": 2,
-    "teams": ["Indiana", "Nebraska"], "gameId": "401858481",
+    "id": "smp-0009",
+    "type": "carousel",
+    "account": "matchup",
+    "tier": 2,
+    "teams": [
+      "Texas",
+      "Oklahoma"
+    ],
+    "gameId": "401856717",
+    "title": "Sample: Texas vs Oklahoma, three slides",
+    "body": "Sample carousel with three slides and a neutral-site game.",
+    "slides": [
+      {
+        "image": "img/tex_ou_1.svg",
+        "alt": "Sample slide 1",
+        "caption": "Slide 1 of 3 (sample figures)"
+      },
+      {
+        "image": "img/tex_ou_2.svg",
+        "alt": "Sample slide 2",
+        "caption": "Slide 2 of 3 (sample figures)"
+      },
+      {
+        "image": "img/tex_ou_3.svg",
+        "alt": "Sample slide 3",
+        "caption": "Slide 3 of 3"
+      }
+    ]
+  },
+  {
+    "id": "smp-0010",
+    "type": "text",
+    "account": "stat-sheet",
+    "tier": 2,
+    "teams": [
+      "Indiana",
+      "Nebraska"
+    ],
+    "gameId": "401858481",
     "title": "Sample: Indiana at Nebraska side by side",
     "body": "Sample post with a compare_bars graphic. Real drops will fill these bars from ESPN team statistics pulled by the fetch script, never typed from memory.",
-    "image": "img/ind_neb.svg", "alt": "Sample compare bars graphic",
-    "sources": [{ "label": "ESPN team stats", "url": "https://www.espn.com/college-football/stats/team" }]
+    "image": "img/ind_neb.svg",
+    "alt": "Sample compare bars graphic",
+    "sources": [
+      {
+        "label": "ESPN team stats",
+        "url": "https://www.espn.com/college-football/stats/team"
+      }
+    ]
   },
   {
-    "id": "smp-0011", "type": "xpost", "account": "@sample_beat", "tier": 2,
-    "handle": "sample_beat", "name": "Sample Beat Writer", "postedAt": "2026-10-08T14:05:00-07:00",
-    "teams": ["Penn State", "USC"],
+    "id": "smp-0011",
+    "type": "xpost",
+    "account": "@sample_beat",
+    "tier": 2,
+    "handle": "sample_beat",
+    "name": "Sample Beat Writer",
+    "postedAt": "2026-10-08T14:05:00-07:00",
+    "teams": [
+      "Penn State",
+      "USC"
+    ],
     "text": "Sample X post. This is placeholder text standing in for a post from a curated account. Tapping the card opens the original on X; in this sample it just opens x.com.",
-    "url": "https://x.com/", "hasMedia": false
+    "url": "https://x.com/",
+    "hasMedia": false
   },
   {
-    "id": "smp-0012", "type": "text", "account": "number", "tier": 2,
-    "teams": ["Ohio State", "Oregon", "Utah", "Alabama"],
+    "id": "smp-0012",
+    "type": "text",
+    "account": "number",
+    "tier": 2,
+    "teams": [
+      "Ohio State",
+      "Oregon",
+      "Utah",
+      "Alabama"
+    ],
     "title": "Sample: trend table, raw numbers only",
     "body": "Sample post. The table shows how a trend_table graphic sits in the feed. Records on it are placeholders. No picks, no leans, just the numbers.",
-    "image": "img/trend_table.svg", "alt": "Sample trend table graphic"
+    "image": "img/trend_table.svg",
+    "alt": "Sample trend table graphic"
   },
   {
-    "id": "smp-0013", "type": "text", "account": "spotlight", "tier": 3,
-    "teams": ["Utah"],
+    "id": "smp-0013",
+    "type": "text",
+    "account": "spotlight",
+    "tier": 3,
+    "teams": [
+      "Utah"
+    ],
     "title": "Sample: a player card",
     "body": "Sample post using a player_card graphic for a made-up player named Sample Player. Real cards show a headshot only when the spec includes a URL from the school's athletics site; otherwise initials, like here.",
-    "image": "img/player_card.svg", "alt": "Sample player card graphic"
+    "image": "img/player_card.svg",
+    "alt": "Sample player card graphic"
   },
   {
-    "id": "smp-0014", "type": "xpost", "account": "@sample_wx", "tier": 3,
-    "handle": "sample_wx", "name": "Sample Weather Account", "postedAt": "2026-10-09T06:40:00-07:00",
-    "teams": ["Iowa", "Washington"],
+    "id": "smp-0014",
+    "type": "xpost",
+    "account": "@sample_wx",
+    "tier": 3,
+    "handle": "sample_wx",
+    "name": "Sample Weather Account",
+    "postedAt": "2026-10-09T06:40:00-07:00",
+    "teams": [
+      "Iowa",
+      "Washington"
+    ],
     "text": "Sample X post about a Friday night game. Placeholder forecast text: cool, dry, light wind off the water. Nothing here is a real forecast.",
-    "url": "https://x.com/", "hasMedia": false
+    "url": "https://x.com/",
+    "hasMedia": false
   },
   {
-    "id": "smp-0015", "type": "xpost", "account": "@sample_acc", "tier": 3,
-    "handle": "sample_acc", "name": "Sample ACC Account", "postedAt": "2026-10-09T09:15:00-07:00",
-    "teams": ["Pittsburgh", "North Carolina"],
+    "id": "smp-0015",
+    "type": "xpost",
+    "account": "@sample_acc",
+    "tier": 3,
+    "handle": "sample_acc",
+    "name": "Sample ACC Account",
+    "postedAt": "2026-10-09T09:15:00-07:00",
+    "teams": [
+      "Pittsburgh",
+      "North Carolina"
+    ],
     "text": "Sample X post that had a photo or video attached. The app never copies X media, so you see the placeholder line below instead.",
-    "url": "https://x.com/", "hasMedia": true
+    "url": "https://x.com/",
+    "hasMedia": true
   },
   {
-    "id": "smp-0016", "type": "text", "account": "injury", "tier": 3,
-    "teams": ["Georgia", "Alabama", "Texas"],
+    "id": "smp-0017",
+    "type": "audio",
+    "account": "recap",
+    "tier": 1,
+    "teams": [
+      "Ohio State",
+      "Oregon"
+    ],
+    "title": "Sample: a recap clip read aloud",
+    "body": "Sample audio post. The clip is a placeholder recap so you can test the player, the mini bar, and Play all. Tap Read along for the transcript.",
+    "image": "img/stat_card.svg",
+    "alt": "Sample stat card graphic",
+    "script": "This is a sample recap clip for Sideline. Nothing in it is a real result. Ohio State handled its business at home, leaning on the run game in the second half and finishing drives in the red zone. Oregon's offense stalled twice inside the twenty, and the defense could not get off the field on third down late. The numbers on the card are placeholders. In a real drop, this clip would run about a minute and walk through two or three things worth remembering from the game. That is the end of the sample.",
+    "audio": "audio/smp-0017.mp3",
+    "duration": 31,
+    "transcript": "This is a sample recap clip for Sideline. Nothing in it is a real result. Ohio State handled its business at home, leaning on the run game in the second half and finishing drives in the red zone. Oregon's offense stalled twice inside the twenty, and the defense could not get off the field on third down late. The numbers on the card are placeholders. In a real drop, this clip would run about a minute and walk through two or three things worth remembering from the game. That is the end of the sample."
+  },
+  {
+    "id": "smp-0018",
+    "type": "audio",
+    "account": "number",
+    "tier": 2,
+    "teams": [
+      "Texas",
+      "Oklahoma"
+    ],
+    "gameId": "401856717",
+    "title": "Sample: the numbers, read aloud",
+    "body": "Sample audio post without a graphic. Raw numbers only, no picks.",
+    "script": "The Number, sample clip. Texas and Oklahoma in Dallas. The line opened at Texas minus six and a half and sits at seven and a half. The total is thirty nine and a half, the lowest number on the Power Four slate this week. Those are the numbers as displayed when this sample was made, and nothing here is a lean or a pick. End of sample.",
+    "audio": "audio/smp-0018.mp3",
+    "duration": 25,
+    "transcript": "The Number, sample clip. Texas and Oklahoma in Dallas. The line opened at Texas minus six and a half and sits at seven and a half. The total is thirty nine and a half, the lowest number on the Power Four slate this week. Those are the numbers as displayed when this sample was made, and nothing here is a lean or a pick. End of sample."
+  },
+  {
+    "id": "smp-0016",
+    "type": "text",
+    "account": "injury",
+    "tier": 3,
+    "teams": [
+      "Georgia",
+      "Alabama",
+      "Texas"
+    ],
     "title": "Sample: availability list, no graphic",
     "body": "Sample post. A Friday-drop style availability note: Team A, starting left tackle questionable. Team B, two defensive backs out. Team C, no changes. These are placeholders, not real injury reports."
+  },
+  {
+    "id": "smp-v-slate",
+    "type": "audio",
+    "account": "slate",
+    "tier": 3,
+    "teams": [
+      "Georgia",
+      "Alabama"
+    ],
+    "title": "Voice sample: The Slate",
+    "body": "The same 20-second script read in en-US-AndrewMultilingualNeural. If it does not fit The Slate, change the voice in accounts.json and re-run tools/voice_samples.py --force.",
+    "audio": "audio/voice-slate.mp3",
+    "duration": 28,
+    "transcript": "This is a voice sample for Sideline. Georgia travels to Tuscaloosa on Saturday night, with the line sitting at Alabama minus one and a half and the total at fifty one and a half. Georgia has allowed under fifteen points a game this season, while Alabama is averaging just over seven yards a play. Kickoff is seven thirty Eastern on ABC. That is the sample. If this voice sounds right for this account, keep it. If not, swap it."
+  },
+  {
+    "id": "smp-v-rankings",
+    "type": "audio",
+    "account": "rankings",
+    "tier": 3,
+    "teams": [
+      "Georgia",
+      "Alabama"
+    ],
+    "title": "Voice sample: Rankings Desk",
+    "body": "The same 20-second script read in en-US-AvaNeural. If it does not fit Rankings Desk, change the voice in accounts.json and re-run tools/voice_samples.py --force.",
+    "audio": "audio/voice-rankings.mp3",
+    "duration": 29,
+    "transcript": "This is a voice sample for Sideline. Georgia travels to Tuscaloosa on Saturday night, with the line sitting at Alabama minus one and a half and the total at fifty one and a half. Georgia has allowed under fifteen points a game this season, while Alabama is averaging just over seven yards a play. Kickoff is seven thirty Eastern on ABC. That is the sample. If this voice sounds right for this account, keep it. If not, swap it."
+  },
+  {
+    "id": "smp-v-stat-sheet",
+    "type": "audio",
+    "account": "stat-sheet",
+    "tier": 3,
+    "teams": [
+      "Georgia",
+      "Alabama"
+    ],
+    "title": "Voice sample: Stat Sheet",
+    "body": "The same 20-second script read in en-US-BrianNeural. If it does not fit Stat Sheet, change the voice in accounts.json and re-run tools/voice_samples.py --force.",
+    "audio": "audio/voice-stat-sheet.mp3",
+    "duration": 29,
+    "transcript": "This is a voice sample for Sideline. Georgia travels to Tuscaloosa on Saturday night, with the line sitting at Alabama minus one and a half and the total at fifty one and a half. Georgia has allowed under fifteen points a game this season, while Alabama is averaging just over seven yards a play. Kickoff is seven thirty Eastern on ABC. That is the sample. If this voice sounds right for this account, keep it. If not, swap it."
+  },
+  {
+    "id": "smp-v-matchup",
+    "type": "audio",
+    "account": "matchup",
+    "tier": 3,
+    "teams": [
+      "Georgia",
+      "Alabama"
+    ],
+    "title": "Voice sample: Matchup Room",
+    "body": "The same 20-second script read in en-US-GuyNeural. If it does not fit Matchup Room, change the voice in accounts.json and re-run tools/voice_samples.py --force.",
+    "audio": "audio/voice-matchup.mp3",
+    "duration": 29,
+    "transcript": "This is a voice sample for Sideline. Georgia travels to Tuscaloosa on Saturday night, with the line sitting at Alabama minus one and a half and the total at fifty one and a half. Georgia has allowed under fifteen points a game this season, while Alabama is averaging just over seven yards a play. Kickoff is seven thirty Eastern on ABC. That is the sample. If this voice sounds right for this account, keep it. If not, swap it."
+  },
+  {
+    "id": "smp-v-spotlight",
+    "type": "audio",
+    "account": "spotlight",
+    "tier": 3,
+    "teams": [
+      "Georgia",
+      "Alabama"
+    ],
+    "title": "Voice sample: Spotlight",
+    "body": "The same 20-second script read in en-US-EmmaNeural. If it does not fit Spotlight, change the voice in accounts.json and re-run tools/voice_samples.py --force.",
+    "audio": "audio/voice-spotlight.mp3",
+    "duration": 26,
+    "transcript": "This is a voice sample for Sideline. Georgia travels to Tuscaloosa on Saturday night, with the line sitting at Alabama minus one and a half and the total at fifty one and a half. Georgia has allowed under fifteen points a game this season, while Alabama is averaging just over seven yards a play. Kickoff is seven thirty Eastern on ABC. That is the sample. If this voice sounds right for this account, keep it. If not, swap it."
+  },
+  {
+    "id": "smp-v-injury",
+    "type": "audio",
+    "account": "injury",
+    "tier": 3,
+    "teams": [
+      "Georgia",
+      "Alabama"
+    ],
+    "title": "Voice sample: Injury Wire",
+    "body": "The same 20-second script read in en-US-ChristopherNeural. If it does not fit Injury Wire, change the voice in accounts.json and re-run tools/voice_samples.py --force.",
+    "audio": "audio/voice-injury.mp3",
+    "duration": 31,
+    "transcript": "This is a voice sample for Sideline. Georgia travels to Tuscaloosa on Saturday night, with the line sitting at Alabama minus one and a half and the total at fifty one and a half. Georgia has allowed under fifteen points a game this season, while Alabama is averaging just over seven yards a play. Kickoff is seven thirty Eastern on ABC. That is the sample. If this voice sounds right for this account, keep it. If not, swap it."
+  },
+  {
+    "id": "smp-v-weather",
+    "type": "audio",
+    "account": "weather",
+    "tier": 3,
+    "teams": [
+      "Georgia",
+      "Alabama"
+    ],
+    "title": "Voice sample: Weather Watch",
+    "body": "The same 20-second script read in en-US-JennyNeural. If it does not fit Weather Watch, change the voice in accounts.json and re-run tools/voice_samples.py --force.",
+    "audio": "audio/voice-weather.mp3",
+    "duration": 30,
+    "transcript": "This is a voice sample for Sideline. Georgia travels to Tuscaloosa on Saturday night, with the line sitting at Alabama minus one and a half and the total at fifty one and a half. Georgia has allowed under fifteen points a game this season, while Alabama is averaging just over seven yards a play. Kickoff is seven thirty Eastern on ABC. That is the sample. If this voice sounds right for this account, keep it. If not, swap it."
+  },
+  {
+    "id": "smp-v-number",
+    "type": "audio",
+    "account": "number",
+    "tier": 3,
+    "teams": [
+      "Georgia",
+      "Alabama"
+    ],
+    "title": "Voice sample: The Number",
+    "body": "The same 20-second script read in en-US-EricNeural. If it does not fit The Number, change the voice in accounts.json and re-run tools/voice_samples.py --force.",
+    "audio": "audio/voice-number.mp3",
+    "duration": 31,
+    "transcript": "This is a voice sample for Sideline. Georgia travels to Tuscaloosa on Saturday night, with the line sitting at Alabama minus one and a half and the total at fifty one and a half. Georgia has allowed under fifteen points a game this season, while Alabama is averaging just over seven yards a play. Kickoff is seven thirty Eastern on ABC. That is the sample. If this voice sounds right for this account, keep it. If not, swap it."
+  },
+  {
+    "id": "smp-v-recap",
+    "type": "audio",
+    "account": "recap",
+    "tier": 3,
+    "teams": [
+      "Georgia",
+      "Alabama"
+    ],
+    "title": "Voice sample: Recap",
+    "body": "The same 20-second script read in en-US-SteffanNeural. If it does not fit Recap, change the voice in accounts.json and re-run tools/voice_samples.py --force.",
+    "audio": "audio/voice-recap.mp3",
+    "duration": 29,
+    "transcript": "This is a voice sample for Sideline. Georgia travels to Tuscaloosa on Saturday night, with the line sitting at Alabama minus one and a half and the total at fifty one and a half. Georgia has allowed under fifteen points a game this season, while Alabama is averaging just over seven yards a play. Kickoff is seven thirty Eastern on ABC. That is the sample. If this voice sounds right for this account, keep it. If not, swap it."
+  },
+  {
+    "id": "smp-v-around",
+    "type": "audio",
+    "account": "around",
+    "tier": 3,
+    "teams": [
+      "Georgia",
+      "Alabama"
+    ],
+    "title": "Voice sample: Around the Sport",
+    "body": "The same 20-second script read in en-US-AriaNeural. If it does not fit Around the Sport, change the voice in accounts.json and re-run tools/voice_samples.py --force.",
+    "audio": "audio/voice-around.mp3",
+    "duration": 31,
+    "transcript": "This is a voice sample for Sideline. Georgia travels to Tuscaloosa on Saturday night, with the line sitting at Alabama minus one and a half and the total at fifty one and a half. Georgia has allowed under fifteen points a game this season, while Alabama is averaging just over seven yards a play. Kickoff is seven thirty Eastern on ABC. That is the sample. If this voice sounds right for this account, keep it. If not, swap it."
   }
 ]

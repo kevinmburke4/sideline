@@ -1,5 +1,12 @@
 {
   "drops": [
-    { "id": "sample", "season": 2026, "week": 6, "kind": "sample", "published": "2026-10-09T12:00:00-07:00", "posts": 16 }
+    {
+      "id": "sample",
+      "season": 2026,
+      "week": 6,
+      "kind": "sample",
+      "published": "2026-10-09T12:00:00-07:00",
+      "posts": 28
+    }
   ]
 }

@@ -1,6 +1,6 @@
 // Sideline service worker: caches the app shell so it opens offline.
 // ESPN data is cached by the app itself in localStorage, not here.
-const VERSION = 'sideline-v2';
+const VERSION = 'sideline-v3';
 const SHELL = ['./', './index.html', './styles.css', './app.js', './feed.js', './accounts.json', './manifest.webmanifest', './icons/icon.svg', './icons/icon-180.png', './icons/icon-512.png'];
 const MEDIA = /\.(mp3|m4a|aac|wav|ogg|mp4|webm|mov)$/i; // never cached: audio and video would fill storage
 
