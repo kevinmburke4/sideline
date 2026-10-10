@@ -1,0 +1,2040 @@
+[
+  {
+    "id": "w06m-0001",
+    "type": "slate",
+    "account": "slate",
+    "tier": 1,
+    "conference": "SEC",
+    "title": "SEC · Saturday, Week 6",
+    "body": "Seven conference games. Lines and totals are the numbers ESPN displayed when this drop was built.",
+    "games": [
+      {
+        "gameId": "401856716",
+        "away": "Texas A&M",
+        "home": "Missouri",
+        "kickoff": "2026-10-10T16:00Z",
+        "tv": "ABC",
+        "spread": "MIZ -3.5",
+        "total": 49.5
+      },
+      {
+        "gameId": "401856714",
+        "away": "South Carolina",
+        "home": "Florida",
+        "kickoff": "2026-10-10T16:45Z",
+        "tv": "SEC Network",
+        "spread": "FLA -10.5",
+        "total": 58.5
+      },
+      {
+        "gameId": "401856717",
+        "away": "Texas",
+        "home": "Oklahoma",
+        "kickoff": "2026-10-10T19:30Z",
+        "tv": "ABC",
+        "spread": "TEX -7.5",
+        "total": 39.5
+      },
+      {
+        "gameId": "401856718",
+        "away": "Ole Miss",
+        "home": "Vanderbilt",
+        "kickoff": "2026-10-10T19:30Z",
+        "tv": "ESPN",
+        "spread": "MISS -9.5",
+        "total": 54.5
+      },
+      {
+        "gameId": "401856713",
+        "away": "Tennessee",
+        "home": "Arkansas",
+        "kickoff": "2026-10-10T20:15Z",
+        "tv": "SEC Network",
+        "spread": "TENN -13.5",
+        "total": 51.5
+      },
+      {
+        "gameId": "401856715",
+        "away": "LSU",
+        "home": "Kentucky",
+        "kickoff": "2026-10-10T23:00Z",
+        "tv": "ESPN",
+        "spread": "LSU -8.5",
+        "total": 50.5
+      },
+      {
+        "gameId": "401856712",
+        "away": "Georgia",
+        "home": "Alabama",
+        "kickoff": "2026-10-10T23:30Z",
+        "tv": "ABC",
+        "spread": "ALA -1.5",
+        "total": 51.5
+      }
+    ],
+    "sources": [
+      {
+        "label": "ESPN scoreboard",
+        "url": "https://www.espn.com/college-football/scoreboard"
+      }
+    ]
+  },
+  {
+    "id": "w06m-0002",
+    "type": "slate",
+    "account": "slate",
+    "tier": 1,
+    "conference": "Big Ten",
+    "title": "Big Ten · Saturday, Week 6",
+    "body": "Iowa already won at Washington on Friday, 41 to 24. Seven more on Saturday.",
+    "games": [
+      {
+        "gameId": "401858481",
+        "away": "Indiana",
+        "home": "Nebraska",
+        "kickoff": "2026-10-10T16:00Z",
+        "tv": "Fox",
+        "spread": "IU -7.5",
+        "total": 47.5
+      },
+      {
+        "gameId": "401858482",
+        "away": "Ball State",
+        "home": "Northwestern",
+        "kickoff": "2026-10-10T16:30Z",
+        "tv": "BTN",
+        "spread": "NU -35.5",
+        "total": 53.5
+      },
+      {
+        "gameId": "401858484",
+        "away": "UCLA",
+        "home": "Oregon",
+        "kickoff": "2026-10-10T19:30Z",
+        "tv": "CBS",
+        "spread": "ORE -10.5",
+        "total": 58.5
+      },
+      {
+        "gameId": "401858480",
+        "away": "Illinois",
+        "home": "Michigan State",
+        "kickoff": "2026-10-10T19:30Z",
+        "tv": "FS1",
+        "spread": "ILL -2.5",
+        "total": 48.5
+      },
+      {
+        "gameId": "401858483",
+        "away": "Maryland",
+        "home": "Ohio State",
+        "kickoff": "2026-10-10T20:15Z",
+        "tv": "BTN",
+        "spread": "OSU -33.5",
+        "total": 56.5
+      },
+      {
+        "gameId": "401858485",
+        "away": "USC",
+        "home": "Penn State",
+        "kickoff": "2026-10-10T23:30Z",
+        "tv": "NBC",
+        "spread": "PSU -1.5",
+        "total": 54.5
+      },
+      {
+        "gameId": "401858486",
+        "away": "Minnesota",
+        "home": "Purdue",
+        "kickoff": "2026-10-11T00:00Z",
+        "tv": "BTN",
+        "spread": "MINN -2.5",
+        "total": 49.5
+      }
+    ],
+    "sources": [
+      {
+        "label": "ESPN scoreboard",
+        "url": "https://www.espn.com/college-football/scoreboard"
+      }
+    ]
+  },
+  {
+    "id": "w06m-0003",
+    "type": "slate",
+    "account": "slate",
+    "tier": 1,
+    "conference": "ACC",
+    "title": "ACC · Saturday, Week 6",
+    "body": "Louisville beat Florida State 44 to 20 on Friday. Six games Saturday, including Notre Dame hosting Stanford.",
+    "games": [
+      {
+        "gameId": "401858256",
+        "away": "North Carolina",
+        "home": "Pittsburgh",
+        "kickoff": "2026-10-10T16:00Z",
+        "tv": "ESPN",
+        "spread": "PITT -3.5",
+        "total": 47.5
+      },
+      {
+        "gameId": "401858260",
+        "away": "Wake Forest",
+        "home": "NC State",
+        "kickoff": "2026-10-10T16:00Z",
+        "tv": "CW",
+        "spread": "WAKE -3.5",
+        "total": 57.5
+      },
+      {
+        "gameId": "401858257",
+        "away": "Stanford",
+        "home": "Notre Dame",
+        "kickoff": "2026-10-10T19:30Z",
+        "tv": "NBC",
+        "spread": "ND -39.5",
+        "total": 54.5
+      },
+      {
+        "gameId": "401858255",
+        "away": "Duke",
+        "home": "Georgia Tech",
+        "kickoff": "2026-10-10T19:30Z",
+        "tv": "ESPN2",
+        "spread": "DUKE -6.5",
+        "total": 43.5
+      },
+      {
+        "gameId": "401858259",
+        "away": "Virginia Tech",
+        "home": "California",
+        "kickoff": "2026-10-10T19:30Z",
+        "tv": "ACC Network",
+        "spread": "VT -10",
+        "total": 53.5
+      },
+      {
+        "gameId": "401858258",
+        "away": "Syracuse",
+        "home": "Virginia",
+        "kickoff": "2026-10-10T23:30Z",
+        "tv": "ACC Network",
+        "spread": "UVA -11.5",
+        "total": 49.5
+      }
+    ],
+    "sources": [
+      {
+        "label": "ESPN scoreboard",
+        "url": "https://www.espn.com/college-football/scoreboard"
+      }
+    ]
+  },
+  {
+    "id": "w06m-0004",
+    "type": "slate",
+    "account": "slate",
+    "tier": 1,
+    "conference": "Big 12",
+    "title": "Big 12 · Saturday, Week 6",
+    "body": "Iowa State at BYU was Friday night. Five games Saturday.",
+    "games": [
+      {
+        "gameId": "401856824",
+        "away": "UCF",
+        "home": "Oklahoma State",
+        "kickoff": "2026-10-10T16:00Z",
+        "tv": "ESPN2",
+        "spread": "OKST -10.5",
+        "total": 53.5
+      },
+      {
+        "gameId": "401856823",
+        "away": "Arizona",
+        "home": "West Virginia",
+        "kickoff": "2026-10-10T16:00Z",
+        "tv": "TNT",
+        "spread": "ARIZ -3.5",
+        "total": 60.5
+      },
+      {
+        "gameId": "401856825",
+        "away": "Houston",
+        "home": "Kansas State",
+        "kickoff": "2026-10-10T19:30Z",
+        "tv": "Fox",
+        "spread": "KSU -2.5",
+        "total": 55.5
+      },
+      {
+        "gameId": "401856827",
+        "away": "Kansas",
+        "home": "Utah",
+        "kickoff": "2026-10-11T00:00Z",
+        "tv": "ESPN",
+        "spread": "UTAH -15.5",
+        "total": 51.5
+      },
+      {
+        "gameId": "401856808",
+        "away": "Hawai'i",
+        "home": "Arizona State",
+        "kickoff": "2026-10-11T02:30Z",
+        "tv": "FS1",
+        "spread": "ASU -21",
+        "total": 50.5
+      }
+    ],
+    "sources": [
+      {
+        "label": "ESPN scoreboard",
+        "url": "https://www.espn.com/college-football/scoreboard"
+      }
+    ]
+  },
+  {
+    "id": "w06m-0005",
+    "type": "text",
+    "account": "rankings",
+    "tier": 1,
+    "teams": [
+      "Missouri",
+      "BYU",
+      "Oregon",
+      "Florida",
+      "Iowa",
+      "Pittsburgh",
+      "Kentucky"
+    ],
+    "title": "AP poll: Missouri jumps eleven spots, Florida falls eight",
+    "body": "Missouri moved from 25 to 14 after beating Florida 45-17. Florida dropped from 8 to 16. BYU rose two to 8, Oregon two to 13. Iowa fell six to 20 after the Ohio State loss. Pittsburgh enters at 25. Kentucky dropped out despite the overtime win at South Carolina.",
+    "graphic": {
+      "template": "rank_movers",
+      "data": {
+        "title": "AP Top 25 movers · Week 6 poll",
+        "rows": [
+          {
+            "team": "Missouri",
+            "prev": 25,
+            "now": 14
+          },
+          {
+            "team": "BYU",
+            "prev": 10,
+            "now": 8
+          },
+          {
+            "team": "Oregon",
+            "prev": 15,
+            "now": 13
+          },
+          {
+            "team": "Tennessee",
+            "prev": 17,
+            "now": 15
+          },
+          {
+            "team": "Alabama",
+            "prev": 7,
+            "now": 6
+          },
+          {
+            "team": "Pittsburgh",
+            "prev": null,
+            "now": 25
+          },
+          {
+            "team": "Indiana",
+            "prev": 6,
+            "now": 7
+          },
+          {
+            "team": "Iowa",
+            "prev": 14,
+            "now": 20
+          },
+          {
+            "team": "Florida",
+            "prev": 8,
+            "now": 16
+          },
+          {
+            "team": "Kentucky",
+            "prev": 24,
+            "now": null
+          }
+        ]
+      }
+    },
+    "sources": [
+      {
+        "label": "ESPN rankings",
+        "url": "https://www.espn.com/college-football/rankings"
+      }
+    ],
+    "image": "img/w06m-0005.png",
+    "alt": "AP Top 25 movers · Week 6 poll"
+  },
+  {
+    "id": "w06m-0006",
+    "type": "text",
+    "account": "rankings",
+    "tier": 1,
+    "teams": [
+      "Texas",
+      "Georgia",
+      "Notre Dame",
+      "Miami",
+      "Ohio State"
+    ],
+    "title": "Top five holds: Texas, Georgia, Notre Dame, Miami, Ohio State",
+    "body": "No movement in the top five. Texas (4-0) has 1,737 points, Georgia (5-0) 1,647, Notre Dame (5-0) 1,532, Miami (5-0) 1,524, Ohio State (4-1) 1,490. Alabama moved up one to 6 and hosts Georgia on Saturday.",
+    "graphic": {
+      "template": "trend_table",
+      "data": {
+        "title": "AP Top 10 · Week 6 poll",
+        "columns": [
+          "Team",
+          "Rec",
+          "Pts",
+          "Prev"
+        ],
+        "rows": [
+          [
+            "1 Texas",
+            "4-0",
+            "1737",
+            "1"
+          ],
+          [
+            "2 Georgia",
+            "5-0",
+            "1647",
+            "2"
+          ],
+          [
+            "3 Notre Dame",
+            "5-0",
+            "1532",
+            "3"
+          ],
+          [
+            "4 Miami",
+            "5-0",
+            "1524",
+            "4"
+          ],
+          [
+            "5 Ohio State",
+            "4-1",
+            "1490",
+            "5"
+          ],
+          [
+            "6 Alabama",
+            "5-0",
+            "1460",
+            "7"
+          ],
+          [
+            "7 Indiana",
+            "5-0",
+            "1380",
+            "6"
+          ],
+          [
+            "8 BYU",
+            "4-0",
+            "1144",
+            "10"
+          ],
+          [
+            "9 Ole Miss",
+            "3-1",
+            "1095",
+            "9"
+          ],
+          [
+            "10 LSU",
+            "4-1",
+            "1087",
+            "11"
+          ]
+        ],
+        "note": "Sideline · AP poll via ESPN"
+      }
+    },
+    "sources": [
+      {
+        "label": "ESPN rankings",
+        "url": "https://www.espn.com/college-football/rankings"
+      }
+    ],
+    "image": "img/w06m-0006.png",
+    "alt": "AP Top 10 · Week 6 poll"
+  },
+  {
+    "id": "w06m-0007",
+    "type": "audio",
+    "account": "recap",
+    "tier": 1,
+    "teams": [
+      "Georgia",
+      "Alabama",
+      "Missouri",
+      "Florida",
+      "LSU",
+      "Tennessee",
+      "Kentucky",
+      "Texas A&M"
+    ],
+    "title": "SEC recap: Missouri routs Florida, Alabama puts up 56",
+    "body": "Seven SEC results from Week 5 in about ninety seconds.",
+    "script": "Recap, S E C, week five. Georgia beat Vanderbilt thirty eight to fourteen. Gunner Stockton threw for two hundred ninety five yards and three touchdowns, and Georgia is five and oh. Alabama went to Starkville and beat sixteenth ranked Mississippi State fifty six to twenty three. Keelon Russell threw for two eighty five and three scores and accounted for four touchdowns. The result of the week was in Columbia. Twenty fifth ranked Missouri beat eighth ranked Florida forty five to seventeen. Jamal Roberts ran twenty four times for two hundred eleven yards and three touchdowns, and Austin Simmons threw for three forty. ESPN notes it snapped a nine game Missouri losing streak against top twenty five opponents. L S U beat McNeese sixty three to fourteen. Sam Leavitt threw three touchdown passes and Harlem Berry ran for one twenty five. Tennessee beat Auburn twenty four to fourteen behind DeSean Bishop, who carried thirty four times for two hundred twenty yards and three touchdowns. Kentucky won at South Carolina thirty five to thirty four in overtime. Kenny Minchey threw for two seventy two and three touchdowns. And Texas A and M beat Arkansas thirty four to seven. K J Edwards scored twice on the ground. That is the S E C.",
+    "sources": [
+      {
+        "label": "ESPN scoreboard, week 5",
+        "url": "https://www.espn.com/college-football/scoreboard/_/week/5/year/2026/seasontype/2"
+      }
+    ],
+    "audio": "audio/w06m-0007.mp3",
+    "duration": 80,
+    "transcript": "Recap, S E C, week five. Georgia beat Vanderbilt thirty eight to fourteen. Gunner Stockton threw for two hundred ninety five yards and three touchdowns, and Georgia is five and oh. Alabama went to Starkville and beat sixteenth ranked Mississippi State fifty six to twenty three. Keelon Russell threw for two eighty five and three scores and accounted for four touchdowns. The result of the week was in Columbia. Twenty fifth ranked Missouri beat eighth ranked Florida forty five to seventeen. Jamal Roberts ran twenty four times for two hundred eleven yards and three touchdowns, and Austin Simmons threw for three forty. ESPN notes it snapped a nine game Missouri losing streak against top twenty five opponents. L S U beat McNeese sixty three to fourteen. Sam Leavitt threw three touchdown passes and Harlem Berry ran for one twenty five. Tennessee beat Auburn twenty four to fourteen behind DeSean Bishop, who carried thirty four times for two hundred twenty yards and three touchdowns. Kentucky won at South Carolina thirty five to thirty four in overtime. Kenny Minchey threw for two seventy two and three touchdowns. And Texas A and M beat Arkansas thirty four to seven. K J Edwards scored twice on the ground. That is the S E C."
+  },
+  {
+    "id": "w06m-0008",
+    "type": "audio",
+    "account": "recap",
+    "tier": 1,
+    "teams": [
+      "Ohio State",
+      "Iowa",
+      "Indiana",
+      "USC",
+      "Washington",
+      "Northwestern",
+      "Penn State",
+      "Minnesota",
+      "Michigan",
+      "Wisconsin",
+      "Nebraska",
+      "Purdue"
+    ],
+    "title": "Big Ten recap: Ohio State handles Iowa, Northwestern stuns Penn State",
+    "body": "Eight Big Ten results from Week 5.",
+    "script": "Recap, Big Ten, week five. Fifth ranked Ohio State won at fourteenth ranked Iowa thirty one to fourteen. Julian Sayin threw for three hundred twenty four yards and three touchdowns, and Jeremiah Smith caught eleven passes for two hundred six yards and two scores. Sixth ranked Indiana beat Rutgers forty seven to fifteen. Turbo Richard ran for two hundred four yards and Josh Hoover threw four touchdown passes. Eighteenth ranked U S C rallied past Washington twenty five to twenty one with a fumble return touchdown. Northwestern beat Penn State thirty four to thirteen in its first game at the new Ryan Field. Caleb Komolafe ran for one hundred eighty eight yards. Rocco Becht threw two interceptions for Penn State. Minnesota beat Michigan twenty to fourteen. Wisconsin beat Michigan State thirty one to three, with Colton Joseph throwing three touchdowns and running for one forty one. Nebraska beat Maryland forty eight to twenty three. And Purdue won at Illinois twenty four to seventeen. That is the Big Ten.",
+    "sources": [
+      {
+        "label": "ESPN scoreboard, week 5",
+        "url": "https://www.espn.com/college-football/scoreboard/_/week/5/year/2026/seasontype/2"
+      }
+    ],
+    "audio": "audio/w06m-0008.mp3",
+    "duration": 66,
+    "transcript": "Recap, Big Ten, week five. Fifth ranked Ohio State won at fourteenth ranked Iowa thirty one to fourteen. Julian Sayin threw for three hundred twenty four yards and three touchdowns, and Jeremiah Smith caught eleven passes for two hundred six yards and two scores. Sixth ranked Indiana beat Rutgers forty seven to fifteen. Turbo Richard ran for two hundred four yards and Josh Hoover threw four touchdown passes. Eighteenth ranked U S C rallied past Washington twenty five to twenty one with a fumble return touchdown. Northwestern beat Penn State thirty four to thirteen in its first game at the new Ryan Field. Caleb Komolafe ran for one hundred eighty eight yards. Rocco Becht threw two interceptions for Penn State. Minnesota beat Michigan twenty to fourteen. Wisconsin beat Michigan State thirty one to three, with Colton Joseph throwing three touchdowns and running for one forty one. Nebraska beat Maryland forty eight to twenty three. And Purdue won at Illinois twenty four to seventeen. That is the Big Ten."
+  },
+  {
+    "id": "w06m-0009",
+    "type": "audio",
+    "account": "recap",
+    "tier": 1,
+    "teams": [
+      "Notre Dame",
+      "North Carolina",
+      "Miami",
+      "Clemson",
+      "SMU",
+      "Pittsburgh",
+      "Virginia Tech",
+      "Wake Forest",
+      "Syracuse",
+      "NC State",
+      "Louisville",
+      "Florida State",
+      "Virginia",
+      "California"
+    ],
+    "title": "ACC recap: Notre Dame makes it fifteen straight, Pitt stays unbeaten",
+    "body": "Nine results involving ACC teams from Week 5.",
+    "script": "Recap, A C C, week five. Third ranked Notre Dame won at North Carolina thirty seven to twenty six, its fifteenth straight win. C J Carr threw four touchdown passes and Jordan Faison caught eight for one thirty two. Fourth ranked Miami beat Clemson forty one to thirteen and is five and oh. Twenty first ranked S M U held off Boston College twenty five to sixteen. Pittsburgh came back from fourteen down to beat Virginia Tech thirty five to thirty three and stay unbeaten, even though Ethan Grunkemeyer threw for four hundred thirty four yards for the Hokies. Wake Forest beat Stanford fifty seven to three. Gio Lopez accounted for five touchdowns. Syracuse survived U Conn forty two to forty one in overtime. Amari Odom threw five touchdown passes and ran for a sixth. U N L V beat California thirty nine to thirty one. N C State beat Louisville thirty one to twenty eight on C J Bailey's three hundred seventy three passing yards. And Florida State beat Virginia thirty eight to seven. Ashton Daniels ran for five touchdowns, a school record for a quarterback. That is the A C C.",
+    "sources": [
+      {
+        "label": "ESPN scoreboard, week 5",
+        "url": "https://www.espn.com/college-football/scoreboard/_/week/5/year/2026/seasontype/2"
+      }
+    ],
+    "audio": "audio/w06m-0009.mp3",
+    "duration": 72,
+    "transcript": "Recap, A C C, week five. Third ranked Notre Dame won at North Carolina thirty seven to twenty six, its fifteenth straight win. C J Carr threw four touchdown passes and Jordan Faison caught eight for one thirty two. Fourth ranked Miami beat Clemson forty one to thirteen and is five and oh. Twenty first ranked S M U held off Boston College twenty five to sixteen. Pittsburgh came back from fourteen down to beat Virginia Tech thirty five to thirty three and stay unbeaten, even though Ethan Grunkemeyer threw for four hundred thirty four yards for the Hokies. Wake Forest beat Stanford fifty seven to three. Gio Lopez accounted for five touchdowns. Syracuse survived U Conn forty two to forty one in overtime. Amari Odom threw five touchdown passes and ran for a sixth. U N L V beat California thirty nine to thirty one. N C State beat Louisville thirty one to twenty eight on C J Bailey's three hundred seventy three passing yards. And Florida State beat Virginia thirty eight to seven. Ashton Daniels ran for five touchdowns, a school record for a quarterback. That is the A C C."
+  },
+  {
+    "id": "w06m-0010",
+    "type": "audio",
+    "account": "recap",
+    "tier": 1,
+    "teams": [
+      "BYU",
+      "TCU",
+      "Texas Tech",
+      "Colorado",
+      "Houston",
+      "UCF",
+      "Kansas",
+      "Iowa State",
+      "West Virginia",
+      "Baylor",
+      "Arizona State",
+      "Arizona",
+      "Cincinnati"
+    ],
+    "title": "Big 12 recap: BYU survives TCU, Iowa State outlasts West Virginia",
+    "body": "Seven Big 12 results from Week 5.",
+    "script": "Recap, Big Twelve, week five. Tenth ranked B Y U won at T C U seventeen to ten. Bear Bachmeier ran for two touchdowns, and ESPN noted B Y U lost running back L J Martin during the game. Twelfth ranked Texas Tech beat Colorado twenty nine to seven and picked off four passes. Twentieth ranked Houston came back to beat U C F twenty seven to seventeen on three second half touchdowns from Conner Weigman. Kansas shut out Middle Tennessee fifty five to nothing. Dylan Edwards ran for one thirty seven and three scores. Iowa State beat West Virginia forty five to forty two. Aiden Flora ran twenty two times for two hundred twelve yards and three touchdowns. Baylor won at Arizona State fifty five to nineteen with four touchdown passes from D J Lagway. And Arizona beat Cincinnati thirty four to seven. That is the Big Twelve.",
+    "sources": [
+      {
+        "label": "ESPN scoreboard, week 5",
+        "url": "https://www.espn.com/college-football/scoreboard/_/week/5/year/2026/seasontype/2"
+      }
+    ],
+    "audio": "audio/w06m-0010.mp3",
+    "duration": 56,
+    "transcript": "Recap, Big Twelve, week five. Tenth ranked B Y U won at T C U seventeen to ten. Bear Bachmeier ran for two touchdowns, and ESPN noted B Y U lost running back L J Martin during the game. Twelfth ranked Texas Tech beat Colorado twenty nine to seven and picked off four passes. Twentieth ranked Houston came back to beat U C F twenty seven to seventeen on three second half touchdowns from Conner Weigman. Kansas shut out Middle Tennessee fifty five to nothing. Dylan Edwards ran for one thirty seven and three scores. Iowa State beat West Virginia forty five to forty two. Aiden Flora ran twenty two times for two hundred twelve yards and three touchdowns. Baylor won at Arizona State fifty five to nineteen with four touchdown passes from D J Lagway. And Arizona beat Cincinnati thirty four to seven. That is the Big Twelve."
+  },
+  {
+    "id": "w06m-0011",
+    "type": "text",
+    "account": "recap",
+    "tier": 1,
+    "teams": [
+      "Iowa",
+      "Washington",
+      "Louisville",
+      "Florida State"
+    ],
+    "title": "Friday night: Iowa 41 at Washington 24, Louisville 44 FSU 20",
+    "body": "Two Week 6 games are already final. Iowa won at Washington 41-24. Louisville beat Florida State 44-20; ESPN reports Isaac Brown ran for a career-high 235 yards on 17 carries, including a 97-yard touchdown.",
+    "graphic": {
+      "template": "stat_card",
+      "data": {
+        "number": "235",
+        "label": "rushing yards, 17 carries",
+        "context": "Isaac Brown, Louisville, vs Florida State on Friday (per ESPN)",
+        "team": "Louisville"
+      }
+    },
+    "sources": [
+      {
+        "label": "ESPN recap",
+        "url": "http://www.espn.com/ncf/recap?gameId=401858254"
+      }
+    ],
+    "image": "img/w06m-0011.png",
+    "alt": "stat_card"
+  },
+  {
+    "id": "w06m-0012",
+    "type": "text",
+    "account": "recap",
+    "tier": 1,
+    "teams": [
+      "Missouri",
+      "Florida"
+    ],
+    "gameId": "401856716",
+    "title": "The number from Week 5: 211",
+    "body": "Jamal Roberts carried 24 times for 211 yards and three touchdowns in Missouri's 45-17 win over then-No. 8 Florida. Missouri hosts Texas A&M on Saturday at 9:00 AM PT on ABC.",
+    "graphic": {
+      "template": "stat_card",
+      "data": {
+        "number": "211",
+        "label": "rushing yards, 24 carries, 3 TD",
+        "context": "Jamal Roberts, Missouri, vs Florida in Week 5",
+        "team": "Missouri"
+      }
+    },
+    "sources": [
+      {
+        "label": "ESPN scoreboard, week 5",
+        "url": "https://www.espn.com/college-football/scoreboard/_/week/5/year/2026/seasontype/2"
+      }
+    ],
+    "image": "img/w06m-0012.png",
+    "alt": "stat_card"
+  },
+  {
+    "id": "w06m-0013",
+    "type": "text",
+    "account": "around",
+    "tier": 1,
+    "teams": [
+      "Washington",
+      "Iowa"
+    ],
+    "gameId": "401858487",
+    "title": "Washington QB Demond Williams left the Iowa game for X-rays",
+    "body": "ESPN reported that Washington quarterback Demond Williams went into the medical tent after a run late in the first half on Friday and left to get X-rays on his side and ribs. No further status was listed when this drop was built.",
+    "sources": [
+      {
+        "label": "ESPN story",
+        "url": "https://www.espn.com/college-football/story/_/id/50144547/washington-qb-williams-exits-game-set-x-rays-side-ribs"
+      }
+    ]
+  },
+  {
+    "id": "w06m-0014",
+    "type": "text",
+    "account": "around",
+    "tier": 1,
+    "teams": [
+      "Texas",
+      "Oklahoma"
+    ],
+    "gameId": "401856717",
+    "title": "Red River: No. 1 Texas (4-0) meets Oklahoma (2-2) at the Cotton Bowl",
+    "body": "Saturday at 12:30 PM PT on ABC, neutral site in Dallas. Texas is allowing 13.2 points a game; Oklahoma is scoring 22.0. ESPN's Ryan McGee has an essay on the rivalry's history, linked below.",
+    "sources": [
+      {
+        "label": "ESPN: Revisiting the legacy of the Red River Rivalry",
+        "url": "https://www.espn.com/video/clip/_/id/50143886/revisiting-legacy-red-river-rivalry"
+      },
+      {
+        "label": "ESPN team stats",
+        "url": "https://www.espn.com/college-football/stats/team"
+      }
+    ]
+  },
+  {
+    "id": "w06m-0015",
+    "type": "carousel",
+    "account": "matchup",
+    "tier": 2,
+    "teams": [
+      "Georgia",
+      "Alabama"
+    ],
+    "gameId": "401856712",
+    "title": "Georgia at Alabama in four slides",
+    "body": "No. 2 at No. 6, both 5-0. Season numbers through Week 5 from ESPN; points allowed computed from results.",
+    "slides": [
+      {
+        "graphic": {
+          "template": "compare_bars",
+          "data": {
+            "title": "Offense, per game",
+            "a": {
+              "name": "Georgia"
+            },
+            "b": {
+              "name": "Alabama"
+            },
+            "rows": [
+              {
+                "label": "Points",
+                "a": 51.4,
+                "b": 49.6
+              },
+              {
+                "label": "Total yards",
+                "a": 478.8,
+                "b": 473.8
+              },
+              {
+                "label": "Yards per play",
+                "a": 7.8,
+                "b": 7.0
+              },
+              {
+                "label": "Yards per pass attempt",
+                "a": 9.6,
+                "b": 10.6
+              },
+              {
+                "label": "Third down conversion",
+                "a": 54.9,
+                "b": 49.1,
+                "aDisplay": "54.9%",
+                "bDisplay": "49.1%"
+              }
+            ]
+          }
+        },
+        "caption": "Both offenses are near 50 points a game. Georgia has the edge per play, Alabama per pass attempt.",
+        "image": "img/w06m-0015-1.png",
+        "alt": "Offense, per game"
+      },
+      {
+        "graphic": {
+          "template": "compare_bars",
+          "data": {
+            "title": "Defense and turnovers",
+            "a": {
+              "name": "Georgia"
+            },
+            "b": {
+              "name": "Alabama"
+            },
+            "rows": [
+              {
+                "label": "Points allowed per game",
+                "a": 13.4,
+                "b": 20.8,
+                "lowerIsBetter": true
+              },
+              {
+                "label": "Sacks",
+                "a": 13,
+                "b": 16
+              },
+              {
+                "label": "Tackles for loss",
+                "a": 27,
+                "b": 25
+              },
+              {
+                "label": "Turnover margin",
+                "a": 3,
+                "b": 1,
+                "aDisplay": "+3",
+                "bDisplay": "+1"
+              }
+            ]
+          }
+        },
+        "caption": "Georgia allows a touchdown less per game. Alabama has more sacks.",
+        "image": "img/w06m-0015-2.png",
+        "alt": "Defense and turnovers"
+      },
+      {
+        "graphic": {
+          "template": "stat_card",
+          "data": {
+            "number": "38.0",
+            "label": "average margin of victory",
+            "context": "Georgia through five games (Alabama: 28.8)",
+            "team": "Georgia"
+          }
+        },
+        "caption": "Georgia has outscored opponents by 38 points a game; Alabama by 28.8.",
+        "image": "img/w06m-0015-3.png",
+        "alt": "stat_card"
+      },
+      {
+        "graphic": {
+          "template": "stat_card",
+          "data": {
+            "number": "4:30 PM PT",
+            "label": "Saturday on ABC",
+            "context": "Bryant-Denny Stadium · ALA -1.5 · O/U 51.5 as displayed by ESPN · forecast cloudy, 65F",
+            "color": "#e8ecef"
+          }
+        },
+        "caption": "Kickoff, TV, and the line as displayed.",
+        "image": "img/w06m-0015-4.png",
+        "alt": "stat_card"
+      }
+    ],
+    "sources": [
+      {
+        "label": "ESPN team stats",
+        "url": "https://www.espn.com/college-football/stats/team"
+      },
+      {
+        "label": "ESPN scoreboard",
+        "url": "https://www.espn.com/college-football/scoreboard"
+      }
+    ]
+  },
+  {
+    "id": "w06m-0016",
+    "type": "carousel",
+    "account": "matchup",
+    "tier": 2,
+    "teams": [
+      "Texas",
+      "Oklahoma"
+    ],
+    "gameId": "401856717",
+    "title": "Texas vs Oklahoma in three slides",
+    "body": "Lowest total on the Power 4 slate at 39.5. Season numbers through Week 5.",
+    "slides": [
+      {
+        "graphic": {
+          "template": "compare_bars",
+          "data": {
+            "title": "Offense, per game",
+            "a": {
+              "name": "Texas"
+            },
+            "b": {
+              "name": "Oklahoma"
+            },
+            "rows": [
+              {
+                "label": "Points",
+                "a": 33.3,
+                "b": 22.0
+              },
+              {
+                "label": "Total yards",
+                "a": 378.5,
+                "b": 321.3
+              },
+              {
+                "label": "Rushing yards",
+                "a": 147.3,
+                "b": 99.0
+              },
+              {
+                "label": "Yards per play",
+                "a": 5.1,
+                "b": 5.0
+              }
+            ]
+          }
+        },
+        "caption": "Neither offense is among the conference leaders. Oklahoma averages 99 rushing yards a game.",
+        "image": "img/w06m-0016-1.png",
+        "alt": "Offense, per game"
+      },
+      {
+        "graphic": {
+          "template": "compare_bars",
+          "data": {
+            "title": "Defense and turnovers",
+            "a": {
+              "name": "Texas"
+            },
+            "b": {
+              "name": "Oklahoma"
+            },
+            "rows": [
+              {
+                "label": "Points allowed per game",
+                "a": 13.2,
+                "b": 16.0,
+                "lowerIsBetter": true
+              },
+              {
+                "label": "Sacks",
+                "a": 15,
+                "b": 13
+              },
+              {
+                "label": "Turnover margin",
+                "a": 1,
+                "b": -3,
+                "aDisplay": "+1",
+                "bDisplay": "-3"
+              }
+            ]
+          }
+        },
+        "caption": "Both defenses allow 16 or fewer. Oklahoma is minus three in turnovers.",
+        "image": "img/w06m-0016-2.png",
+        "alt": "Defense and turnovers"
+      },
+      {
+        "graphic": {
+          "template": "stat_card",
+          "data": {
+            "number": "12:30 PM PT",
+            "label": "Saturday on ABC",
+            "context": "Cotton Bowl, Dallas · TEX -7.5 · O/U 39.5 as displayed by ESPN · forecast sunny, 92F",
+            "color": "#e8ecef"
+          }
+        },
+        "caption": "Kickoff, TV, and the line as displayed.",
+        "image": "img/w06m-0016-3.png",
+        "alt": "stat_card"
+      }
+    ],
+    "sources": [
+      {
+        "label": "ESPN team stats",
+        "url": "https://www.espn.com/college-football/stats/team"
+      }
+    ]
+  },
+  {
+    "id": "w06m-0017",
+    "type": "carousel",
+    "account": "matchup",
+    "tier": 2,
+    "teams": [
+      "Indiana",
+      "Nebraska"
+    ],
+    "gameId": "401858481",
+    "title": "Indiana at Nebraska in three slides",
+    "body": "Two unbeaten teams, 5-0 each. Nebraska is unranked; Indiana is No. 7.",
+    "slides": [
+      {
+        "graphic": {
+          "template": "compare_bars",
+          "data": {
+            "title": "Offense, per game",
+            "a": {
+              "name": "Indiana"
+            },
+            "b": {
+              "name": "Nebraska"
+            },
+            "rows": [
+              {
+                "label": "Points",
+                "a": 44.2,
+                "b": 43.6
+              },
+              {
+                "label": "Total yards",
+                "a": 489.6,
+                "b": 475.6
+              },
+              {
+                "label": "Rushing yards",
+                "a": 252.6,
+                "b": 231.0
+              },
+              {
+                "label": "Yards per play",
+                "a": 7.7,
+                "b": 6.6
+              }
+            ]
+          }
+        },
+        "caption": "Nearly identical scoring. Indiana gets more per play.",
+        "image": "img/w06m-0017-1.png",
+        "alt": "Offense, per game"
+      },
+      {
+        "graphic": {
+          "template": "compare_bars",
+          "data": {
+            "title": "Defense",
+            "a": {
+              "name": "Indiana"
+            },
+            "b": {
+              "name": "Nebraska"
+            },
+            "rows": [
+              {
+                "label": "Points allowed per game",
+                "a": 10.8,
+                "b": 14.2,
+                "lowerIsBetter": true
+              },
+              {
+                "label": "Sacks",
+                "a": 15,
+                "b": 16
+              },
+              {
+                "label": "Tackles for loss",
+                "a": 32,
+                "b": 30
+              }
+            ]
+          }
+        },
+        "caption": "Indiana allows 10.8 a game, the lowest of any Big Ten team in this drop's data.",
+        "image": "img/w06m-0017-2.png",
+        "alt": "Defense"
+      },
+      {
+        "graphic": {
+          "template": "stat_card",
+          "data": {
+            "number": "9:00 AM PT",
+            "label": "Saturday on Fox",
+            "context": "Memorial Stadium, Lincoln · IU -7.5 · O/U 47.5 as displayed by ESPN · forecast sunny, 75F",
+            "color": "#e8ecef"
+          }
+        },
+        "caption": "Early kickoff.",
+        "image": "img/w06m-0017-3.png",
+        "alt": "stat_card"
+      }
+    ],
+    "sources": [
+      {
+        "label": "ESPN team stats",
+        "url": "https://www.espn.com/college-football/stats/team"
+      }
+    ]
+  },
+  {
+    "id": "w06m-0018",
+    "type": "carousel",
+    "account": "matchup",
+    "tier": 2,
+    "teams": [
+      "UCLA",
+      "Oregon"
+    ],
+    "gameId": "401858484",
+    "title": "UCLA at Oregon in three slides",
+    "body": "No. 21 at No. 13. Highest total on the Big Ten slate at 58.5.",
+    "slides": [
+      {
+        "graphic": {
+          "template": "compare_bars",
+          "data": {
+            "title": "Offense, per game",
+            "a": {
+              "name": "UCLA"
+            },
+            "b": {
+              "name": "Oregon"
+            },
+            "rows": [
+              {
+                "label": "Points",
+                "a": 44.8,
+                "b": 47.5
+              },
+              {
+                "label": "Rushing yards",
+                "a": 281.5,
+                "b": 159.0
+              },
+              {
+                "label": "Passing yards",
+                "a": 205.0,
+                "b": 346.5
+              },
+              {
+                "label": "Yards per rush",
+                "a": 7.0,
+                "b": 4.6
+              }
+            ]
+          }
+        },
+        "caption": "UCLA runs for 281 a game at 7.0 a carry. Oregon throws for 346.",
+        "image": "img/w06m-0018-1.png",
+        "alt": "Offense, per game"
+      },
+      {
+        "graphic": {
+          "template": "compare_bars",
+          "data": {
+            "title": "Defense",
+            "a": {
+              "name": "UCLA"
+            },
+            "b": {
+              "name": "Oregon"
+            },
+            "rows": [
+              {
+                "label": "Points allowed per game",
+                "a": 18.8,
+                "b": 23.2,
+                "lowerIsBetter": true
+              },
+              {
+                "label": "Sacks",
+                "a": 9,
+                "b": 7
+              },
+              {
+                "label": "Tackles for loss",
+                "a": 14,
+                "b": 11
+              }
+            ]
+          }
+        },
+        "caption": "Neither defense has many sacks or tackles for loss.",
+        "image": "img/w06m-0018-2.png",
+        "alt": "Defense"
+      },
+      {
+        "graphic": {
+          "template": "stat_card",
+          "data": {
+            "number": "12:30 PM PT",
+            "label": "Saturday on CBS",
+            "context": "Autzen Stadium · ORE -10.5 · O/U 58.5 as displayed by ESPN · forecast clouds, 54F",
+            "color": "#e8ecef"
+          }
+        },
+        "caption": "Kickoff, TV, and the line as displayed.",
+        "image": "img/w06m-0018-3.png",
+        "alt": "stat_card"
+      }
+    ],
+    "sources": [
+      {
+        "label": "ESPN team stats",
+        "url": "https://www.espn.com/college-football/stats/team"
+      }
+    ]
+  },
+  {
+    "id": "w06m-0019",
+    "type": "carousel",
+    "account": "matchup",
+    "tier": 2,
+    "teams": [
+      "USC",
+      "Penn State"
+    ],
+    "gameId": "401858485",
+    "title": "USC at Penn State in three slides",
+    "body": "Night game in State College. Penn State comes off a 34-13 loss at Northwestern; USC off a 25-21 comeback against Washington.",
+    "slides": [
+      {
+        "graphic": {
+          "template": "compare_bars",
+          "data": {
+            "title": "Offense, per game",
+            "a": {
+              "name": "USC"
+            },
+            "b": {
+              "name": "Penn State"
+            },
+            "rows": [
+              {
+                "label": "Points",
+                "a": 37.3,
+                "b": 32.0
+              },
+              {
+                "label": "Total yards",
+                "a": 467.8,
+                "b": 400.0
+              },
+              {
+                "label": "Passing yards",
+                "a": 311.7,
+                "b": 243.6
+              },
+              {
+                "label": "Third down conversion",
+                "a": 52.1,
+                "b": 39.4,
+                "aDisplay": "52.1%",
+                "bDisplay": "39.4%"
+              }
+            ]
+          }
+        },
+        "caption": "USC throws for 312 a game and converts 52 percent on third down.",
+        "image": "img/w06m-0019-1.png",
+        "alt": "Offense, per game"
+      },
+      {
+        "graphic": {
+          "template": "compare_bars",
+          "data": {
+            "title": "Defense and turnovers",
+            "a": {
+              "name": "USC"
+            },
+            "b": {
+              "name": "Penn State"
+            },
+            "rows": [
+              {
+                "label": "Points allowed per game",
+                "a": 25.5,
+                "b": 16.0,
+                "lowerIsBetter": true
+              },
+              {
+                "label": "Sacks",
+                "a": 13,
+                "b": 7
+              },
+              {
+                "label": "Turnover margin",
+                "a": 1,
+                "b": 4,
+                "aDisplay": "+1",
+                "bDisplay": "+4"
+              }
+            ]
+          }
+        },
+        "caption": "Penn State allows 9.5 fewer points per game and is plus four in turnovers.",
+        "image": "img/w06m-0019-2.png",
+        "alt": "Defense and turnovers"
+      },
+      {
+        "graphic": {
+          "template": "stat_card",
+          "data": {
+            "number": "4:30 PM PT",
+            "label": "Saturday on NBC",
+            "context": "Beaver Stadium · PSU -1.5 · O/U 54.5 as displayed by ESPN · forecast hazy, 61F",
+            "color": "#e8ecef"
+          }
+        },
+        "caption": "Kickoff, TV, and the line as displayed.",
+        "image": "img/w06m-0019-3.png",
+        "alt": "stat_card"
+      }
+    ],
+    "sources": [
+      {
+        "label": "ESPN team stats",
+        "url": "https://www.espn.com/college-football/stats/team"
+      }
+    ]
+  },
+  {
+    "id": "w06m-0020",
+    "type": "text",
+    "account": "stat-sheet",
+    "tier": 2,
+    "teams": [
+      "LSU",
+      "Kentucky"
+    ],
+    "gameId": "401856715",
+    "title": "LSU at Kentucky: 547.8 yards a game against a 24.5% third-down offense",
+    "body": "LSU leads this drop's data in total offense at 547.8 yards a game and has 22 sacks. Kentucky converts 24.5 percent on third down, the lowest figure among the teams in this drop. Saturday 4:00 PM PT on ESPN, rain in the forecast.",
+    "graphic": {
+      "template": "compare_bars",
+      "data": {
+        "title": "LSU at Kentucky, per game",
+        "a": {
+          "name": "LSU"
+        },
+        "b": {
+          "name": "Kentucky"
+        },
+        "rows": [
+          {
+            "label": "Points",
+            "a": 43.6,
+            "b": 34.6
+          },
+          {
+            "label": "Total yards",
+            "a": 547.8,
+            "b": 416.8
+          },
+          {
+            "label": "Points allowed",
+            "a": 15.2,
+            "b": 26.8,
+            "lowerIsBetter": true
+          },
+          {
+            "label": "Third down conversion",
+            "a": 51.9,
+            "b": 24.5,
+            "aDisplay": "51.9%",
+            "bDisplay": "24.5%"
+          },
+          {
+            "label": "Sacks (season)",
+            "a": 22,
+            "b": 10
+          }
+        ]
+      }
+    },
+    "sources": [
+      {
+        "label": "ESPN team stats",
+        "url": "https://www.espn.com/college-football/stats/team"
+      }
+    ],
+    "image": "img/w06m-0020.png",
+    "alt": "LSU at Kentucky, per game"
+  },
+  {
+    "id": "w06m-0021",
+    "type": "text",
+    "account": "stat-sheet",
+    "tier": 2,
+    "teams": [
+      "Houston",
+      "Kansas State"
+    ],
+    "gameId": "401856825",
+    "title": "Houston at Kansas State: the two best third-down offenses in the Big 12 data",
+    "body": "Houston converts 65.6 percent of third downs, Kansas State 65.0. Both score about 41 a game. Kansas State allows 15.2 points a game to Houston's 19.8. Saturday 12:30 PM PT on Fox.",
+    "graphic": {
+      "template": "compare_bars",
+      "data": {
+        "title": "Houston at Kansas State, per game",
+        "a": {
+          "name": "Houston"
+        },
+        "b": {
+          "name": "Kansas State"
+        },
+        "rows": [
+          {
+            "label": "Points",
+            "a": 41.0,
+            "b": 40.5
+          },
+          {
+            "label": "Total yards",
+            "a": 483.2,
+            "b": 480.3
+          },
+          {
+            "label": "Rushing yards",
+            "a": 229.4,
+            "b": 240.8
+          },
+          {
+            "label": "Third down conversion",
+            "a": 65.6,
+            "b": 65.0,
+            "aDisplay": "65.6%",
+            "bDisplay": "65.0%"
+          },
+          {
+            "label": "Points allowed",
+            "a": 19.8,
+            "b": 15.2,
+            "lowerIsBetter": true
+          }
+        ]
+      }
+    },
+    "sources": [
+      {
+        "label": "ESPN team stats",
+        "url": "https://www.espn.com/college-football/stats/team"
+      }
+    ],
+    "image": "img/w06m-0021.png",
+    "alt": "Houston at Kansas State, per game"
+  },
+  {
+    "id": "w06m-0022",
+    "type": "text",
+    "account": "stat-sheet",
+    "tier": 2,
+    "teams": [
+      "Ole Miss",
+      "Vanderbilt"
+    ],
+    "gameId": "401856718",
+    "title": "Ole Miss at Vanderbilt: 322 passing yards a game vs 123 rushing",
+    "body": "Ole Miss throws for 322.5 a game and runs for 117.5. Vanderbilt runs for 123.0. Ole Miss allows 30.8 points a game, the most of any ranked SEC team in this drop's data. Saturday 12:30 PM PT on ESPN.",
+    "graphic": {
+      "template": "compare_bars",
+      "data": {
+        "title": "Ole Miss at Vanderbilt, per game",
+        "a": {
+          "name": "Ole Miss"
+        },
+        "b": {
+          "name": "Vanderbilt"
+        },
+        "rows": [
+          {
+            "label": "Points",
+            "a": 35.5,
+            "b": 25.4
+          },
+          {
+            "label": "Passing yards",
+            "a": 322.5,
+            "b": 226.4
+          },
+          {
+            "label": "Rushing yards",
+            "a": 117.5,
+            "b": 123.0
+          },
+          {
+            "label": "Points allowed",
+            "a": 30.8,
+            "b": 25.0,
+            "lowerIsBetter": true
+          },
+          {
+            "label": "Turnover margin",
+            "a": -2,
+            "b": 0,
+            "aDisplay": "-2",
+            "bDisplay": "0"
+          }
+        ]
+      }
+    },
+    "sources": [
+      {
+        "label": "ESPN team stats",
+        "url": "https://www.espn.com/college-football/stats/team"
+      }
+    ],
+    "image": "img/w06m-0022.png",
+    "alt": "Ole Miss at Vanderbilt, per game"
+  },
+  {
+    "id": "w06m-0023",
+    "type": "text",
+    "account": "stat-sheet",
+    "tier": 2,
+    "teams": [
+      "Kansas",
+      "Utah"
+    ],
+    "gameId": "401856827",
+    "title": "Kansas at Utah: 10.2 points allowed a game",
+    "body": "Utah has allowed 10.2 points a game through four, the lowest number in this drop's data. Kansas averages 496.8 yards and 254 rushing yards a game. Saturday 5:00 PM PT on ESPN.",
+    "graphic": {
+      "template": "compare_bars",
+      "data": {
+        "title": "Kansas at Utah, per game",
+        "a": {
+          "name": "Kansas"
+        },
+        "b": {
+          "name": "Utah"
+        },
+        "rows": [
+          {
+            "label": "Points",
+            "a": 36.0,
+            "b": 43.3
+          },
+          {
+            "label": "Total yards",
+            "a": 496.8,
+            "b": 491.3
+          },
+          {
+            "label": "Rushing yards",
+            "a": 254.0,
+            "b": 225.8
+          },
+          {
+            "label": "Points allowed",
+            "a": 17.0,
+            "b": 10.2,
+            "lowerIsBetter": true
+          }
+        ]
+      }
+    },
+    "sources": [
+      {
+        "label": "ESPN team stats",
+        "url": "https://www.espn.com/college-football/stats/team"
+      }
+    ],
+    "image": "img/w06m-0023.png",
+    "alt": "Kansas at Utah, per game"
+  },
+  {
+    "id": "w06m-0024",
+    "type": "audio",
+    "account": "stat-sheet",
+    "tier": 2,
+    "teams": [
+      "Georgia",
+      "Alabama"
+    ],
+    "gameId": "401856712",
+    "title": "Georgia and Alabama by the numbers, read aloud",
+    "body": "The matchup carousel in about fifty seconds.",
+    "script": "Stat Sheet. Georgia at Alabama, Saturday at four thirty Pacific on A B C. Georgia scores fifty one point four points a game, Alabama forty nine point six. Georgia averages seven point eight yards a play, Alabama seven point oh. Alabama gets ten point six yards per pass attempt, Georgia nine point six. On third down, Georgia converts fifty five percent, Alabama forty nine. Georgia allows thirteen point four points a game, Alabama twenty point eight. Alabama has sixteen sacks to Georgia's thirteen. Georgia is plus three in turnovers, Alabama plus one. Georgia's average margin is thirty eight points, Alabama's twenty eight point eight. The line as displayed by ESPN is Alabama minus one and a half, total fifty one and a half. All numbers from ESPN through week five.",
+    "sources": [
+      {
+        "label": "ESPN team stats",
+        "url": "https://www.espn.com/college-football/stats/team"
+      }
+    ],
+    "audio": "audio/w06m-0024.mp3",
+    "duration": 55,
+    "transcript": "Stat Sheet. Georgia at Alabama, Saturday at four thirty Pacific on A B C. Georgia scores fifty one point four points a game, Alabama forty nine point six. Georgia averages seven point eight yards a play, Alabama seven point oh. Alabama gets ten point six yards per pass attempt, Georgia nine point six. On third down, Georgia converts fifty five percent, Alabama forty nine. Georgia allows thirteen point four points a game, Alabama twenty point eight. Alabama has sixteen sacks to Georgia's thirteen. Georgia is plus three in turnovers, Alabama plus one. Georgia's average margin is thirty eight points, Alabama's twenty eight point eight. The line as displayed by ESPN is Alabama minus one and a half, total fifty one and a half. All numbers from ESPN through week five."
+  },
+  {
+    "id": "w06m-0025",
+    "type": "text",
+    "account": "number",
+    "tier": 2,
+    "teams": [
+      "Georgia",
+      "Alabama",
+      "Texas",
+      "Oklahoma",
+      "Indiana",
+      "Nebraska",
+      "UCLA",
+      "Oregon",
+      "USC",
+      "Penn State",
+      "LSU",
+      "Kentucky"
+    ],
+    "title": "Saturday's lines on the biggest Power 4 games, as displayed by ESPN",
+    "body": "Raw numbers only. Two games sit at a field goal or less: Georgia at Alabama (ALA -1.5) and USC at Penn State (PSU -1.5). The lowest total is Texas vs Oklahoma at 39.5.",
+    "graphic": {
+      "template": "trend_table",
+      "data": {
+        "title": "Lines as displayed by ESPN · Saturday",
+        "columns": [
+          "Game",
+          "Spread",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Georgia at Alabama",
+            "ALA -1.5",
+            "51.5"
+          ],
+          [
+            "Texas vs Oklahoma",
+            "TEX -7.5",
+            "39.5"
+          ],
+          [
+            "Indiana at Nebraska",
+            "IU -7.5",
+            "47.5"
+          ],
+          [
+            "UCLA at Oregon",
+            "ORE -10.5",
+            "58.5"
+          ],
+          [
+            "USC at Penn State",
+            "PSU -1.5",
+            "54.5"
+          ],
+          [
+            "LSU at Kentucky",
+            "LSU -8.5",
+            "50.5"
+          ],
+          [
+            "Houston at Kansas State",
+            "KSU -2.5",
+            "55.5"
+          ],
+          [
+            "Texas A&M at Missouri",
+            "MIZ -3.5",
+            "49.5"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      {
+        "label": "ESPN scoreboard",
+        "url": "https://www.espn.com/college-football/scoreboard"
+      }
+    ],
+    "image": "img/w06m-0025.png",
+    "alt": "Lines as displayed by ESPN · Saturday"
+  },
+  {
+    "id": "w06m-0026",
+    "type": "text",
+    "account": "number",
+    "tier": 2,
+    "teams": [
+      "Notre Dame",
+      "Stanford",
+      "Northwestern",
+      "Ohio State",
+      "Maryland",
+      "Arizona State",
+      "Utah",
+      "Kansas"
+    ],
+    "title": "Biggest spreads and lowest totals on the slate",
+    "body": "Three games have a spread over 30: Stanford at Notre Dame (ND -39.5), Ball State at Northwestern (NU -35.5), Maryland at Ohio State (OSU -33.5). Lowest totals: Texas vs Oklahoma 39.5, Duke at Georgia Tech 43.5, Indiana at Nebraska 47.5, North Carolina at Pittsburgh 47.5.",
+    "graphic": {
+      "template": "trend_table",
+      "data": {
+        "title": "Largest spreads · as displayed by ESPN",
+        "columns": [
+          "Game",
+          "Spread",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Stanford at Notre Dame",
+            "ND -39.5",
+            "54.5"
+          ],
+          [
+            "Ball State at Northwestern",
+            "NU -35.5",
+            "53.5"
+          ],
+          [
+            "Maryland at Ohio State",
+            "OSU -33.5",
+            "56.5"
+          ],
+          [
+            "Hawai'i at Arizona State",
+            "ASU -21",
+            "50.5"
+          ],
+          [
+            "Kansas at Utah",
+            "UTAH -15.5",
+            "51.5"
+          ],
+          [
+            "Tennessee at Arkansas",
+            "TENN -13.5",
+            "51.5"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      {
+        "label": "ESPN scoreboard",
+        "url": "https://www.espn.com/college-football/scoreboard"
+      }
+    ],
+    "image": "img/w06m-0026.png",
+    "alt": "Largest spreads · as displayed by ESPN"
+  },
+  {
+    "id": "w06m-0027",
+    "type": "audio",
+    "account": "number",
+    "tier": 2,
+    "teams": [
+      "Georgia",
+      "Alabama",
+      "Texas",
+      "Oklahoma",
+      "USC",
+      "Penn State"
+    ],
+    "title": "The week's lines in sixty seconds",
+    "body": "Spreads and totals as displayed by ESPN when this drop was built. Numbers only.",
+    "script": "The Number. Saturday's lines as displayed by ESPN. Georgia at Alabama, Alabama minus one and a half, total fifty one and a half. Texas and Oklahoma in Dallas, Texas minus seven and a half, total thirty nine and a half, the lowest on the Power Four slate. Indiana at Nebraska, Indiana minus seven and a half, total forty seven and a half. U C L A at Oregon, Oregon minus ten and a half, total fifty eight and a half. U S C at Penn State, Penn State minus one and a half, total fifty four and a half. L S U at Kentucky, L S U minus eight and a half, total fifty and a half. Houston at Kansas State, Kansas State minus two and a half, total fifty five and a half. Texas A and M at Missouri, Missouri minus three and a half, total forty nine and a half. The largest spread is Stanford at Notre Dame, Notre Dame minus thirty nine and a half. Those are the numbers. Nothing here is advice.",
+    "sources": [
+      {
+        "label": "ESPN scoreboard",
+        "url": "https://www.espn.com/college-football/scoreboard"
+      }
+    ],
+    "audio": "audio/w06m-0027.mp3",
+    "duration": 70,
+    "transcript": "The Number. Saturday's lines as displayed by ESPN. Georgia at Alabama, Alabama minus one and a half, total fifty one and a half. Texas and Oklahoma in Dallas, Texas minus seven and a half, total thirty nine and a half, the lowest on the Power Four slate. Indiana at Nebraska, Indiana minus seven and a half, total forty seven and a half. U C L A at Oregon, Oregon minus ten and a half, total fifty eight and a half. U S C at Penn State, Penn State minus one and a half, total fifty four and a half. L S U at Kentucky, L S U minus eight and a half, total fifty and a half. Houston at Kansas State, Kansas State minus two and a half, total fifty five and a half. Texas A and M at Missouri, Missouri minus three and a half, total forty nine and a half. The largest spread is Stanford at Notre Dame, Notre Dame minus thirty nine and a half. Those are the numbers. Nothing here is advice."
+  },
+  {
+    "id": "w06m-0028",
+    "type": "text",
+    "account": "spotlight",
+    "tier": 2,
+    "teams": [
+      "Missouri"
+    ],
+    "gameId": "401856716",
+    "title": "Spotlight: Jamal Roberts, Missouri",
+    "body": "Roberts was ESPN's rushing leader in the Florida game: 24 carries, 211 yards, three touchdowns. Missouri hosts Texas A&M on Saturday at 9:00 AM PT.",
+    "graphic": {
+      "template": "player_card",
+      "data": {
+        "name": "Jamal Roberts",
+        "position": "RB",
+        "team": "Missouri",
+        "lines": [
+          "24 carries, 211 yards, 3 TD vs Florida",
+          "Missouri 45, No. 8 Florida 17",
+          "Week 5 rushing leader in the game (ESPN)"
+        ]
+      }
+    },
+    "sources": [
+      {
+        "label": "ESPN scoreboard, week 5",
+        "url": "https://www.espn.com/college-football/scoreboard/_/week/5/year/2026/seasontype/2"
+      }
+    ],
+    "image": "img/w06m-0028.png",
+    "alt": "player_card"
+  },
+  {
+    "id": "w06m-0029",
+    "type": "text",
+    "account": "spotlight",
+    "tier": 2,
+    "teams": [
+      "Ohio State"
+    ],
+    "gameId": "401858483",
+    "title": "Spotlight: Jeremiah Smith, Ohio State",
+    "body": "Eleven catches for 206 yards and two touchdowns at Iowa. Ohio State averages 357 passing yards a game, the most in this drop's data. Maryland visits Saturday at 1:15 PM PT.",
+    "graphic": {
+      "template": "player_card",
+      "data": {
+        "name": "Jeremiah Smith",
+        "position": "WR",
+        "team": "Ohio State",
+        "lines": [
+          "11 receptions, 206 yards, 2 TD at Iowa",
+          "Ohio State 31, No. 14 Iowa 14",
+          "Team: 357.0 passing yards per game"
+        ]
+      }
+    },
+    "sources": [
+      {
+        "label": "ESPN scoreboard, week 5",
+        "url": "https://www.espn.com/college-football/scoreboard/_/week/5/year/2026/seasontype/2"
+      }
+    ],
+    "image": "img/w06m-0029.png",
+    "alt": "player_card"
+  },
+  {
+    "id": "w06m-0030",
+    "type": "text",
+    "account": "spotlight",
+    "tier": 2,
+    "teams": [
+      "Tennessee"
+    ],
+    "gameId": "401856713",
+    "title": "Spotlight: DeSean Bishop, Tennessee",
+    "body": "34 carries, 220 yards, three touchdowns against Auburn. Tennessee runs for 240.6 yards a game and plays at Arkansas on Saturday at 1:15 PM PT.",
+    "graphic": {
+      "template": "player_card",
+      "data": {
+        "name": "DeSean Bishop",
+        "position": "RB",
+        "team": "Tennessee",
+        "lines": [
+          "34 carries, 220 yards, 3 TD vs Auburn",
+          "Tennessee 24, Auburn 14",
+          "Team: 240.6 rushing yards per game"
+        ]
+      }
+    },
+    "sources": [
+      {
+        "label": "ESPN scoreboard, week 5",
+        "url": "https://www.espn.com/college-football/scoreboard/_/week/5/year/2026/seasontype/2"
+      }
+    ],
+    "image": "img/w06m-0030.png",
+    "alt": "player_card"
+  },
+  {
+    "id": "w06m-0031",
+    "type": "text",
+    "account": "spotlight",
+    "tier": 2,
+    "teams": [
+      "Syracuse"
+    ],
+    "gameId": "401858258",
+    "title": "Spotlight: Amari Odom, Syracuse",
+    "body": "27 of 37 for 335 yards and five touchdown passes at UConn, plus a rushing score and the two-point conversion that won it 42-41 in overtime, per ESPN. Syracuse plays at Virginia on Saturday at 4:30 PM PT.",
+    "graphic": {
+      "template": "player_card",
+      "data": {
+        "name": "Amari Odom",
+        "position": "QB",
+        "team": "Syracuse",
+        "lines": [
+          "27/37, 335 yards, 5 TD passing at UConn",
+          "6 total TD and the winning 2-point try (ESPN)",
+          "Syracuse 42, UConn 41, OT"
+        ]
+      }
+    },
+    "sources": [
+      {
+        "label": "ESPN scoreboard, week 5",
+        "url": "https://www.espn.com/college-football/scoreboard/_/week/5/year/2026/seasontype/2"
+      }
+    ],
+    "image": "img/w06m-0031.png",
+    "alt": "player_card"
+  },
+  {
+    "id": "w06m-0032",
+    "type": "text",
+    "account": "injury",
+    "tier": 3,
+    "teams": [
+      "Florida",
+      "South Carolina"
+    ],
+    "gameId": "401856714",
+    "title": "Florida: WR Kahleil Jackson out for South Carolina",
+    "body": "ESPN's injury report lists Florida freshman receiver Kahleil Jackson as out for Saturday. He has not played this season, and ESPN says the reason has not been given.",
+    "sources": [
+      {
+        "label": "ESPN injuries",
+        "url": "https://www.espn.com/college-football/injuries"
+      }
+    ]
+  },
+  {
+    "id": "w06m-0033",
+    "type": "text",
+    "account": "injury",
+    "tier": 3,
+    "teams": [
+      "BYU"
+    ],
+    "gameId": "401856826",
+    "title": "BYU: RB LJ Martin left the TCU game",
+    "body": "ESPN's game headline said BYU overcame the loss of running back LJ Martin during the 17-10 win at TCU. No entry for him appeared on ESPN's injury report when this drop was built. BYU hosted Iowa State on Friday night.",
+    "sources": [
+      {
+        "label": "ESPN scoreboard, week 5",
+        "url": "https://www.espn.com/college-football/scoreboard/_/week/5/year/2026/seasontype/2"
+      },
+      {
+        "label": "ESPN injuries",
+        "url": "https://www.espn.com/college-football/injuries"
+      }
+    ]
+  },
+  {
+    "id": "w06m-0034",
+    "type": "text",
+    "account": "injury",
+    "tier": 3,
+    "teams": [
+      "Virginia"
+    ],
+    "gameId": "401858258",
+    "title": "Virginia: PK Will Bettridge active, 7 of 9 on field goals",
+    "body": "ESPN's report lists Virginia kicker Will Bettridge as active. He made all four field goal attempts last week and is 7 of 9 since taking the job five weeks ago, per ESPN.",
+    "sources": [
+      {
+        "label": "ESPN injuries",
+        "url": "https://www.espn.com/college-football/injuries"
+      }
+    ]
+  },
+  {
+    "id": "w06m-0035",
+    "type": "text",
+    "account": "weather",
+    "tier": 3,
+    "teams": [
+      "Georgia",
+      "Alabama"
+    ],
+    "gameId": "401856712",
+    "title": "Tuscaloosa: cloudy and 65 for Georgia at Alabama",
+    "body": "ESPN's forecast for Bryant-Denny Stadium at kickoff (4:30 PM PT): cloudy, 65 degrees. Outdoor venue.",
+    "sources": [
+      {
+        "label": "ESPN scoreboard",
+        "url": "https://www.espn.com/college-football/scoreboard"
+      }
+    ]
+  },
+  {
+    "id": "w06m-0036",
+    "type": "text",
+    "account": "weather",
+    "tier": 3,
+    "teams": [
+      "LSU",
+      "Kentucky",
+      "Wake Forest",
+      "NC State",
+      "Duke",
+      "Georgia Tech"
+    ],
+    "title": "Rain in the forecast for three games",
+    "body": "ESPN's forecasts show rain for LSU at Kentucky (62 degrees, 4:00 PM PT), Wake Forest at NC State (66, 9:00 AM PT), and Duke at Georgia Tech (68, 12:30 PM PT). All three are outdoors.",
+    "sources": [
+      {
+        "label": "ESPN scoreboard",
+        "url": "https://www.espn.com/college-football/scoreboard"
+      }
+    ]
+  },
+  {
+    "id": "w06m-0037",
+    "type": "text",
+    "account": "weather",
+    "tier": 3,
+    "teams": [
+      "Texas",
+      "Oklahoma",
+      "Tennessee",
+      "Arkansas",
+      "Houston",
+      "Kansas State"
+    ],
+    "title": "Heat: 92 in Dallas, 89 in Fayetteville, 86 in Manhattan",
+    "body": "Hottest forecasts on the slate per ESPN: sunny and 92 for Texas vs Oklahoma at the Cotton Bowl (12:30 PM PT), mostly sunny and 89 for Tennessee at Arkansas (1:15 PM PT), sunny and 86 for Houston at Kansas State (12:30 PM PT).",
+    "sources": [
+      {
+        "label": "ESPN scoreboard",
+        "url": "https://www.espn.com/college-football/scoreboard"
+      }
+    ]
+  },
+  {
+    "id": "w06m-0038",
+    "type": "audio",
+    "account": "weather",
+    "tier": 3,
+    "teams": [
+      "Georgia",
+      "Alabama",
+      "Texas",
+      "Oklahoma",
+      "LSU",
+      "Kentucky",
+      "UCLA",
+      "Oregon"
+    ],
+    "title": "Saturday's weather in sixty seconds",
+    "body": "Forecasts as shown on ESPN's scoreboard when this drop was built.",
+    "script": "Weather Watch. Saturday's forecasts from ESPN's scoreboard. Georgia at Alabama in Tuscaloosa, cloudy and sixty five. Texas and Oklahoma in Dallas, sunny and ninety two. Indiana at Nebraska in Lincoln, sunny and seventy five. U C L A at Oregon in Eugene, intermittent clouds and fifty four. U S C at Penn State, hazy and sixty one at night. L S U at Kentucky, rain and sixty two. Wake Forest at N C State, rain and sixty six. Duke at Georgia Tech, rain and sixty eight. Tennessee at Arkansas, mostly sunny and eighty nine. Houston at Kansas State, sunny and eighty six. Kansas at Utah, cloudy and seventy. That is the weather.",
+    "sources": [
+      {
+        "label": "ESPN scoreboard",
+        "url": "https://www.espn.com/college-football/scoreboard"
+      }
+    ],
+    "audio": "audio/w06m-0038.mp3",
+    "duration": 52,
+    "transcript": "Weather Watch. Saturday's forecasts from ESPN's scoreboard. Georgia at Alabama in Tuscaloosa, cloudy and sixty five. Texas and Oklahoma in Dallas, sunny and ninety two. Indiana at Nebraska in Lincoln, sunny and seventy five. U C L A at Oregon in Eugene, intermittent clouds and fifty four. U S C at Penn State, hazy and sixty one at night. L S U at Kentucky, rain and sixty two. Wake Forest at N C State, rain and sixty six. Duke at Georgia Tech, rain and sixty eight. Tennessee at Arkansas, mostly sunny and eighty nine. Houston at Kansas State, sunny and eighty six. Kansas at Utah, cloudy and seventy. That is the weather."
+  },
+  {
+    "id": "w06m-0039",
+    "type": "text",
+    "account": "around",
+    "tier": 3,
+    "teams": [
+      "Georgia",
+      "Alabama"
+    ],
+    "gameId": "401856712",
+    "title": "What ESPN's coverage focused on ahead of Georgia at Alabama",
+    "body": "ESPN's week-of coverage centered on Alabama quarterback Keelon Russell facing his biggest test, Kalen DeBoer on his team's execution, and both offenses' improvement. Clips linked below. Sideline summarizes the topics only; the opinions in them are ESPN's.",
+    "sources": [
+      {
+        "label": "DeBoer on Russell's test vs UGA",
+        "url": "https://www.espn.com/video/clip/_/id/50143662/deboer-bama-execution-russell-biggest-test-season-vs-uga"
+      },
+      {
+        "label": "Holly Rowe on both offenses",
+        "url": "https://www.espn.com/video/clip/_/id/50142972/holly-rowe-analyzes-georgia-alabama-improvements"
+      }
+    ]
+  }
+]

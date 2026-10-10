@@ -439,7 +439,7 @@
       "Alabama"
     ],
     "title": "Sample: trend table, raw numbers only",
-    "body": "Sample post. The table shows how a trend_table graphic sits in the feed. Records on it are placeholders. No picks, no leans, just the numbers.",
+    "body": "Sample post. The table shows how a trend_table graphic sits in the feed. Records on it are placeholders. Just the numbers, no advice.",
     "image": "img/trend_table.svg",
     "alt": "Sample trend table graphic"
   },
@@ -501,10 +501,10 @@
     "body": "Sample audio post. The clip is a placeholder recap so you can test the player, the mini bar, and Play all. Tap Read along for the transcript.",
     "image": "img/stat_card.svg",
     "alt": "Sample stat card graphic",
-    "script": "This is a sample recap clip for Sideline. Nothing in it is a real result. Ohio State handled its business at home, leaning on the run game in the second half and finishing drives in the red zone. Oregon's offense stalled twice inside the twenty, and the defense could not get off the field on third down late. The numbers on the card are placeholders. In a real drop, this clip would run about a minute and walk through two or three things worth remembering from the game. That is the end of the sample.",
+    "script": "This is a sample recap clip for Sideline. Nothing in it is a real result. Ohio State handled its business at home, riding the run game in the second half and finishing drives in the red zone. Oregon's offense stalled twice inside the twenty, and the defense could not get off the field on third down late. The numbers on the card are placeholders. In a real drop, this clip would run about a minute and walk through two or three things worth remembering from the game. That is the end of the sample.",
     "audio": "audio/smp-0017.mp3",
     "duration": 31,
-    "transcript": "This is a sample recap clip for Sideline. Nothing in it is a real result. Ohio State handled its business at home, leaning on the run game in the second half and finishing drives in the red zone. Oregon's offense stalled twice inside the twenty, and the defense could not get off the field on third down late. The numbers on the card are placeholders. In a real drop, this clip would run about a minute and walk through two or three things worth remembering from the game. That is the end of the sample."
+    "transcript": "This is a sample recap clip for Sideline. Nothing in it is a real result. Ohio State handled its business at home, riding the run game in the second half and finishing drives in the red zone. Oregon's offense stalled twice inside the twenty, and the defense could not get off the field on third down late. The numbers on the card are placeholders. In a real drop, this clip would run about a minute and walk through two or three things worth remembering from the game. That is the end of the sample."
   },
   {
     "id": "smp-0018",
@@ -517,11 +517,11 @@
     ],
     "gameId": "401856717",
     "title": "Sample: the numbers, read aloud",
-    "body": "Sample audio post without a graphic. Raw numbers only, no picks.",
-    "script": "The Number, sample clip. Texas and Oklahoma in Dallas. The line opened at Texas minus six and a half and sits at seven and a half. The total is thirty nine and a half, the lowest number on the Power Four slate this week. Those are the numbers as displayed when this sample was made, and nothing here is a lean or a pick. End of sample.",
+    "body": "Sample audio post without a graphic. Raw numbers only.",
+    "script": "The Number, sample clip. Texas and Oklahoma in Dallas. The line opened at Texas minus six and a half and sits at seven and a half. The total is thirty nine and a half, the lowest number on the Power Four slate this week. Those are the numbers as displayed when this sample was made, and nothing here is advice. End of sample.",
     "audio": "audio/smp-0018.mp3",
-    "duration": 25,
-    "transcript": "The Number, sample clip. Texas and Oklahoma in Dallas. The line opened at Texas minus six and a half and sits at seven and a half. The total is thirty nine and a half, the lowest number on the Power Four slate this week. Those are the numbers as displayed when this sample was made, and nothing here is a lean or a pick. End of sample."
+    "duration": 24,
+    "transcript": "The Number, sample clip. Texas and Oklahoma in Dallas. The line opened at Texas minus six and a half and sits at seven and a half. The total is thirty nine and a half, the lowest number on the Power Four slate this week. Those are the numbers as displayed when this sample was made, and nothing here is advice. End of sample."
   },
   {
     "id": "smp-0016",

@@ -1,6 +1,14 @@
 {
   "drops": [
     {
+      "id": "2026-w06-mon",
+      "season": 2026,
+      "week": 6,
+      "kind": "mon",
+      "published": "2026-10-09T21:40:28-07:00",
+      "posts": 39
+    },
+    {
       "id": "sample",
       "season": 2026,
       "week": 6,

@@ -1,0 +1,569 @@
+{
+  "week": 6,
+  "polls": {
+    "ap": {
+      "name": "AP Top 25",
+      "week": 6,
+      "date": "2026-10-04T07:00Z",
+      "ranks": [
+        {
+          "current": 1,
+          "previous": 1,
+          "team": "Texas",
+          "teamId": "251",
+          "record": "4-0",
+          "points": 1737.0,
+          "firstPlaceVotes": 61
+        },
+        {
+          "current": 2,
+          "previous": 2,
+          "team": "Georgia",
+          "teamId": "61",
+          "record": "5-0",
+          "points": 1647.0,
+          "firstPlaceVotes": 6
+        },
+        {
+          "current": 3,
+          "previous": 3,
+          "team": "Notre Dame",
+          "teamId": "87",
+          "record": "5-0",
+          "points": 1532.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 4,
+          "previous": 4,
+          "team": "Miami",
+          "teamId": "2390",
+          "record": "5-0",
+          "points": 1524.0,
+          "firstPlaceVotes": 2
+        },
+        {
+          "current": 5,
+          "previous": 5,
+          "team": "Ohio State",
+          "teamId": "194",
+          "record": "4-1",
+          "points": 1490.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 6,
+          "previous": 7,
+          "team": "Alabama",
+          "teamId": "333",
+          "record": "5-0",
+          "points": 1460.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 7,
+          "previous": 6,
+          "team": "Indiana",
+          "teamId": "84",
+          "record": "5-0",
+          "points": 1380.0,
+          "firstPlaceVotes": 1
+        },
+        {
+          "current": 8,
+          "previous": 10,
+          "team": "BYU",
+          "teamId": "252",
+          "record": "4-0",
+          "points": 1144.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 9,
+          "previous": 9,
+          "team": "Ole Miss",
+          "teamId": "145",
+          "record": "3-1",
+          "points": 1095.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 10,
+          "previous": 11,
+          "team": "LSU",
+          "teamId": "99",
+          "record": "4-1",
+          "points": 1087.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 11,
+          "previous": 12,
+          "team": "Texas Tech",
+          "teamId": "2641",
+          "record": "5-0",
+          "points": 1062.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 12,
+          "previous": 13,
+          "team": "Utah",
+          "teamId": "254",
+          "record": "4-0",
+          "points": 996.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 13,
+          "previous": 15,
+          "team": "Oregon",
+          "teamId": "2483",
+          "record": "3-1",
+          "points": 831.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 14,
+          "previous": 25,
+          "team": "Missouri",
+          "teamId": "142",
+          "record": "4-1",
+          "points": 755.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 15,
+          "previous": 17,
+          "team": "Tennessee",
+          "teamId": "2633",
+          "record": "4-1",
+          "points": 746.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 16,
+          "previous": 8,
+          "team": "Florida",
+          "teamId": "57",
+          "record": "4-1",
+          "points": 691.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 17,
+          "previous": 16,
+          "team": "Mississippi State",
+          "teamId": "344",
+          "record": "4-1",
+          "points": 487.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 18,
+          "previous": 19,
+          "team": "Oklahoma State",
+          "teamId": "197",
+          "record": "3-1",
+          "points": 477.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 19,
+          "previous": 18,
+          "team": "USC",
+          "teamId": "30",
+          "record": "5-1",
+          "points": 439.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 20,
+          "previous": 14,
+          "team": "Iowa",
+          "teamId": "2294",
+          "record": "4-1",
+          "points": 367.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 21,
+          "previous": 23,
+          "team": "UCLA",
+          "teamId": "26",
+          "record": "4-0",
+          "points": 287.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 22,
+          "previous": 20,
+          "team": "Houston",
+          "teamId": "248",
+          "record": "4-1",
+          "points": 279.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 23,
+          "previous": 22,
+          "team": "Boise State",
+          "teamId": "68",
+          "record": "4-1",
+          "points": 271.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 24,
+          "previous": 21,
+          "team": "SMU",
+          "teamId": "2567",
+          "record": "4-1",
+          "points": 167.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 25,
+          "previous": 0,
+          "team": "Pittsburgh",
+          "teamId": "221",
+          "record": "5-0",
+          "points": 162.0,
+          "firstPlaceVotes": 0
+        }
+      ],
+      "others": [
+        {
+          "team": "Kentucky",
+          "points": 160.0
+        },
+        {
+          "team": "Wake Forest",
+          "points": 142.0
+        },
+        {
+          "team": "Wisconsin",
+          "points": 88.0
+        },
+        {
+          "team": "Duke",
+          "points": 83.0
+        },
+        {
+          "team": "Northwestern",
+          "points": 59.0
+        },
+        {
+          "team": "Nebraska",
+          "points": 48.0
+        },
+        {
+          "team": "Minnesota",
+          "points": 19.0
+        },
+        {
+          "team": "Arizona",
+          "points": 19.0
+        },
+        {
+          "team": "James Madison",
+          "points": 12.0
+        },
+        {
+          "team": "North Dakota State",
+          "points": 7.0
+        }
+      ],
+      "droppedOut": [
+        {
+          "team": "Kentucky",
+          "previous": 24
+        }
+      ]
+    },
+    "coaches": {
+      "name": "AFCA Coaches Poll",
+      "week": 6,
+      "date": "2026-10-04T07:00Z",
+      "ranks": [
+        {
+          "current": 1,
+          "previous": 1,
+          "team": "Texas",
+          "teamId": "251",
+          "record": "4-0",
+          "points": 1806.0,
+          "firstPlaceVotes": 45
+        },
+        {
+          "current": 2,
+          "previous": 2,
+          "team": "Georgia",
+          "teamId": "61",
+          "record": "5-0",
+          "points": 1760.0,
+          "firstPlaceVotes": 20
+        },
+        {
+          "current": 3,
+          "previous": 3,
+          "team": "Notre Dame",
+          "teamId": "87",
+          "record": "5-0",
+          "points": 1630.0,
+          "firstPlaceVotes": 1
+        },
+        {
+          "current": 4,
+          "previous": 4,
+          "team": "Miami",
+          "teamId": "2390",
+          "record": "5-0",
+          "points": 1622.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 5,
+          "previous": 5,
+          "team": "Indiana",
+          "teamId": "84",
+          "record": "5-0",
+          "points": 1556.0,
+          "firstPlaceVotes": 8
+        },
+        {
+          "current": 6,
+          "previous": 6,
+          "team": "Ohio State",
+          "teamId": "194",
+          "record": "4-1",
+          "points": 1514.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 7,
+          "previous": 7,
+          "team": "Alabama",
+          "teamId": "333",
+          "record": "5-0",
+          "points": 1483.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 8,
+          "previous": 9,
+          "team": "BYU",
+          "teamId": "252",
+          "record": "4-0",
+          "points": 1214.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 9,
+          "previous": 10,
+          "team": "Texas Tech",
+          "teamId": "2641",
+          "record": "5-0",
+          "points": 1169.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 10,
+          "previous": 11,
+          "team": "LSU",
+          "teamId": "99",
+          "record": "4-1",
+          "points": 1136.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 11,
+          "previous": 12,
+          "team": "Ole Miss",
+          "teamId": "145",
+          "record": "3-1",
+          "points": 1059.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 12,
+          "previous": 13,
+          "team": "Utah",
+          "teamId": "254",
+          "record": "4-0",
+          "points": 1015.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 13,
+          "previous": 15,
+          "team": "Oregon",
+          "teamId": "2483",
+          "record": "3-1",
+          "points": 948.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 14,
+          "previous": 17,
+          "team": "Tennessee",
+          "teamId": "2633",
+          "record": "4-1",
+          "points": 768.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 15,
+          "previous": 8,
+          "team": "Florida",
+          "teamId": "57",
+          "record": "4-1",
+          "points": 672.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 16,
+          "previous": 25,
+          "team": "Missouri",
+          "teamId": "142",
+          "record": "4-1",
+          "points": 646.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 17,
+          "previous": 18,
+          "team": "USC",
+          "teamId": "30",
+          "record": "5-1",
+          "points": 643.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 18,
+          "previous": 14,
+          "team": "Iowa",
+          "teamId": "2294",
+          "record": "4-1",
+          "points": 457.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 19,
+          "previous": 20,
+          "team": "Houston",
+          "teamId": "248",
+          "record": "4-1",
+          "points": 391.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 20,
+          "previous": 16,
+          "team": "Mississippi State",
+          "teamId": "344",
+          "record": "4-1",
+          "points": 355.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 21,
+          "previous": 19,
+          "team": "SMU",
+          "teamId": "2567",
+          "record": "4-1",
+          "points": 354.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 22,
+          "previous": 23,
+          "team": "UCLA",
+          "teamId": "26",
+          "record": "4-0",
+          "points": 318.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 23,
+          "previous": 21,
+          "team": "Duke",
+          "teamId": "150",
+          "record": "4-0",
+          "points": 274.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 24,
+          "previous": 0,
+          "team": "Pittsburgh",
+          "teamId": "221",
+          "record": "5-0",
+          "points": 242.0,
+          "firstPlaceVotes": 0
+        },
+        {
+          "current": 25,
+          "previous": 0,
+          "team": "Kentucky",
+          "teamId": "96",
+          "record": "4-1",
+          "points": 210.0,
+          "firstPlaceVotes": 0
+        }
+      ],
+      "others": [
+        {
+          "team": "Oklahoma State",
+          "points": 187.0
+        },
+        {
+          "team": "Boise State",
+          "points": 161.0
+        },
+        {
+          "team": "Nebraska",
+          "points": 117.0
+        },
+        {
+          "team": "Wake Forest",
+          "points": 87.0
+        },
+        {
+          "team": "Northwestern",
+          "points": 70.0
+        },
+        {
+          "team": "Wisconsin",
+          "points": 47.0
+        },
+        {
+          "team": "James Madison",
+          "points": 42.0
+        },
+        {
+          "team": "Minnesota",
+          "points": 40.0
+        },
+        {
+          "team": "North Dakota State",
+          "points": 29.0
+        },
+        {
+          "team": "Arizona",
+          "points": 15.0
+        }
+      ],
+      "droppedOut": [
+        {
+          "team": "Penn State",
+          "previous": 22
+        },
+        {
+          "team": "Michigan",
+          "previous": 24
+        }
+      ]
+    }
+  }
+}
