@@ -31,7 +31,13 @@ def save_json(path: Path, data) -> None:
 
 
 def accounts() -> dict:
-    return load_json(ACCOUNTS)
+    """House accounts only (entries with a voice). The X list lives under x_accounts()."""
+    return {k: v for k, v in load_json(ACCOUNTS).items() if isinstance(v, dict) and v.get("voice")}
+
+
+def x_accounts() -> list[dict]:
+    """The curated X list from accounts.json (handle, name, affiliation, group, confidence, flag)."""
+    return [x for x in load_json(ACCOUNTS).get("xaccounts", []) if isinstance(x, dict) and x.get("handle")]
 
 
 def drop_dir(drop_id: str) -> Path:

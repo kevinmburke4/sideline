@@ -1,0 +1,197 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>CFB Feed X List</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: one column checklist, sticky progress bar, rows grouped by role like a depth chart */
+:root{
+  --bg:#f3f5f2; --surface:#ffffff; --fg:#1b221d; --muted:#5d6a61; --line:#d9e0da;
+  --accent:#1f6b43; --accent-soft:#e2efe7;
+  --hi:#1f6b43; --med:#9a6a12; --low:#b23a2e; --hi-bg:#e2efe7; --med-bg:#f7ecd6; --low-bg:#f8e1dd;
+  --f-display:"Barlow Condensed","Arial Narrow",sans-serif;
+  --f-body:"IBM Plex Sans",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#121713; --surface:#1a211c; --fg:#e6ece7; --muted:#9aa89e; --line:#2c362f;
+  --accent:#5fbf8a; --accent-soft:#1f3328;
+  --hi:#6fd09a; --med:#e0b35a; --low:#f08a7e; --hi-bg:#1f3328; --med-bg:#3a2f18; --low-bg:#3d201c; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121713; --surface:#1a211c; --fg:#e6ece7; --muted:#9aa89e; --line:#2c362f;
+  --accent:#5fbf8a; --accent-soft:#1f3328;
+  --hi:#6fd09a; --med:#e0b35a; --low:#f08a7e; --hi-bg:#1f3328; --med-bg:#3a2f18; --low-bg:#3d201c; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.5}
+.wrap{max-width:860px;margin:0 auto;padding-inline:16px;padding-block:28px 64px}
+h1{font-family:var(--f-display);font-weight:700;font-size:clamp(34px,6vw,46px);letter-spacing:.01em;text-transform:uppercase;margin:0;line-height:1;text-wrap:balance}
+.lede{color:var(--muted);max-width:62ch;margin:10px 0 0}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:2;background:var(--bg);padding-block:14px;border-bottom:1px solid var(--line);margin-top:18px;display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
+.count{font-family:var(--f-display);font-size:24px;font-weight:700;font-variant-numeric:tabular-nums}
+.count span{color:var(--muted);font-size:16px;font-weight:600}
+.meter{flex:1 1 160px;height:8px;background:var(--line);border-radius:4px;overflow:hidden;min-width:0}
+.meter i{display:block;height:100%;width:0;background:var(--accent);transition:width .25s}
+.filters{display:flex;flex-wrap:wrap;gap:6px;width:100%}
+.filters button{font:500 13px var(--f-body);border:1px solid var(--line);background:var(--surface);color:var(--fg);padding:5px 11px;border-radius:999px;cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.filters button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+section{margin-top:30px}
+h2{font-family:var(--f-display);font-weight:600;text-transform:uppercase;letter-spacing:.06em;font-size:20px;margin:0 0 4px;display:flex;gap:10px;align-items:baseline}
+h2 small{font-family:var(--f-body);font-size:13px;color:var(--muted);letter-spacing:0;text-transform:none;font-weight:400}
+.sub{color:var(--muted);font-size:13.5px;margin:0 0 10px;max-width:62ch}
+ul{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+li{display:grid;grid-template-columns:28px minmax(0,1fr) auto;gap:4px 12px;padding:12px 2px;border-bottom:1px solid var(--line);align-items:start}
+li.done .name,li.done .why{opacity:.5}
+li.done .name{text-decoration:line-through}
+input[type=checkbox]{width:20px;height:20px;margin:2px 0 0;accent-color:var(--accent);cursor:pointer}
+.main{min-width:0}
+.name{font-weight:600}
+.handle{font-family:var(--f-mono);font-size:13.5px;color:var(--accent);text-decoration:none;margin-left:6px;overflow-wrap:anywhere}
+.handle:hover{text-decoration:underline}
+.aff{color:var(--muted);font-size:13px}
+.why{font-size:14px;margin-top:2px}
+.flag{display:inline-block;margin-top:5px;font-size:12.5px;color:var(--med);background:var(--med-bg);padding:2px 8px;border-radius:4px}
+.conf{font:600 11px var(--f-body);letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:4px;white-space:nowrap}
+.conf.high{color:var(--hi);background:var(--hi-bg)}
+.conf.medium{color:var(--med);background:var(--med-bg)}
+.conf.low{color:var(--low);background:var(--low-bg)}
+.open li{grid-template-columns:28px minmax(0,1fr)}
+.slot{color:var(--muted);font-style:italic}
+.how{margin-top:34px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px 18px}
+.how h2{font-size:18px}
+.how ol{margin:6px 0 0;padding-left:20px;max-width:64ch}
+.how li{display:list-item;border:0;padding:3px 0}
+code{font-family:var(--f-mono);font-size:13px;background:var(--accent-soft);padding:1px 5px;border-radius:3px;overflow-wrap:anywhere}
+@media (prefers-reduced-motion:reduce){.meter i{transition:none}}
+</style>
+
+<div class="wrap">
+  <h1>CFB Feed X List</h1>
+  <p class="lede">45 accounts for your private X List, plus 5 open slots for teams you follow. No picks-first accounts. Tap a handle to open it on X, check that it's the right person, add it to the List, then tick it off here.</p>
+
+  <div class="bar">
+    <div class="count"><b id="done">0</b> <span>of <b id="total">45</b> added</span></div>
+    <div class="meter" aria-hidden="true"><i id="fill"></i></div>
+    <div class="filters" role="group" aria-label="Filter">
+      <button type="button" data-f="all" aria-pressed="true">All</button>
+      <button type="button" data-f="todo" aria-pressed="false">Not added</button>
+      <button type="button" data-f="check" aria-pressed="false">Check handle first</button>
+    </div>
+  </div>
+
+  <div id="groups"></div>
+
+  <section class="open">
+    <h2>Open slots <small>5</small></h2>
+    <p class="sub">Save these for beat writers on the teams you care most about. One beat writer per team is the best injury source there is.</p>
+    <ul>
+      <li><span></span><div class="slot">Team beat writer #1</div></li>
+      <li><span></span><div class="slot">Team beat writer #2</div></li>
+      <li><span></span><div class="slot">Team beat writer #3</div></li>
+      <li><span></span><div class="slot">Team beat writer #4</div></li>
+      <li><span></span><div class="slot">Team beat writer #5</div></li>
+    </ul>
+  </section>
+
+  <div class="how">
+    <h2>Setting up the List on X</h2>
+    <ol>
+      <li>On x.com, go to Lists, create a new List, and set it to <b>Private</b> so accounts aren't notified.</li>
+      <li>Add members by searching each handle. The search result shows the profile, which doubles as your check.</li>
+      <li>Copy the List ID from its URL (the number after <code>/i/lists/</code>). The weekly prompt uses it.</li>
+      <li>Mute picks content inside X if any account drifts that way: Settings, Privacy and safety, Muted words, then add words like <code>best bet</code>, <code>lock</code>, <code>parlay</code>.</li>
+    </ol>
+  </div>
+</div>
+
+<script>
+const G = [
+ {t:"National insiders", s:"Coaching news, major injuries, transfers, and storylines across all of P4.", a:[
+  ["Pete Thamel","PeteThamel","ESPN","Top source for coaching hires, firings, and big breaking news","high"],
+  ["Ross Dellenger","RossDellenger","Yahoo Sports","Conference business, CFP, and governance news","high"],
+  ["Bruce Feldman","BruceFeldmanCFB","The Athletic / FOX","Inside info on staffs and players","high"],
+  ["Matt Zenitz","mzenitz","CBS Sports / 247Sports","Coaching staff moves and transfer news","high"],
+  ["Brett McMurphy","Brett_McMurphy","On3","Scheduling, conference, and coaching news","high"],
+  ["Chris Low","ClowESPN","On3","SEC-heavy national reporting","low","He left ESPN for On3, so the handle may have changed"],
+  ["Pete Nakos","PeteNakos_","On3","Transfer portal and NIL news","medium"],
+  ["Andy Staples","Andy_Staples","On3","National storylines and how the sport is changing","medium"],
+  ["Max Olson","max_olson","ESPN","Roster and transfer coverage","medium"],
+  ["Dan Wetzel","DanWetzel","ESPN","Big-picture and investigative stories","medium"],
+  ["Nicole Auerbach","NicoleAuerbach","NBC Sports","Big Ten and CFP news","medium"],
+  ["Stewart Mandel","slmandel","The Athletic","National editor, big-picture takes","medium"],
+  ["Chris Vannini","ChrisVannini","The Athletic","National news and college sports business","medium"]]},
+ {t:"Stats and data", s:"Objective numbers and charts. Raw material for the Stat Sheet account.", a:[
+  ["Bill Connelly","ESPN_BillC","ESPN","Team efficiency stats and explainers","high","Skip his SP+ projection posts"],
+  ["CollegeFootballData","CFB_Data","CFBD","Raw data, charts, and posts from the same source as your API key","high"],
+  ["Akshay Easwaran","akeaswaran","Game on Paper","Advanced box scores (EPA, success rate) after games","medium"],
+  ["Saiem Gilani","SaiemGilani","Game on Paper / cfbfastR","Advanced stats tools and charts","medium"],
+  ["CFB Numbers","cfbnumbers","Analytics newsletter","Weekly advanced-stat charts","medium"],
+  ["Brian Fremeau","bcfremeau","FEI ratings","Drive-based efficiency data","low","Couldn't confirm he's active in 2026"],
+  ["Parker Fleming","statsowar","Blueprint Sports","Quarterback and team efficiency charts","low","Changed jobs in 2025, check the handle"],
+  ["PFF College","PFF_College","PFF","Player grades and snap counts","medium","Posts some betting content, mute if it gets noisy"]]},
+ {t:"Official accounts", s:"Rankings, schedules, and conference news straight from the source.", a:[
+  ["College Football Playoff","CFBPlayoff","Official","CFP rankings and announcements","high"],
+  ["AP Top 25","AP_Top25","Official","AP poll","high","Also posts other sports' polls"],
+  ["ESPN College Football","ESPNCFB","ESPN","Highlights, schedules, and news","high"],
+  ["SEC","SEC","Conference","Official SEC news","high"],
+  ["Big Ten Football","B1Gfootball","Conference","Official Big Ten news and availability updates","medium"],
+  ["ACC Football","ACCFootball","Conference","Official ACC news","medium"],
+  ["Big 12","Big12Conference","Conference","Official Big 12 news","high"],
+  ["Notre Dame Football","NDFootball","Team","Official Notre Dame news","high"],
+  ["FBSchedules","fbschedules","Independent","Kickoff times, TV networks, and schedule changes","medium"]]},
+ {t:"Weather", s:"Game-day forecasts for the Friday drop.", a:[
+  ["Kevin Roth","KevinRothWx","FOX Weather","Game-day weather for college football","medium","Some posts are framed for betting; use the forecasts only"],
+  ["FOX Weather","foxweather","FOX","Weekend forecasts for major games","medium"]]},
+ {t:"SEC reporters", s:"Writers who cover the whole conference, not one team.", a:[
+  ["Blake Toppmeyer","btoppmeyer","USA Today","SEC-focused columns","medium"],
+  ["Brandon Marcello","bmarcello","CBS Sports / 247Sports","News reporting with heavy SEC coverage","medium"],
+  ["David Ubben","davidubben","The Athletic","Writes a lot about SEC teams","medium"],
+  ["Seth Emerson","SethEmerson","The Athletic","SEC reach from a Georgia base","medium","Leans toward Georgia"]]},
+ {t:"Big Ten reporters", s:"", a:[
+  ["Adam Rittenberg","ESPNRittenberg","ESPN","ESPN's main Big Ten reporter","medium"],
+  ["Scott Dochterman","ScottDochterman","The Athletic","Whole-league Big Ten coverage","low","Handle not confirmed"],
+  ["Eric Olson","EricOlsonAP","AP","Straight Big Ten news","medium"]]},
+ {t:"ACC reporters", s:"", a:[
+  ["Andrea Adelson","AAdelsonESPN","ESPN / ACC Network","ESPN's main ACC reporter","medium"],
+  ["David Hale","DavidHaleESPN","ESPN","ACC news reporting","medium"],
+  ["Chip Patterson","Chip_Patterson","CBS Sports","ACC policy and storylines","medium"]]},
+ {t:"Big 12 reporters", s:"Thinnest group. Few writers still cover the whole league without posting picks.", a:[
+  ["Dave Wilson","DaveWilsonESPN","ESPN","Covers the Big 12 for ESPN","medium"],
+  ["Shehan Jeyarajah","ShehanJeyarajah","CBS Sports","Big 12 news and realignment","medium","Some prediction pieces"]]},
+ {t:"Notre Dame", s:"", a:[
+  ["Tyler James","TJamesND","On3 Blue & Gold","Daily practice, injury, and availability news","high"]]}
+];
+let store={};try{store=JSON.parse(localStorage.getItem("cfbxl")||"{}")}catch(e){}
+const save=()=>{try{localStorage.setItem("cfbxl",JSON.stringify(store))}catch(e){}};
+const root=document.getElementById("groups");let total=0;
+for(const g of G){
+  const sec=document.createElement("section");
+  sec.innerHTML=`<h2>${g.t} <small>${g.a.length}</small></h2>${g.s?`<p class="sub">${g.s}</p>`:""}<ul></ul>`;
+  const ul=sec.querySelector("ul");
+  for(const [n,h,aff,why,c,flag] of g.a){
+    total++;const li=document.createElement("li");li.dataset.conf=c;
+    const id="a-"+h.toLowerCase();
+    li.innerHTML=`<input type="checkbox" id="${id}" aria-label="Added ${n}"><div class="main"><label for="${id}" class="name">${n}</label><a class="handle" href="https://x.com/${h}" target="_blank" rel="noopener">@${h}</a><div class="aff">${aff}</div><div class="why">${why}</div>${flag?`<span class="flag">${flag}</span>`:""}</div><span class="conf ${c}">${c}</span>`;
+    const cb=li.querySelector("input");cb.checked=!!store[h];li.classList.toggle("done",cb.checked);
+    cb.addEventListener("change",()=>{store[h]=cb.checked;li.classList.toggle("done",cb.checked);save();upd()});
+    ul.appendChild(li);
+  }
+  root.appendChild(sec);
+}
+document.getElementById("total").textContent=total;
+let filter="all";
+function upd(){
+  const n=Object.values(store).filter(Boolean).length;
+  document.getElementById("done").textContent=n;
+  document.getElementById("fill").style.width=(n/total*100)+"%";
+  document.querySelectorAll("#groups li").forEach(li=>{
+    const done=li.classList.contains("done");
+    li.hidden=(filter==="todo"&&done)||(filter==="check"&&li.dataset.conf==="high");
+  });
+  document.querySelectorAll("#groups section").forEach(s=>{s.hidden=![...s.querySelectorAll("li")].some(l=>!l.hidden)});
+}
+document.querySelectorAll(".filters button").forEach(b=>b.addEventListener("click",()=>{
+  filter=b.dataset.f;document.querySelectorAll(".filters button").forEach(x=>x.setAttribute("aria-pressed",x===b));upd();
+}));
+upd();
+</script>
+
+</body></html>

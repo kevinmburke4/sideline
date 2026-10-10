@@ -31,7 +31,7 @@ Tier 2, matchups and team detail (40 to 50 posts):
 Tier 3, specifics (30 to 40 posts):
 - `injury`: one text post per team with notable entries in `injuries.json`, grouped by game. Status wording from ESPN, nothing speculative.
 - `weather`: one text post per outdoor game with a forecast in `schedule.json` (`weather` field). Skip indoor venues.
-- `xpost`: entries from the curated X list, if one exists in `accounts.json` under `xaccounts`. Only the fields the schema asks for; never copy media.
+- `xpost`: 10 to 15 posts from the curated X List (see "X posts" below). Only the fields the schema asks for; never copy media.
 - Short `text` posts with no graphic for anything else worth a sentence or two.
 
 Audio and reading should each be about half the time. Text posts count 20 seconds, carousels 10 per slide, audio by duration.
@@ -44,6 +44,18 @@ Same rules, Saturday only:
 - `number`: line movement since Monday. Compare `schedule.json` from the Monday drop folder with the fresh one; show both numbers in a `trend_table`. No commentary on why.
 - `around`: late-week news from `news.json` with links.
 - One updated `slate` per conference with the current numbers.
+
+## X posts
+
+There is no X API key, so X posts are read, not fetched. The 45 curated accounts are in `accounts.json` under `xaccounts` (with group, affiliation, confidence, and any caution flag); the private List's ID goes in `accounts.json` under `xlist` once it exists. `tools/x_list_checklist.html` is the setup checklist.
+
+During the writing step, open the List in Chrome (`https://x.com/i/lists/<id>`), scroll back to the previous drop, and pick posts worth a card: injuries and availability, coaching news, kickoff and TV changes, forecasts, data charts. For each one write an `xpost` with `handle`, `name`, `postedAt`, `text` (quote the post, trimmed, no paraphrase that changes meaning), `url` (the post's own x.com link), `hasMedia`, `teams`, and `tier`. Rules:
+
+- Only accounts on the list. The validator warns on anything else.
+- Skip any post that is a pick, lean, prediction, or odds commentary, even from a listed account. The Weather and PFF accounts carry flags for this reason.
+- Never copy images or video; set `hasMedia: true` and the card shows a placeholder.
+- Prefer high-confidence accounts; use medium ones for conference-specific news; treat low-confidence handles as unverified until checked.
+- Friday drops lean on beat writers and the official conference accounts for availability.
 
 ## Voice and style
 

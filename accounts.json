@@ -1,12 +1,449 @@
 {
-  "slate":      { "name": "The Slate",        "beat": "The week's schedule by conference",            "voice": "en-US-AndrewMultilingualNeural", "color": "#1f6feb", "initials": "SL" },
-  "rankings":   { "name": "Rankings Desk",    "beat": "Poll movement, who rose and fell",             "voice": "en-US-AvaNeural",                "color": "#8957e5", "initials": "RD" },
-  "stat-sheet": { "name": "Stat Sheet",       "beat": "ESPN team stats and side-by-side comparisons", "voice": "en-US-BrianNeural",              "color": "#1a7f3c", "initials": "SS" },
-  "matchup":    { "name": "Matchup Room",     "beat": "Game-by-game breakdowns",                      "voice": "en-US-GuyNeural",                "color": "#d29922", "initials": "MR" },
-  "spotlight":  { "name": "Spotlight",        "beat": "Player features",                              "voice": "en-US-EmmaNeural",               "color": "#db6d28", "initials": "SP" },
-  "injury":     { "name": "Injury Wire",      "beat": "Availability and injury news",                 "voice": "en-US-ChristopherNeural",        "color": "#da3633", "initials": "IW" },
-  "weather":    { "name": "Weather Watch",    "beat": "Forecasts for outdoor games",                  "voice": "en-US-JennyNeural",              "color": "#39c5cf", "initials": "WW" },
-  "number":     { "name": "The Number",       "beat": "Spread and total trends, raw numbers only",    "voice": "en-US-EricNeural",               "color": "#6e7681", "initials": "TN" },
-  "recap":      { "name": "Recap",            "beat": "What happened last Saturday",                  "voice": "en-US-SteffanNeural",            "color": "#bf4b8a", "initials": "RC" },
-  "around":     { "name": "Around the Sport", "beat": "Coaching news and storylines",                 "voice": "en-US-AriaNeural",               "color": "#2ea043", "initials": "AS" }
+  "slate": {
+    "name": "The Slate",
+    "beat": "The week's schedule by conference",
+    "voice": "en-US-AndrewMultilingualNeural",
+    "color": "#1f6feb",
+    "initials": "SL"
+  },
+  "rankings": {
+    "name": "Rankings Desk",
+    "beat": "Poll movement, who rose and fell",
+    "voice": "en-US-AvaNeural",
+    "color": "#8957e5",
+    "initials": "RD"
+  },
+  "stat-sheet": {
+    "name": "Stat Sheet",
+    "beat": "ESPN team stats and side-by-side comparisons",
+    "voice": "en-US-BrianNeural",
+    "color": "#1a7f3c",
+    "initials": "SS"
+  },
+  "matchup": {
+    "name": "Matchup Room",
+    "beat": "Game-by-game breakdowns",
+    "voice": "en-US-GuyNeural",
+    "color": "#d29922",
+    "initials": "MR"
+  },
+  "spotlight": {
+    "name": "Spotlight",
+    "beat": "Player features",
+    "voice": "en-US-EmmaNeural",
+    "color": "#db6d28",
+    "initials": "SP"
+  },
+  "injury": {
+    "name": "Injury Wire",
+    "beat": "Availability and injury news",
+    "voice": "en-US-ChristopherNeural",
+    "color": "#da3633",
+    "initials": "IW"
+  },
+  "weather": {
+    "name": "Weather Watch",
+    "beat": "Forecasts for outdoor games",
+    "voice": "en-US-JennyNeural",
+    "color": "#39c5cf",
+    "initials": "WW"
+  },
+  "number": {
+    "name": "The Number",
+    "beat": "Spread and total trends, raw numbers only",
+    "voice": "en-US-EricNeural",
+    "color": "#6e7681",
+    "initials": "TN"
+  },
+  "recap": {
+    "name": "Recap",
+    "beat": "What happened last Saturday",
+    "voice": "en-US-SteffanNeural",
+    "color": "#bf4b8a",
+    "initials": "RC"
+  },
+  "around": {
+    "name": "Around the Sport",
+    "beat": "Coaching news and storylines",
+    "voice": "en-US-AriaNeural",
+    "color": "#2ea043",
+    "initials": "AS"
+  },
+  "xlist": {
+    "id": null,
+    "url": null,
+    "note": "Private X List ID (the number after /i/lists/ in its URL). Fill in once the List exists."
+  },
+  "xaccounts": [
+    {
+      "handle": "PeteThamel",
+      "name": "Pete Thamel",
+      "affiliation": "ESPN",
+      "group": "National insiders",
+      "why": "Top source for coaching hires, firings, and big breaking news",
+      "confidence": "high"
+    },
+    {
+      "handle": "RossDellenger",
+      "name": "Ross Dellenger",
+      "affiliation": "Yahoo Sports",
+      "group": "National insiders",
+      "why": "Conference business, CFP, and governance news",
+      "confidence": "high"
+    },
+    {
+      "handle": "BruceFeldmanCFB",
+      "name": "Bruce Feldman",
+      "affiliation": "The Athletic / FOX",
+      "group": "National insiders",
+      "why": "Inside info on staffs and players",
+      "confidence": "high"
+    },
+    {
+      "handle": "mzenitz",
+      "name": "Matt Zenitz",
+      "affiliation": "CBS Sports / 247Sports",
+      "group": "National insiders",
+      "why": "Coaching staff moves and transfer news",
+      "confidence": "high"
+    },
+    {
+      "handle": "Brett_McMurphy",
+      "name": "Brett McMurphy",
+      "affiliation": "On3",
+      "group": "National insiders",
+      "why": "Scheduling, conference, and coaching news",
+      "confidence": "high"
+    },
+    {
+      "handle": "ClowESPN",
+      "name": "Chris Low",
+      "affiliation": "On3",
+      "group": "National insiders",
+      "why": "SEC-heavy national reporting",
+      "confidence": "low",
+      "flag": "He left ESPN for On3, so the handle may have changed"
+    },
+    {
+      "handle": "PeteNakos_",
+      "name": "Pete Nakos",
+      "affiliation": "On3",
+      "group": "National insiders",
+      "why": "Transfer portal and NIL news",
+      "confidence": "medium"
+    },
+    {
+      "handle": "Andy_Staples",
+      "name": "Andy Staples",
+      "affiliation": "On3",
+      "group": "National insiders",
+      "why": "National storylines and how the sport is changing",
+      "confidence": "medium"
+    },
+    {
+      "handle": "max_olson",
+      "name": "Max Olson",
+      "affiliation": "ESPN",
+      "group": "National insiders",
+      "why": "Roster and transfer coverage",
+      "confidence": "medium"
+    },
+    {
+      "handle": "DanWetzel",
+      "name": "Dan Wetzel",
+      "affiliation": "ESPN",
+      "group": "National insiders",
+      "why": "Big-picture and investigative stories",
+      "confidence": "medium"
+    },
+    {
+      "handle": "NicoleAuerbach",
+      "name": "Nicole Auerbach",
+      "affiliation": "NBC Sports",
+      "group": "National insiders",
+      "why": "Big Ten and CFP news",
+      "confidence": "medium"
+    },
+    {
+      "handle": "slmandel",
+      "name": "Stewart Mandel",
+      "affiliation": "The Athletic",
+      "group": "National insiders",
+      "why": "National editor, big-picture takes",
+      "confidence": "medium"
+    },
+    {
+      "handle": "ChrisVannini",
+      "name": "Chris Vannini",
+      "affiliation": "The Athletic",
+      "group": "National insiders",
+      "why": "National news and college sports business",
+      "confidence": "medium"
+    },
+    {
+      "handle": "ESPN_BillC",
+      "name": "Bill Connelly",
+      "affiliation": "ESPN",
+      "group": "Stats and data",
+      "why": "Team efficiency stats and explainers",
+      "confidence": "high",
+      "flag": "Skip his SP+ projection posts"
+    },
+    {
+      "handle": "CFB_Data",
+      "name": "CollegeFootballData",
+      "affiliation": "CFBD",
+      "group": "Stats and data",
+      "why": "Raw data, charts, and posts from the same source as your API key",
+      "confidence": "high"
+    },
+    {
+      "handle": "akeaswaran",
+      "name": "Akshay Easwaran",
+      "affiliation": "Game on Paper",
+      "group": "Stats and data",
+      "why": "Advanced box scores (EPA, success rate) after games",
+      "confidence": "medium"
+    },
+    {
+      "handle": "SaiemGilani",
+      "name": "Saiem Gilani",
+      "affiliation": "Game on Paper / cfbfastR",
+      "group": "Stats and data",
+      "why": "Advanced stats tools and charts",
+      "confidence": "medium"
+    },
+    {
+      "handle": "cfbnumbers",
+      "name": "CFB Numbers",
+      "affiliation": "Analytics newsletter",
+      "group": "Stats and data",
+      "why": "Weekly advanced-stat charts",
+      "confidence": "medium"
+    },
+    {
+      "handle": "bcfremeau",
+      "name": "Brian Fremeau",
+      "affiliation": "FEI ratings",
+      "group": "Stats and data",
+      "why": "Drive-based efficiency data",
+      "confidence": "low",
+      "flag": "Couldn't confirm he's active in 2026"
+    },
+    {
+      "handle": "statsowar",
+      "name": "Parker Fleming",
+      "affiliation": "Blueprint Sports",
+      "group": "Stats and data",
+      "why": "Quarterback and team efficiency charts",
+      "confidence": "low",
+      "flag": "Changed jobs in 2025, check the handle"
+    },
+    {
+      "handle": "PFF_College",
+      "name": "PFF College",
+      "affiliation": "PFF",
+      "group": "Stats and data",
+      "why": "Player grades and snap counts",
+      "confidence": "medium",
+      "flag": "Posts some betting content, mute if it gets noisy"
+    },
+    {
+      "handle": "CFBPlayoff",
+      "name": "College Football Playoff",
+      "affiliation": "Official",
+      "group": "Official accounts",
+      "why": "CFP rankings and announcements",
+      "confidence": "high"
+    },
+    {
+      "handle": "AP_Top25",
+      "name": "AP Top 25",
+      "affiliation": "Official",
+      "group": "Official accounts",
+      "why": "AP poll",
+      "confidence": "high",
+      "flag": "Also posts other sports' polls"
+    },
+    {
+      "handle": "ESPNCFB",
+      "name": "ESPN College Football",
+      "affiliation": "ESPN",
+      "group": "Official accounts",
+      "why": "Highlights, schedules, and news",
+      "confidence": "high"
+    },
+    {
+      "handle": "SEC",
+      "name": "SEC",
+      "affiliation": "Conference",
+      "group": "Official accounts",
+      "why": "Official SEC news",
+      "confidence": "high"
+    },
+    {
+      "handle": "B1Gfootball",
+      "name": "Big Ten Football",
+      "affiliation": "Conference",
+      "group": "Official accounts",
+      "why": "Official Big Ten news and availability updates",
+      "confidence": "medium"
+    },
+    {
+      "handle": "ACCFootball",
+      "name": "ACC Football",
+      "affiliation": "Conference",
+      "group": "Official accounts",
+      "why": "Official ACC news",
+      "confidence": "medium"
+    },
+    {
+      "handle": "Big12Conference",
+      "name": "Big 12",
+      "affiliation": "Conference",
+      "group": "Official accounts",
+      "why": "Official Big 12 news",
+      "confidence": "high"
+    },
+    {
+      "handle": "NDFootball",
+      "name": "Notre Dame Football",
+      "affiliation": "Team",
+      "group": "Official accounts",
+      "why": "Official Notre Dame news",
+      "confidence": "high"
+    },
+    {
+      "handle": "fbschedules",
+      "name": "FBSchedules",
+      "affiliation": "Independent",
+      "group": "Official accounts",
+      "why": "Kickoff times, TV networks, and schedule changes",
+      "confidence": "medium"
+    },
+    {
+      "handle": "KevinRothWx",
+      "name": "Kevin Roth",
+      "affiliation": "FOX Weather",
+      "group": "Weather",
+      "why": "Game-day weather for college football",
+      "confidence": "medium",
+      "flag": "Some posts are framed for betting; use the forecasts only"
+    },
+    {
+      "handle": "foxweather",
+      "name": "FOX Weather",
+      "affiliation": "FOX",
+      "group": "Weather",
+      "why": "Weekend forecasts for major games",
+      "confidence": "medium"
+    },
+    {
+      "handle": "btoppmeyer",
+      "name": "Blake Toppmeyer",
+      "affiliation": "USA Today",
+      "group": "SEC reporters",
+      "why": "SEC-focused columns",
+      "confidence": "medium"
+    },
+    {
+      "handle": "bmarcello",
+      "name": "Brandon Marcello",
+      "affiliation": "CBS Sports / 247Sports",
+      "group": "SEC reporters",
+      "why": "News reporting with heavy SEC coverage",
+      "confidence": "medium"
+    },
+    {
+      "handle": "davidubben",
+      "name": "David Ubben",
+      "affiliation": "The Athletic",
+      "group": "SEC reporters",
+      "why": "Writes a lot about SEC teams",
+      "confidence": "medium"
+    },
+    {
+      "handle": "SethEmerson",
+      "name": "Seth Emerson",
+      "affiliation": "The Athletic",
+      "group": "SEC reporters",
+      "why": "SEC reach from a Georgia base",
+      "confidence": "medium",
+      "flag": "Leans toward Georgia"
+    },
+    {
+      "handle": "ESPNRittenberg",
+      "name": "Adam Rittenberg",
+      "affiliation": "ESPN",
+      "group": "Big Ten reporters",
+      "why": "ESPN's main Big Ten reporter",
+      "confidence": "medium"
+    },
+    {
+      "handle": "ScottDochterman",
+      "name": "Scott Dochterman",
+      "affiliation": "The Athletic",
+      "group": "Big Ten reporters",
+      "why": "Whole-league Big Ten coverage",
+      "confidence": "low",
+      "flag": "Handle not confirmed"
+    },
+    {
+      "handle": "EricOlsonAP",
+      "name": "Eric Olson",
+      "affiliation": "AP",
+      "group": "Big Ten reporters",
+      "why": "Straight Big Ten news",
+      "confidence": "medium"
+    },
+    {
+      "handle": "AAdelsonESPN",
+      "name": "Andrea Adelson",
+      "affiliation": "ESPN / ACC Network",
+      "group": "ACC reporters",
+      "why": "ESPN's main ACC reporter",
+      "confidence": "medium"
+    },
+    {
+      "handle": "DavidHaleESPN",
+      "name": "David Hale",
+      "affiliation": "ESPN",
+      "group": "ACC reporters",
+      "why": "ACC news reporting",
+      "confidence": "medium"
+    },
+    {
+      "handle": "Chip_Patterson",
+      "name": "Chip Patterson",
+      "affiliation": "CBS Sports",
+      "group": "ACC reporters",
+      "why": "ACC policy and storylines",
+      "confidence": "medium"
+    },
+    {
+      "handle": "DaveWilsonESPN",
+      "name": "Dave Wilson",
+      "affiliation": "ESPN",
+      "group": "Big 12 reporters",
+      "why": "Covers the Big 12 for ESPN",
+      "confidence": "medium"
+    },
+    {
+      "handle": "ShehanJeyarajah",
+      "name": "Shehan Jeyarajah",
+      "affiliation": "CBS Sports",
+      "group": "Big 12 reporters",
+      "why": "Big 12 news and realignment",
+      "confidence": "medium",
+      "flag": "Some prediction pieces"
+    },
+    {
+      "handle": "TJamesND",
+      "name": "Tyler James",
+      "affiliation": "On3 Blue & Gold",
+      "group": "Notre Dame",
+      "why": "Daily practice, injury, and availability news",
+      "confidence": "high"
+    }
+  ]
 }

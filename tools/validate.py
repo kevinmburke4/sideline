@@ -14,7 +14,7 @@ import json
 import re
 import sys
 
-from common import FEED, accounts, drop_dir, load_json, load_posts, posts_file
+from common import FEED, accounts, drop_dir, load_json, load_posts, posts_file, x_accounts
 
 TYPES = {"text", "carousel", "audio", "video", "xpost", "slate"}
 BANNED = re.compile(r"\b(pick|picks|lock|locks|best bet|lean|leans|leaning|projected winner|we like|i like|hammer|fade|fading|play of the (day|week)|parlay|smash|can't lose|free money|guarantee[ds]?|bet (on|the)|take the (over|under|points))\b", re.I)
@@ -30,6 +30,7 @@ def main() -> int:
     path = posts_file(args.drop)
     posts = load_posts(path)
     acc = accounts()
+    curated = {x["handle"].lower() for x in x_accounts()}
     teams = load_json(d / "data" / "teams.json", {})
     known_names = {t["school"] for t in teams.values()} if teams else set()
     if not known_names:
@@ -107,6 +108,11 @@ def main() -> int:
                     errors.append(f"{where}: xpost needs {k}")
             if p.get("url") and not re.match(r"https://(x\.com|twitter\.com)/", p["url"]):
                 errors.append(f"{where}: xpost url must point at x.com")
+            handle = str(p.get("handle", "")).lstrip("@").lower()
+            if curated and handle and handle not in curated and not handle.startswith("sample_"):
+                warnings.append(f"{where}: @{handle} is not on the curated X list in accounts.json")
+            if len(p.get("text") or "") > 600:
+                warnings.append(f"{where}: xpost text is long ({len(p['text'])} chars); quote less")
         elif t == "slate":
             if not p.get("conference"):
                 errors.append(f"{where}: slate needs conference")
