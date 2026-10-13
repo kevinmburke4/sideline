@@ -70,9 +70,23 @@
     "initials": "AS"
   },
   "xlist": {
-    "id": null,
-    "url": null,
-    "note": "Private X List ID (the number after /i/lists/ in its URL). Fill in once the List exists."
+    "id": "2108783861815812107",
+    "url": "https://x.com/i/lists/2108783861815812107",
+    "private": true,
+    "members": 97,
+    "note": "Private X List 'CFB Feed'. Members verified in X search on 2026-10-09.",
+    "beat_writer_gaps": [
+      "Arkansas",
+      "Texas",
+      "Rutgers",
+      "Stanford",
+      "Syracuse",
+      "Baylor",
+      "Cincinnati",
+      "Houston",
+      "TCU",
+      "Utah"
+    ]
   },
   "xaccounts": [
     {
@@ -81,7 +95,8 @@
       "affiliation": "ESPN",
       "group": "National insiders",
       "why": "Top source for coaching hires, firings, and big breaking news",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_on_x": true
     },
     {
       "handle": "RossDellenger",
@@ -89,7 +104,8 @@
       "affiliation": "Yahoo Sports",
       "group": "National insiders",
       "why": "Conference business, CFP, and governance news",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_on_x": true
     },
     {
       "handle": "BruceFeldmanCFB",
@@ -97,7 +113,8 @@
       "affiliation": "The Athletic / FOX",
       "group": "National insiders",
       "why": "Inside info on staffs and players",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_on_x": true
     },
     {
       "handle": "mzenitz",
@@ -105,7 +122,8 @@
       "affiliation": "CBS Sports / 247Sports",
       "group": "National insiders",
       "why": "Coaching staff moves and transfer news",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_on_x": true
     },
     {
       "handle": "Brett_McMurphy",
@@ -113,32 +131,26 @@
       "affiliation": "On3",
       "group": "National insiders",
       "why": "Scheduling, conference, and coaching news",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_on_x": true
     },
     {
-      "handle": "ClowESPN",
-      "name": "Chris Low",
-      "affiliation": "On3",
-      "group": "National insiders",
-      "why": "SEC-heavy national reporting",
-      "confidence": "low",
-      "flag": "He left ESPN for On3, so the handle may have changed"
-    },
-    {
-      "handle": "PeteNakos_",
+      "handle": "PeteNakos",
       "name": "Pete Nakos",
       "affiliation": "On3",
       "group": "National insiders",
       "why": "Transfer portal and NIL news",
-      "confidence": "medium"
+      "confidence": "medium",
+      "verified_on_x": true
     },
     {
-      "handle": "Andy_Staples",
+      "handle": "AndyStaples",
       "name": "Andy Staples",
       "affiliation": "On3",
       "group": "National insiders",
       "why": "National storylines and how the sport is changing",
-      "confidence": "medium"
+      "confidence": "medium",
+      "verified_on_x": true
     },
     {
       "handle": "max_olson",
@@ -146,7 +158,8 @@
       "affiliation": "ESPN",
       "group": "National insiders",
       "why": "Roster and transfer coverage",
-      "confidence": "medium"
+      "confidence": "medium",
+      "verified_on_x": true
     },
     {
       "handle": "DanWetzel",
@@ -154,7 +167,8 @@
       "affiliation": "ESPN",
       "group": "National insiders",
       "why": "Big-picture and investigative stories",
-      "confidence": "medium"
+      "confidence": "medium",
+      "verified_on_x": true
     },
     {
       "handle": "NicoleAuerbach",
@@ -162,7 +176,8 @@
       "affiliation": "NBC Sports",
       "group": "National insiders",
       "why": "Big Ten and CFP news",
-      "confidence": "medium"
+      "confidence": "medium",
+      "verified_on_x": true
     },
     {
       "handle": "slmandel",
@@ -170,7 +185,8 @@
       "affiliation": "The Athletic",
       "group": "National insiders",
       "why": "National editor, big-picture takes",
-      "confidence": "medium"
+      "confidence": "medium",
+      "verified_on_x": true
     },
     {
       "handle": "ChrisVannini",
@@ -178,7 +194,8 @@
       "affiliation": "The Athletic",
       "group": "National insiders",
       "why": "National news and college sports business",
-      "confidence": "medium"
+      "confidence": "medium",
+      "verified_on_x": true
     },
     {
       "handle": "ESPN_BillC",
@@ -187,7 +204,8 @@
       "group": "Stats and data",
       "why": "Team efficiency stats and explainers",
       "confidence": "high",
-      "flag": "Skip his SP+ projection posts"
+      "flag": "Skip his SP+ projection posts",
+      "verified_on_x": true
     },
     {
       "handle": "CFB_Data",
@@ -195,15 +213,8 @@
       "affiliation": "CFBD",
       "group": "Stats and data",
       "why": "Raw data, charts, and posts from the same source as your API key",
-      "confidence": "high"
-    },
-    {
-      "handle": "akeaswaran",
-      "name": "Akshay Easwaran",
-      "affiliation": "Game on Paper",
-      "group": "Stats and data",
-      "why": "Advanced box scores (EPA, success rate) after games",
-      "confidence": "medium"
+      "confidence": "high",
+      "verified_on_x": true
     },
     {
       "handle": "SaiemGilani",
@@ -211,7 +222,8 @@
       "affiliation": "Game on Paper / cfbfastR",
       "group": "Stats and data",
       "why": "Advanced stats tools and charts",
-      "confidence": "medium"
+      "confidence": "medium",
+      "verified_on_x": true
     },
     {
       "handle": "cfbnumbers",
@@ -219,7 +231,8 @@
       "affiliation": "Analytics newsletter",
       "group": "Stats and data",
       "why": "Weekly advanced-stat charts",
-      "confidence": "medium"
+      "confidence": "medium",
+      "verified_on_x": true
     },
     {
       "handle": "bcfremeau",
@@ -228,7 +241,8 @@
       "group": "Stats and data",
       "why": "Drive-based efficiency data",
       "confidence": "low",
-      "flag": "Couldn't confirm he's active in 2026"
+      "flag": "Couldn't confirm he's active in 2026",
+      "verified_on_x": true
     },
     {
       "handle": "statsowar",
@@ -237,7 +251,8 @@
       "group": "Stats and data",
       "why": "Quarterback and team efficiency charts",
       "confidence": "low",
-      "flag": "Changed jobs in 2025, check the handle"
+      "flag": "Changed jobs in 2025, check the handle",
+      "verified_on_x": true
     },
     {
       "handle": "PFF_College",
@@ -246,7 +261,8 @@
       "group": "Stats and data",
       "why": "Player grades and snap counts",
       "confidence": "medium",
-      "flag": "Posts some betting content, mute if it gets noisy"
+      "flag": "Posts some betting content, mute if it gets noisy",
+      "verified_on_x": true
     },
     {
       "handle": "CFBPlayoff",
@@ -254,7 +270,8 @@
       "affiliation": "Official",
       "group": "Official accounts",
       "why": "CFP rankings and announcements",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_on_x": true
     },
     {
       "handle": "AP_Top25",
@@ -263,7 +280,8 @@
       "group": "Official accounts",
       "why": "AP poll",
       "confidence": "high",
-      "flag": "Also posts other sports' polls"
+      "flag": "Also posts other sports' polls",
+      "verified_on_x": true
     },
     {
       "handle": "ESPNCFB",
@@ -271,7 +289,8 @@
       "affiliation": "ESPN",
       "group": "Official accounts",
       "why": "Highlights, schedules, and news",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_on_x": true
     },
     {
       "handle": "SEC",
@@ -279,7 +298,8 @@
       "affiliation": "Conference",
       "group": "Official accounts",
       "why": "Official SEC news",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_on_x": true
     },
     {
       "handle": "B1Gfootball",
@@ -287,7 +307,8 @@
       "affiliation": "Conference",
       "group": "Official accounts",
       "why": "Official Big Ten news and availability updates",
-      "confidence": "medium"
+      "confidence": "medium",
+      "verified_on_x": true
     },
     {
       "handle": "ACCFootball",
@@ -295,7 +316,8 @@
       "affiliation": "Conference",
       "group": "Official accounts",
       "why": "Official ACC news",
-      "confidence": "medium"
+      "confidence": "medium",
+      "verified_on_x": true
     },
     {
       "handle": "Big12Conference",
@@ -303,7 +325,8 @@
       "affiliation": "Conference",
       "group": "Official accounts",
       "why": "Official Big 12 news",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_on_x": true
     },
     {
       "handle": "NDFootball",
@@ -311,7 +334,8 @@
       "affiliation": "Team",
       "group": "Official accounts",
       "why": "Official Notre Dame news",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_on_x": true
     },
     {
       "handle": "fbschedules",
@@ -319,7 +343,8 @@
       "affiliation": "Independent",
       "group": "Official accounts",
       "why": "Kickoff times, TV networks, and schedule changes",
-      "confidence": "medium"
+      "confidence": "medium",
+      "verified_on_x": true
     },
     {
       "handle": "KevinRothWx",
@@ -328,7 +353,8 @@
       "group": "Weather",
       "why": "Game-day weather for college football",
       "confidence": "medium",
-      "flag": "Some posts are framed for betting; use the forecasts only"
+      "flag": "Some posts are framed for betting; use the forecasts only",
+      "verified_on_x": true
     },
     {
       "handle": "foxweather",
@@ -336,7 +362,8 @@
       "affiliation": "FOX",
       "group": "Weather",
       "why": "Weekend forecasts for major games",
-      "confidence": "medium"
+      "confidence": "medium",
+      "verified_on_x": true
     },
     {
       "handle": "btoppmeyer",
@@ -344,7 +371,8 @@
       "affiliation": "USA Today",
       "group": "SEC reporters",
       "why": "SEC-focused columns",
-      "confidence": "medium"
+      "confidence": "medium",
+      "verified_on_x": true
     },
     {
       "handle": "bmarcello",
@@ -352,7 +380,8 @@
       "affiliation": "CBS Sports / 247Sports",
       "group": "SEC reporters",
       "why": "News reporting with heavy SEC coverage",
-      "confidence": "medium"
+      "confidence": "medium",
+      "verified_on_x": true
     },
     {
       "handle": "davidubben",
@@ -360,16 +389,18 @@
       "affiliation": "The Athletic",
       "group": "SEC reporters",
       "why": "Writes a lot about SEC teams",
-      "confidence": "medium"
+      "confidence": "medium",
+      "verified_on_x": true
     },
     {
-      "handle": "SethEmerson",
+      "handle": "SethWEmerson",
       "name": "Seth Emerson",
       "affiliation": "The Athletic",
       "group": "SEC reporters",
       "why": "SEC reach from a Georgia base",
       "confidence": "medium",
-      "flag": "Leans toward Georgia"
+      "flag": "Leans toward Georgia",
+      "verified_on_x": true
     },
     {
       "handle": "ESPNRittenberg",
@@ -377,7 +408,8 @@
       "affiliation": "ESPN",
       "group": "Big Ten reporters",
       "why": "ESPN's main Big Ten reporter",
-      "confidence": "medium"
+      "confidence": "medium",
+      "verified_on_x": true
     },
     {
       "handle": "ScottDochterman",
@@ -386,31 +418,17 @@
       "group": "Big Ten reporters",
       "why": "Whole-league Big Ten coverage",
       "confidence": "low",
-      "flag": "Handle not confirmed"
+      "flag": "Handle not confirmed",
+      "verified_on_x": true
     },
     {
-      "handle": "EricOlsonAP",
-      "name": "Eric Olson",
-      "affiliation": "AP",
-      "group": "Big Ten reporters",
-      "why": "Straight Big Ten news",
-      "confidence": "medium"
-    },
-    {
-      "handle": "AAdelsonESPN",
+      "handle": "aadelsonESPN",
       "name": "Andrea Adelson",
       "affiliation": "ESPN / ACC Network",
       "group": "ACC reporters",
       "why": "ESPN's main ACC reporter",
-      "confidence": "medium"
-    },
-    {
-      "handle": "DavidHaleESPN",
-      "name": "David Hale",
-      "affiliation": "ESPN",
-      "group": "ACC reporters",
-      "why": "ACC news reporting",
-      "confidence": "medium"
+      "confidence": "medium",
+      "verified_on_x": true
     },
     {
       "handle": "Chip_Patterson",
@@ -418,15 +436,8 @@
       "affiliation": "CBS Sports",
       "group": "ACC reporters",
       "why": "ACC policy and storylines",
-      "confidence": "medium"
-    },
-    {
-      "handle": "DaveWilsonESPN",
-      "name": "Dave Wilson",
-      "affiliation": "ESPN",
-      "group": "Big 12 reporters",
-      "why": "Covers the Big 12 for ESPN",
-      "confidence": "medium"
+      "confidence": "medium",
+      "verified_on_x": true
     },
     {
       "handle": "ShehanJeyarajah",
@@ -435,7 +446,8 @@
       "group": "Big 12 reporters",
       "why": "Big 12 news and realignment",
       "confidence": "medium",
-      "flag": "Some prediction pieces"
+      "flag": "Some prediction pieces",
+      "verified_on_x": true
     },
     {
       "handle": "TJamesND",
@@ -443,7 +455,635 @@
       "affiliation": "On3 Blue & Gold",
       "group": "Notre Dame",
       "why": "Daily practice, injury, and availability news",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_on_x": true
+    },
+    {
+      "handle": "_NickKelly",
+      "name": "Nick Kelly",
+      "affiliation": "AL.com",
+      "group": "Beat writers",
+      "conference": "SEC",
+      "team": "Alabama",
+      "why": "Alabama beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "_JHokanson",
+      "name": "Justin Hokanson",
+      "affiliation": "Auburn Live (On3)",
+      "group": "Beat writers",
+      "conference": "SEC",
+      "team": "Auburn",
+      "why": "Auburn beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "osgators",
+      "name": "Edgar Thompson",
+      "affiliation": "Orlando Sentinel",
+      "group": "Beat writers",
+      "conference": "SEC",
+      "team": "Florida",
+      "why": "Florida beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "Kconnorriley",
+      "name": "Connor Riley",
+      "affiliation": "DawgNation",
+      "group": "Beat writers",
+      "conference": "SEC",
+      "team": "Georgia",
+      "why": "Georgia beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "JonHale_HL",
+      "name": "Jon Hale",
+      "affiliation": "Lexington Herald-Leader",
+      "group": "Beat writers",
+      "conference": "SEC",
+      "team": "Kentucky",
+      "why": "Kentucky beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "KokiRiley",
+      "name": "Koki Riley",
+      "affiliation": "The Advocate",
+      "group": "Beat writers",
+      "conference": "SEC",
+      "team": "LSU",
+      "why": "LSU beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "sklarsam_",
+      "name": "Sam Sklar",
+      "affiliation": "Clarion Ledger",
+      "group": "Beat writers",
+      "conference": "SEC",
+      "team": "Mississippi State",
+      "why": "Mississippi State beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "byEliHoff",
+      "name": "Eli Hoff",
+      "affiliation": "St. Louis Post-Dispatch",
+      "group": "Beat writers",
+      "conference": "SEC",
+      "team": "Missouri",
+      "why": "Missouri beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "ryaber",
+      "name": "Ryan Aber",
+      "affiliation": "Sooners On SI",
+      "group": "Beat writers",
+      "conference": "SEC",
+      "team": "Oklahoma",
+      "why": "Oklahoma beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "Zach_Berry",
+      "name": "Zach Berry",
+      "affiliation": "Ole Miss Spirit (On3)",
+      "group": "Beat writers",
+      "conference": "SEC",
+      "team": "Ole Miss",
+      "why": "Ole Miss beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "DCPandC",
+      "name": "David Cloninger",
+      "affiliation": "Post and Courier",
+      "group": "Beat writers",
+      "conference": "SEC",
+      "team": "South Carolina",
+      "why": "South Carolina beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "AdamSparks",
+      "name": "Adam Sparks",
+      "affiliation": "Knoxville News Sentinel",
+      "group": "Beat writers",
+      "conference": "SEC",
+      "team": "Tennessee",
+      "why": "Tennessee beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "Travis_L_Brown",
+      "name": "Travis L. Brown",
+      "affiliation": "KBTX",
+      "group": "Beat writers",
+      "conference": "SEC",
+      "team": "Texas A&M",
+      "why": "Texas A&M beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "aria_gerson",
+      "name": "Aria Gerson",
+      "affiliation": "The Tennessean",
+      "group": "Beat writers",
+      "conference": "SEC",
+      "team": "Vanderbilt",
+      "why": "Vanderbilt beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "srrichey",
+      "name": "Scott Richey",
+      "affiliation": "The News-Gazette",
+      "group": "Beat writers",
+      "conference": "Big Ten",
+      "team": "Illinois",
+      "why": "Illinois beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "ZachOsterman",
+      "name": "Zach Osterman",
+      "affiliation": "IndyStar",
+      "group": "Beat writers",
+      "conference": "Big Ten",
+      "team": "Indiana",
+      "why": "Indiana beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "Tyler_T15",
+      "name": "Tyler Tachman",
+      "affiliation": "Des Moines Register",
+      "group": "Beat writers",
+      "conference": "Big Ten",
+      "team": "Iowa",
+      "why": "Iowa beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "EdwardLeeSun",
+      "name": "Edward Lee",
+      "affiliation": "Baltimore Sun",
+      "group": "Beat writers",
+      "conference": "Big Ten",
+      "team": "Maryland",
+      "why": "Maryland beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "AaronMcMann",
+      "name": "Aaron McMann",
+      "affiliation": "MLive",
+      "group": "Beat writers",
+      "conference": "Big Ten",
+      "team": "Michigan",
+      "why": "Michigan beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "chrissolari",
+      "name": "Chris Solari",
+      "affiliation": "Detroit Free Press",
+      "group": "Beat writers",
+      "conference": "Big Ten",
+      "team": "Michigan State",
+      "why": "Michigan State beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "RJstrib",
+      "name": "Randy Johnson",
+      "affiliation": "Star Tribune",
+      "group": "Beat writers",
+      "conference": "Big Ten",
+      "team": "Minnesota",
+      "why": "Minnesota beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "swmckewonOWH",
+      "name": "Sam McKewon",
+      "affiliation": "Omaha World-Herald",
+      "group": "Beat writers",
+      "conference": "Big Ten",
+      "team": "Nebraska",
+      "why": "Nebraska beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "WildcatReport",
+      "name": "Louie Vaccher",
+      "affiliation": "Wildcat Report",
+      "group": "Beat writers",
+      "conference": "Big Ten",
+      "team": "Northwestern",
+      "why": "Northwestern beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "joeyrkaufman",
+      "name": "Joey Kaufman",
+      "affiliation": "Columbus Dispatch",
+      "group": "Beat writers",
+      "conference": "Big Ten",
+      "team": "Ohio State",
+      "why": "Ohio State beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "JamesCrepea",
+      "name": "James Crepea",
+      "affiliation": "The Oregonian",
+      "group": "Beat writers",
+      "conference": "Big Ten",
+      "team": "Oregon",
+      "why": "Oregon beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "audsnyder4",
+      "name": "Audrey Snyder",
+      "affiliation": "Inside the Lions",
+      "group": "Beat writers",
+      "conference": "Big Ten",
+      "team": "Penn State",
+      "why": "Penn State beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "nwbaird",
+      "name": "Nathan Baird",
+      "affiliation": "IndyStar",
+      "group": "Beat writers",
+      "conference": "Big Ten",
+      "team": "Purdue",
+      "why": "Purdue beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "calpostbbolch",
+      "name": "Ben Bolch",
+      "affiliation": "California Post",
+      "group": "Beat writers",
+      "conference": "Big Ten",
+      "team": "UCLA",
+      "why": "UCLA beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "RyanKartje",
+      "name": "Ryan Kartje",
+      "affiliation": "Los Angeles Times",
+      "group": "Beat writers",
+      "conference": "Big Ten",
+      "team": "USC",
+      "why": "USC beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "ChristianCaple",
+      "name": "Christian Caple",
+      "affiliation": "On Montlake",
+      "group": "Beat writers",
+      "conference": "Big Ten",
+      "team": "Washington",
+      "why": "Washington beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "jessetemple",
+      "name": "Jesse Temple",
+      "affiliation": "Badger Connect",
+      "group": "Beat writers",
+      "conference": "Big Ten",
+      "team": "Wisconsin",
+      "why": "Wisconsin beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "richiet400",
+      "name": "Rich Thompson",
+      "affiliation": "Boston Herald",
+      "group": "Beat writers",
+      "conference": "ACC",
+      "team": "Boston College",
+      "why": "Boston College beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "jakecurtis53",
+      "name": "Jake Curtis",
+      "affiliation": "Cal Sports Report (SI)",
+      "group": "Beat writers",
+      "conference": "ACC",
+      "team": "Cal",
+      "why": "Cal beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "DerrianCarter00",
+      "name": "Derrian Carter",
+      "affiliation": "Greenville News",
+      "group": "Beat writers",
+      "conference": "ACC",
+      "team": "Clemson",
+      "why": "Clemson beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "stevewisemanNC",
+      "name": "Steve Wiseman",
+      "affiliation": "News & Observer",
+      "group": "Beat writers",
+      "conference": "ACC",
+      "team": "Duke",
+      "why": "Duke beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "IraSchoffel",
+      "name": "Ira Schoffel",
+      "affiliation": "Warchant (On3)",
+      "group": "Beat writers",
+      "conference": "ACC",
+      "team": "Florida State",
+      "why": "Florida State beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "FletcherPage",
+      "name": "Fletcher Page",
+      "affiliation": "AJC",
+      "group": "Beat writers",
+      "conference": "ACC",
+      "team": "Georgia Tech",
+      "why": "Georgia Tech beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "Alexis_Cubit",
+      "name": "Alexis Cubit",
+      "affiliation": "Courier Journal",
+      "group": "Beat writers",
+      "conference": "ACC",
+      "team": "Louisville",
+      "why": "Louisville beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "Manny_Navarro",
+      "name": "Manny Navarro",
+      "affiliation": "The Athletic",
+      "group": "Beat writers",
+      "conference": "ACC",
+      "team": "Miami",
+      "why": "Miami beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "fleischman_noah",
+      "name": "Noah Fleischman",
+      "affiliation": "The Wolfpacker (On3)",
+      "group": "Beat writers",
+      "conference": "ACC",
+      "team": "NC State",
+      "why": "NC State beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "sdhaskell68",
+      "name": "Spencer Haskell",
+      "affiliation": "Inside Carolina (On3)",
+      "group": "Beat writers",
+      "conference": "ACC",
+      "team": "North Carolina",
+      "why": "North Carolina beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "CarterCritiques",
+      "name": "Christopher Carter",
+      "affiliation": "Pittsburgh Post-Gazette",
+      "group": "Beat writers",
+      "conference": "ACC",
+      "team": "Pitt",
+      "why": "Pitt beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "BillyEmbody",
+      "name": "Billy Embody",
+      "affiliation": "On The Pony Express (On3)",
+      "group": "Beat writers",
+      "conference": "ACC",
+      "team": "SMU",
+      "why": "SMU beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "xandertilock",
+      "name": "Xander Tilock",
+      "affiliation": "Virginia On SI",
+      "group": "Beat writers",
+      "conference": "ACC",
+      "team": "Virginia",
+      "why": "Virginia beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "DamienSordelett",
+      "name": "Damien Sordelett",
+      "affiliation": "Roanoke Times",
+      "group": "Beat writers",
+      "conference": "ACC",
+      "team": "Virginia Tech",
+      "why": "Virginia Tech beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "ConorONeill_DI",
+      "name": "Conor O'Neill",
+      "affiliation": "Deacons Illustrated (On3)",
+      "group": "Beat writers",
+      "conference": "ACC",
+      "team": "Wake Forest",
+      "why": "Wake Forest beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "JustinESports",
+      "name": "Justin Spears",
+      "affiliation": "Arizona Daily Star",
+      "group": "Beat writers",
+      "conference": "Big 12",
+      "team": "Arizona",
+      "why": "Arizona beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "iamdamonallred",
+      "name": "Damon Allred",
+      "affiliation": "ArizonaSports.com",
+      "group": "Beat writers",
+      "conference": "Big 12",
+      "team": "Arizona State",
+      "why": "Arizona State beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "drewjay",
+      "name": "Jay Drew",
+      "affiliation": "Deseret News",
+      "group": "Beat writers",
+      "conference": "Big 12",
+      "team": "BYU",
+      "why": "BYU beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "BrianHowell33",
+      "name": "Brian Howell",
+      "affiliation": "On3 BuffBlitz",
+      "group": "Beat writers",
+      "conference": "Big 12",
+      "team": "Colorado",
+      "why": "Colorado beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "TravisHines21",
+      "name": "Travis Hines",
+      "affiliation": "Des Moines Register",
+      "group": "Beat writers",
+      "conference": "Big 12",
+      "team": "Iowa State",
+      "why": "Iowa State beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "HenryGreenstein",
+      "name": "Henry Greenstein",
+      "affiliation": "Lawrence Journal-World",
+      "group": "Beat writers",
+      "conference": "Big 12",
+      "team": "Kansas",
+      "why": "Kansas beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "KellisRobinett",
+      "name": "Kellis Robinett",
+      "affiliation": "Kansas City Star",
+      "group": "Beat writers",
+      "conference": "Big 12",
+      "team": "Kansas State",
+      "why": "Kansas State beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "EricBaileyTW",
+      "name": "Eric Bailey",
+      "affiliation": "Tulsa World",
+      "group": "Beat writers",
+      "conference": "Big 12",
+      "team": "Oklahoma State",
+      "why": "Oklahoma State beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "AJ_DonWilliams",
+      "name": "Don Williams",
+      "affiliation": "Lubbock Avalanche-Journal",
+      "group": "Beat writers",
+      "conference": "Big 12",
+      "team": "Texas Tech",
+      "why": "Texas Tech beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "osmattmurschel",
+      "name": "Matt Murschel",
+      "affiliation": "Orlando Sentinel",
+      "group": "Beat writers",
+      "conference": "Big 12",
+      "team": "UCF",
+      "why": "UCF beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
+    },
+    {
+      "handle": "Taylor_Kennedy7",
+      "name": "Taylor Kennedy",
+      "affiliation": "Charleston Gazette-Mail",
+      "group": "Beat writers",
+      "conference": "Big 12",
+      "team": "West Virginia",
+      "why": "West Virginia beat writer: injuries, availability, practice news",
+      "confidence": "medium",
+      "verified_on_x": true
     }
   ]
 }
