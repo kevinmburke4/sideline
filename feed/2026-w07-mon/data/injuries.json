@@ -1,0 +1,22 @@
+[
+  {
+    "teamId": "57",
+    "team": "Florida Gators",
+    "player": "Kahleil Jackson",
+    "position": "WR",
+    "status": "Out",
+    "date": "2020-11-21T18:31Z",
+    "detail": "",
+    "comment": "Jackson still hasn't seen the field during his freshman season, but he won't be suited up for Saturday's game. The reason for his absence isn't yet known."
+  },
+  {
+    "teamId": "258",
+    "team": "Virginia Cavaliers",
+    "player": "Will Bettridge",
+    "position": "PK",
+    "status": "Active",
+    "date": "2022-11-03T01:19Z",
+    "detail": "",
+    "comment": "Bettridge made all four field goals he attempted in the win Saturday. The kicker has made seven of nine field goal attempts so far this season after taking over the starting job five weeks ago."
+  }
+]
