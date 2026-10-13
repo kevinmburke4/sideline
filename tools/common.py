@@ -98,10 +98,54 @@ async def _render_async(text: str, voice: str, out: Path, rate: str = "+0%") -> 
     await communicate.save(str(out))
 
 
-def render_speech(text: str, voice: str, out: Path, rate: str = "+0%") -> float:
-    """Render text to an MP3 with edge-tts and return its duration in seconds."""
-    asyncio.run(_render_async(text, voice, out, rate))
+FEMALE_HINTS = ("Ava", "Emma", "Jenny", "Aria", "Michelle", "Ana", "Sara")
+
+
+def render_sapi(text: str, voice: str, out: Path) -> float:
+    """Fallback: Windows' built-in speech engine via PowerShell, then ffmpeg to mono 64 kbps MP3."""
+    import tempfile
+    import time
+
+    ffmpeg = find_ffmpeg()
+    if not ffmpeg:
+        raise RuntimeError("ffmpeg is needed for the Windows speech fallback")
+    gender = "Female" if any(h in voice for h in FEMALE_HINTS) else "Male"
+    wav = Path(tempfile.gettempdir()) / f"sideline_tts_{int(time.time() * 1000)}.wav"
+    txt = Path(tempfile.gettempdir()) / f"sideline_tts_{int(time.time() * 1000)}.txt"
+    txt.write_text(text, encoding="utf-8")
+    ps = (
+        "Add-Type -AssemblyName System.Speech; "
+        "$s = New-Object System.Speech.Synthesis.SpeechSynthesizer; "
+        f"$s.SelectVoiceByHints([System.Speech.Synthesis.VoiceGender]::{gender}); "
+        "$s.Rate = 0; "
+        f"$s.SetOutputToWaveFile('{wav}'); "
+        f"$s.Speak([System.IO.File]::ReadAllText('{txt}', [System.Text.Encoding]::UTF8)); "
+        "$s.Dispose()"
+    )
+    subprocess.run(["powershell", "-NoProfile", "-Command", ps], check=True, capture_output=True)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    subprocess.run([ffmpeg, "-y", "-loglevel", "error", "-i", str(wav), "-ac", "1", "-b:a", "64k", str(out)], check=True)
+    wav.unlink(missing_ok=True)
+    txt.unlink(missing_ok=True)
     return media_duration(out)
+
+
+def render_speech(text: str, voice: str, out: Path, rate: str = "+0%", allow_fallback: bool = True) -> float:
+    """Render text to an MP3 with edge-tts (3 attempts); fall back to the Windows speech engine if the service refuses."""
+    import time
+
+    last = None
+    for attempt in range(3):
+        try:
+            asyncio.run(_render_async(text, voice, out, rate))
+            return media_duration(out)
+        except Exception as e:  # 403s, timeouts, DRM clock errors
+            last = e
+            time.sleep(2 + attempt * 3)
+    if not allow_fallback or os.environ.get("SIDELINE_NO_SAPI"):
+        raise last
+    print(f"    edge-tts failed ({str(last)[:60]}...); using Windows speech fallback")
+    return render_sapi(text, voice, out)
 
 
 def update_index_count(drop_id: str) -> None:
